@@ -22,7 +22,7 @@
 
 ---
 
-## `カメラ基板`
+## `サブ基板`
 ### 使用部品
 - [ESP32C3](https://akizukidenshi.com/catalog/g/g117454/)
 
