@@ -120,10 +120,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 1.27 -16.51 90)
 				(length 2.54)
-				(name "TX/G35"
+				(name "RX/G35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,10 +138,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 3.81 -16.51 90)
 				(length 2.54)
-				(name "RX/G34"
+				(name "TX/G34"
 					(effects
 						(font
 							(size 1.27 1.27)

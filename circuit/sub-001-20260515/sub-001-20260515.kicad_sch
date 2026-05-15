@@ -123,10 +123,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 1.27 -16.51 90)
 					(length 2.54)
-					(name "TX/G35"
+					(name "RX/G35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -141,10 +141,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 3.81 -16.51 90)
 					(length 2.54)
-					(name "RX/G34"
+					(name "TX/G34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -797,7 +797,7 @@
 	)
 	(global_label "Cam5_TX"
 		(shape output)
-		(at 111.76 49.53 270)
+		(at 114.3 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -807,7 +807,7 @@
 		)
 		(uuid "20b15ae1-6d52-4104-bd43-3efac3eb8bfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 61.3763 90)
+			(at 114.3 61.3763 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -821,7 +821,7 @@
 	)
 	(global_label "Cam1_RX"
 		(shape input)
-		(at 33.02 49.53 270)
+		(at 30.48 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -831,7 +831,7 @@
 		)
 		(uuid "45e9b26c-66d5-42e7-b87c-c5586fc1dde0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 61.4756 90)
+			(at 30.48 61.4756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -845,7 +845,7 @@
 	)
 	(global_label "Cam3_TX"
 		(shape output)
-		(at 71.12 49.53 270)
+		(at 73.66 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -855,7 +855,7 @@
 		)
 		(uuid "6134e9c8-579b-4884-9e53-63a5a54768a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 61.3763 90)
+			(at 73.66 61.3763 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -869,7 +869,7 @@
 	)
 	(global_label "Cam2_TX"
 		(shape output)
-		(at 50.8 49.53 270)
+		(at 53.34 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -879,7 +879,7 @@
 		)
 		(uuid "745e4909-2a2e-417b-b48a-175dbd738bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 61.3763 90)
+			(at 53.34 61.3763 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -893,7 +893,7 @@
 	)
 	(global_label "Cam2_RX"
 		(shape input)
-		(at 53.34 49.53 270)
+		(at 50.8 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -903,7 +903,7 @@
 		)
 		(uuid "790eba74-0708-4204-a7b7-2f7c1a05381f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 61.4756 90)
+			(at 50.8 61.4756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -917,7 +917,7 @@
 	)
 	(global_label "Cam5_RX"
 		(shape input)
-		(at 114.3 49.53 270)
+		(at 111.76 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -927,7 +927,7 @@
 		)
 		(uuid "94ac2e45-034d-404e-b78f-474b8ff29d6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 61.4756 90)
+			(at 111.76 61.4756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -941,7 +941,7 @@
 	)
 	(global_label "Cam3_RX"
 		(shape input)
-		(at 73.66 49.53 270)
+		(at 71.12 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -951,7 +951,7 @@
 		)
 		(uuid "c1b00320-39bd-4fc0-8427-f2c717403aac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 61.4756 90)
+			(at 71.12 61.4756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -965,7 +965,7 @@
 	)
 	(global_label "Cam4_TX"
 		(shape output)
-		(at 91.44 49.53 270)
+		(at 93.98 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -975,7 +975,7 @@
 		)
 		(uuid "c7a38c13-36b5-46a4-a14d-4e82ff789c6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 61.3763 90)
+			(at 93.98 61.3763 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,7 +989,7 @@
 	)
 	(global_label "Cam4_RX"
 		(shape input)
-		(at 93.98 49.53 270)
+		(at 91.44 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -999,7 +999,7 @@
 		)
 		(uuid "dbf7c0b0-63cb-42e7-a094-ffe00665ca87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 61.4756 90)
+			(at 91.44 61.4756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,7 +1013,7 @@
 	)
 	(global_label "Cam1_TX"
 		(shape output)
-		(at 30.48 49.53 270)
+		(at 33.02 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1023,7 +1023,7 @@
 		)
 		(uuid "e62c3111-6791-4749-a2bc-0e797c45863f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 61.3763 90)
+			(at 33.02 61.3763 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
