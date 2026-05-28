@@ -3875,6 +3875,30 @@
 			)
 		)
 	)
+	(global_label "Kikker_tip"
+		(shape output)
+		(at 71.12 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "749c954f-f7d4-42b5-9406-7a771147400b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.3581 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RX_{teensy}-TX_{unitV3}"
 		(shape input)
 		(at 71.12 48.26 0)
@@ -4008,6 +4032,30 @@
 		(uuid "a8900afc-c7cd-40c9-b237-9c0534cd6ca5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.4099 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Kikker_stroke"
+		(shape output)
+		(at 71.12 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b05cb021-aed4-4d88-930b-c1cf1f0bc98e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.6843 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
