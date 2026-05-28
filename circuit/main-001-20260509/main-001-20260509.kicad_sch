@@ -3661,17 +3661,17 @@
 	)
 	(global_label "TX_{teensy}-RX_{Arduino}-5V"
 		(shape output)
-		(at 222.25 154.94 180)
+		(at 227.33 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4d6bf364-28de-48bd-bd39-175d4f08326d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.6666 154.94 0)
+			(at 250.9134 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3805,17 +3805,17 @@
 	)
 	(global_label "TX_{teensy}-RX_{Arduino}-3V3"
 		(shape input)
-		(at 227.33 132.08 0)
+		(at 222.25 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6cb9abb3-9a12-4574-81c5-aa10d019d18f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.1229 132.08 0)
+			(at 197.4571 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +3823,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3949,30 +3949,6 @@
 	)
 	(global_label "RX_{teensy}-TX_{Arduino}-5V"
 		(shape input)
-		(at 175.26 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b952afd-a9e1-45d2-ba44-c9f1a8893986")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6766 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX_{teensy}-TX_{Arduino}-3V3"
-		(shape output)
 		(at 180.34 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3981,9 +3957,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9d66a332-80dc-4089-b169-7b6f5a89228e")
+		(uuid "9b952afd-a9e1-45d2-ba44-c9f1a8893986")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.1329 132.08 0)
+			(at 203.9234 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,6 +3968,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RX_{teensy}-TX_{Arduino}-3V3"
+		(shape output)
+		(at 175.26 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d66a332-80dc-4089-b169-7b6f5a89228e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.4671 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -4459,7 +4459,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 212.09 118.11 0)
+		(at 224.79 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4470,7 +4470,7 @@
 		(fields_autoplaced yes)
 		(uuid "067811cf-ec06-410a-8947-3194556e3d0f")
 		(property "Reference" "#PWR010"
-			(at 212.09 121.92 0)
+			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4481,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 212.09 113.03 0)
+			(at 224.79 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 118.11 0)
+			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 118.11 0)
+			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 118.11 0)
+			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,7 +4701,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 118.11 0)
+		(at 212.09 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4712,7 +4712,7 @@
 		(fields_autoplaced yes)
 		(uuid "174fe7b1-3128-44a1-aa5d-8374ef7743ef")
 		(property "Reference" "#PWR011"
-			(at 224.79 121.92 0)
+			(at 212.09 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4723,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.79 113.03 0)
+			(at 212.09 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4733,7 +4733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 118.11 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4744,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 118.11 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 118.11 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5113,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 118.11 0)
+		(at 177.8 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5124,7 +5124,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d76355f-4085-4c67-9246-fa2340ac3302")
 		(property "Reference" "#PWR08"
-			(at 165.1 121.92 0)
+			(at 177.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5135,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 113.03 0)
+			(at 177.8 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5145,7 +5145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 118.11 0)
+			(at 177.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5156,7 +5156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 118.11 0)
+			(at 177.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5167,7 +5167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 118.11 0)
+			(at 177.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6155,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 177.8 118.11 0)
+		(at 165.1 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6166,7 +6166,7 @@
 		(fields_autoplaced yes)
 		(uuid "deba4a35-9cf4-44c1-8d05-4823a61f267e")
 		(property "Reference" "#PWR09"
-			(at 177.8 121.92 0)
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6177,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 177.8 113.03 0)
+			(at 165.1 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6187,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 118.11 0)
+			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +6198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 118.11 0)
+			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6209,7 +6209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 177.8 118.11 0)
+			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
