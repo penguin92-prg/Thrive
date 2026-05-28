@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sub-001-20260515.kicad_pro",
+    "filename": "neopixel-001-20260528.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "sub-001-20260515.kicad_sch",
-        "name": "ルート",
-        "uuid": "f677369b-2799-42cc-a76f-35fff399c42c"
+        "filename": "neopixel-001-20260528.kicad_sch",
+        "name": "neopixel-001-20260528",
+        "uuid": "163e31e7-3488-4c4d-a829-8b8c51ff0d49"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR5-6,R5-6,U1",
     "variants": []
   },
   "sheets": [
     [
-      "f677369b-2799-42cc-a76f-35fff399c42c",
-      "ルート"
+      "163e31e7-3488-4c4d-a829-8b8c51ff0d49",
+      "neopixel-001-20260528"
     ]
   ],
   "text_variables": {},
