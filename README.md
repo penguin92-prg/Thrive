@@ -6,5 +6,3 @@
 - X (Twitter) | [@RCJ_thrive](https://x.com/RCJ_thrive)
 - YouTube | [@RCJ_thrive](https://youtube.com/RCJ_thrive)
 - Team Web Page | [Thrive Blog](https://rcj-thrive.pages.dev/)
-
-- 3D File link (Autodesk Fusion) | https://a360.co/43edUVf
