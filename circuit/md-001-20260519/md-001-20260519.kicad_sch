@@ -6207,8 +6207,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 20.32 137.16 0)
-		(mirror y)
+		(at 20.32 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6216,10 +6215,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30e4ed81-8320-4950-ad12-179c4bfeb3e3")
 		(property "Reference" "J1"
-			(at 20.955 132.08 0)
+			(at 20.955 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6229,7 +6227,7 @@
 			)
 		)
 		(property "Value" "VIN-motor"
-			(at 20.955 134.62 0)
+			(at 20.955 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6239,7 +6237,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 20.32 137.16 0)
+			(at 20.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +6248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 137.16 0)
+			(at 20.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +6259,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 137.16 0)
+			(at 20.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
