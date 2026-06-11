@@ -154,7 +154,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -546,7 +546,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -660,7 +660,7 @@
         "uuid": "e4d19f4e-543b-4789-a492-10d41eb83430"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-35,C1-14,R1-16,J1-2,U1-4",
     "variants": []
   },
   "sheets": [
