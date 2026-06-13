@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.286 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 2.286 0)
+		(property "Value" "BNO055"
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_main:BNO055"
 			(at 0 2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -249,7 +249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@2024TOINIOT2-Main:MODULE_DEV-16771"
+		(property "Footprint" "@Thrive_footprint_main:DEV-16771"
 			(at 6.35 -50.8 0)
 			(show_name no)
 			(do_not_autoplace no)

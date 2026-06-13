@@ -1,0 +1,239 @@
+(footprint "BNO055"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ea50faf4-ba1b-4971-b5a5-a851354b14db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d39e01ce-f4c1-4472-8527-a6e15a71ac48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cdab33f-8a14-4b64-9055-a67228c5bbaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "272ae254-d20e-4226-9d15-101a6c51f622")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.08 -5.08)
+		(end -2.54 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5845b648-6c6c-4dcd-bc28-313ab84b9650")
+	)
+	(fp_rect
+		(start 2.54 -5.08)
+		(end 5.08 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bce9dc90-261d-4228-961e-ae8a3548283b")
+	)
+	(fp_rect
+		(start -5.5 -9)
+		(end 5.5 9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "db7c5622-4546-4516-a85f-a7d042493416")
+	)
+	(fp_rect
+		(start -5.334 -5.334)
+		(end -2.286 5.334)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "e32eaa8e-1bf1-4ad4-b1a2-f3d793ab0780")
+	)
+	(fp_rect
+		(start 2.286 -5.334)
+		(end 5.334 5.334)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "89ba1ae2-ec71-4029-860f-948b314b3ce5")
+	)
+	(fp_rect
+		(start -5.334 -5.334)
+		(end -2.286 5.334)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9d5aee5e-b343-4129-872b-127da2e5d49f")
+	)
+	(fp_rect
+		(start 2.286 -5.334)
+		(end 5.334 5.334)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b5a93313-7007-48b4-8255-0ed81ea335d9")
+	)
+	(pad "1" thru_hole oval
+		(at -3.81 -3.81)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fbac0aa-bbcc-4a0a-adb2-61687f210504")
+	)
+	(pad "2" thru_hole rect
+		(at -3.81 -1.27)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "08111cbc-d0e1-406f-898a-b82a9e6b989d")
+	)
+	(pad "3" thru_hole oval
+		(at -3.81 1.27)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5c6c20dc-4998-4706-8a84-f37c306a02c1")
+	)
+	(pad "4" thru_hole oval
+		(at -3.81 3.81)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "220a3424-7a23-43d4-8649-fdcfcdf78440")
+	)
+	(pad "5" thru_hole oval
+		(at 3.81 3.81)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "259aebff-fa88-4bbd-a21a-4cfc314d0ffc")
+	)
+	(pad "6" thru_hole oval
+		(at 3.81 1.27)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "22984836-c9f1-462c-8e8a-4bfd76e3f78f")
+	)
+	(pad "7" thru_hole rect
+		(at 3.81 -1.27)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a1974f85-7372-4090-8944-cfb23a64b216")
+	)
+	(pad "8" thru_hole oval
+		(at 3.81 -3.81)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "40437800-a7f1-4b92-8269-c0a1385ba99f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/桐蔭高校科学部/Desktop/GitHub/2024-TOINIOT2/Schematic-PCB/@footprint/@2024-Main.pretty/BNO055.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "F:/main/GitHub/2024-TOINIOT2/Schematic-PCB/@footprint/@2024-Main.pretty/BNO055.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "C:/Users/pengu/OneDrive/Desktop/GitHub/Thrive/circuit/@footprint/@Thrive_footprint_main.pretty/BNO055.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
