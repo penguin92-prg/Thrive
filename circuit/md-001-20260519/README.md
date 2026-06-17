@@ -39,20 +39,3 @@ MD基板 v.001のREADME
   |Assembly|OWN|
   |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g131515/)|
   |Note|基板カッターで02x08に加工する|
-
-
-
-
-
-
-
-
-
-  
-  |Category|Data|
-  |---|---|
-  |QTY||
-  |Package||
-  |Assembly||
-  |Link|[URL]()|
-  |Note||
