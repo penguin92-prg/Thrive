@@ -3,12 +3,56 @@
 MD基板 v.001のREADME
 
 ### 使用部品
+
 - DRV8874PWPR
-  - 4x
-  <details>
-    <summary>詳細</summary>
-    - Manufacturer | Texas Instruments
-    - Package | HTSSOP-16-EP
-    - Assembly | JLCPCB PCBA
-  </details>
-- 
+  |Category|Data|
+  |---|---|
+  |QTY|4|
+  |Package|HTSSOP-16-EP|
+  |Assembly|JLCPCB PCBA|
+  |Link|[JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-DRV8874PWPR/C1855818)|
+  |Note||
+
+- XT30PW-F 01x02
+  |Category|Data|
+  |---|---|
+  |QTY|1|
+  |Package||
+  |Assembly|OWN|
+  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117948/)|
+  |Note||
+
+- ピンソケット 01x03
+  |Category|Data|
+  |---|---|
+  |QTY|1|
+  |Package||
+  |Assembly|OWN|
+  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
+  |Note||
+
+- ピンソケット L型 02×08
+  |Category|Data|
+  |---|---|
+  |QTY|1|
+  |Package||
+  |Assembly|OWN|
+  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g131515/)|
+  |Note|基板カッターで02x08に加工する|
+
+
+
+
+
+
+
+
+
+  
+  |Category|Data|
+  |---|---|
+  |QTY||
+  |Package||
+  |Assembly||
+  |Link|[URL]()|
+  |Note||
