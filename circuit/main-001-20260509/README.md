@@ -1,10 +1,14 @@
-# MAIN-001
+# Main 001
 
 メイン基板 ver.001のREADME
 
 ## 設計者
 - @ryo-robot14
 - @penguin92-prg
+
+## ピンアサイン
+
+## 使用上の注意
 
 ## 使用部品
 
