@@ -1,8 +1,14 @@
-# MD-001
+# MD 001
 
-MD基板 v.001のREADME
+MD基板 ver.001のREADME
 
-### 使用部品
+## 設計者
+- @penguin92-prg
+- @ryo-robot14
+
+## 使用上の注意
+
+## 使用部品
 
 - DRV8874PWPR
   |Category|Data|
