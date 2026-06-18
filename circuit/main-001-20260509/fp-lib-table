@@ -1,3 +1,4 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "@Thrive_footprint_main") (type "KiCad") (uri "/Users/ryo/Documents/GitHub/Thrive/circuit/@footprint/@Thrive_footprint_main.pretty") (options "") (descr ""))
 )
