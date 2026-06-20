@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 5.08 0)
+		(property "Value" "DRV8874"
+			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -389,7 +389,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -398,8 +398,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TLP2361"
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -474,7 +474,7 @@
 			(pin output line
 				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "Kathode"
+				(name "Cathode"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -553,7 +553,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -562,8 +562,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XL6009E1"
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
