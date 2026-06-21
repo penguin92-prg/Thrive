@@ -7488,7 +7488,7 @@
 		)
 		(uuid "ffcce56f-c0ea-48cc-bd6d-436b1bdbc655")
 	)
-	(global_label "^{SAFE}Kick_{Front}"
+	(global_label "^{SAFE}Kick_{Stroke}"
 		(shape input)
 		(at 85.09 83.82 180)
 		(fields_autoplaced yes)
@@ -7500,7 +7500,7 @@
 		)
 		(uuid "02267ab3-294f-4506-bf43-0ce9855ec024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3665 83.82 0)
+			(at 70.5451 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,7 +7512,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Front}"
+	(global_label "^{ONESHOT}Kick_{Stroke}"
 		(shape output)
 		(at 240.03 185.42 0)
 		(fields_autoplaced yes)
@@ -7524,7 +7524,7 @@
 		)
 		(uuid "03402fc2-3176-4506-b2d8-26a4c59ea7cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.468 185.42 0)
+			(at 257.5117 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,7 +7536,7 @@
 			)
 		)
 	)
-	(global_label "^{SAFE}Kick_{Back}"
+	(global_label "^{SAFE}Kick_{Chip}"
 		(shape input)
 		(at 85.09 116.84 180)
 		(fields_autoplaced yes)
@@ -7548,7 +7548,7 @@
 		)
 		(uuid "071d73bf-7b7a-4bf1-b581-dd3ee5c75d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.4905 116.84 0)
+			(at 71.8504 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,7 +7680,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Front}"
+	(global_label "Kick_{Stroke}"
 		(shape input)
 		(at 151.13 187.96 180)
 		(fields_autoplaced yes)
@@ -7692,7 +7692,7 @@
 		)
 		(uuid "4068c51a-631b-4f82-8e73-4df6bb6a0b6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.692 187.96 0)
+			(at 139.8706 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7704,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Front}"
+	(global_label "Kick_{Stroke}"
 		(shape input)
 		(at 151.13 210.82 180)
 		(fields_autoplaced yes)
@@ -7716,7 +7716,7 @@
 		)
 		(uuid "40bccfc8-0ec5-45a9-9356-957a4a395de4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.692 210.82 0)
+			(at 139.8706 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7728,7 +7728,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Front}"
+	(global_label "^{ONESHOT}Kick_{Stroke}"
 		(shape input)
 		(at 148.59 38.1 180)
 		(fields_autoplaced yes)
@@ -7740,7 +7740,7 @@
 		)
 		(uuid "422b1cfe-912e-405d-aadf-5c17f7a0042b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9297 38.1 0)
+			(at 131.1083 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +7752,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Back}"
+	(global_label "^{ONESHOT}Kick_{Chip}"
 		(shape input)
 		(at 148.59 82.55 180)
 		(fields_autoplaced yes)
@@ -7764,7 +7764,7 @@
 		)
 		(uuid "5f9d077d-a8aa-452c-adfb-963fbf1334d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.276 82.55 0)
+			(at 132.4136 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,7 +7776,7 @@
 			)
 		)
 	)
-	(global_label "NMOS^{D}_{BOOST-Back}"
+	(global_label "NMOS^{D}_{BOOST-Chip}"
 		(shape input)
 		(at 105.41 109.22 0)
 		(fields_autoplaced yes)
@@ -7788,7 +7788,7 @@
 		)
 		(uuid "621e3ff0-4963-42e3-8d34-9b2fcab9775c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.8396 109.22 0)
+			(at 122.4797 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +7872,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Back}"
+	(global_label "^{ONESHOT}Kick_{Chip}"
 		(shape output)
 		(at 161.29 260.35 0)
 		(fields_autoplaced yes)
@@ -7884,7 +7884,7 @@
 		)
 		(uuid "764c6edf-03b5-4059-ab75-42ef9374c125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.728 260.35 0)
+			(at 177.4664 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +7896,7 @@
 			)
 		)
 	)
-	(global_label "NMOS^{D}_{BOOST-Back}"
+	(global_label "NMOS^{D}_{BOOST-Chip}"
 		(shape output)
 		(at 40.64 97.79 0)
 		(fields_autoplaced yes)
@@ -7968,7 +7968,7 @@
 			)
 		)
 	)
-	(global_label "^{SAFE}Kick_{Front}"
+	(global_label "^{SAFE}Kick_{Stroke}"
 		(shape output)
 		(at 204.47 40.64 0)
 		(fields_autoplaced yes)
@@ -7980,7 +7980,7 @@
 		)
 		(uuid "9ba28c2b-e000-4b3e-8734-daa83ad967ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.1935 40.64 0)
+			(at 219.0149 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +8064,7 @@
 			)
 		)
 	)
-	(global_label "NMOS^{D}_{BOOST-Front}"
+	(global_label "NMOS^{D}_{BOOST-Stroke}"
 		(shape input)
 		(at 105.41 76.2 0)
 		(fields_autoplaced yes)
@@ -8076,7 +8076,7 @@
 		)
 		(uuid "ba47042d-94d6-4151-b7c9-1589788f6e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9636 76.2 0)
+			(at 123.785 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8088,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Front}"
+	(global_label "^{ONESHOT}Kick_{Stroke}"
 		(shape output)
 		(at 161.29 210.82 0)
 		(fields_autoplaced yes)
@@ -8100,7 +8100,7 @@
 		)
 		(uuid "bab5ab60-1d01-4052-9acf-2c25ccf120f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.728 210.82 0)
+			(at 178.7717 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +8112,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Back}"
+	(global_label "Kick_{Chip}"
 		(shape input)
 		(at 204.47 227.33 180)
 		(fields_autoplaced yes)
@@ -8124,7 +8124,7 @@
 		)
 		(uuid "bd59b89c-28c1-4135-ae8b-54bcb5ed12d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.032 227.33 0)
+			(at 194.5159 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8160,7 @@
 			)
 		)
 	)
-	(global_label "^{ONESHOT}Kick_{Back}"
+	(global_label "^{ONESHOT}Kick_{Chip}"
 		(shape output)
 		(at 240.03 234.95 0)
 		(fields_autoplaced yes)
@@ -8172,7 +8172,7 @@
 		)
 		(uuid "ce7299ac-2fe6-4147-9a45-fc15d3151f2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.468 234.95 0)
+			(at 256.2064 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +8208,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Front}"
+	(global_label "Kick_{Stroke}"
 		(shape output)
 		(at 26.67 35.56 180)
 		(fields_autoplaced yes)
@@ -8220,7 +8220,7 @@
 		)
 		(uuid "d506b242-65e2-4a16-b08f-6c47d0ecb3b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.232 35.56 0)
+			(at 15.4106 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,7 +8328,7 @@
 			)
 		)
 	)
-	(global_label "NMOS^{D}_{BOOST-Front}"
+	(global_label "NMOS^{D}_{BOOST-Stroke}"
 		(shape output)
 		(at 40.64 85.09 0)
 		(fields_autoplaced yes)
@@ -8340,7 +8340,7 @@
 		)
 		(uuid "e43e5980-c4c8-4392-9ca7-c452370183c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.1936 85.09 0)
+			(at 59.015 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8352,7 @@
 			)
 		)
 	)
-	(global_label "^{SAFE}Kick_{Back}"
+	(global_label "^{SAFE}Kick_{Chip}"
 		(shape output)
 		(at 204.47 85.09 0)
 		(fields_autoplaced yes)
@@ -8364,7 +8364,7 @@
 		)
 		(uuid "e4bacf6a-dce7-4e97-85a3-67a6ee2db92c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.0695 85.09 0)
+			(at 217.7096 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,7 +8376,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Back}"
+	(global_label "Kick_{Chip}"
 		(shape output)
 		(at 26.67 38.1 180)
 		(fields_autoplaced yes)
@@ -8400,7 +8400,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Back}"
+	(global_label "Kick_{Chip}"
 		(shape input)
 		(at 151.13 237.49 180)
 		(fields_autoplaced yes)
@@ -8412,7 +8412,7 @@
 		)
 		(uuid "ece8de8f-74ff-4e3b-9780-cfb523be0edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.692 237.49 0)
+			(at 141.1759 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8448,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Back}"
+	(global_label "Kick_{Chip}"
 		(shape input)
 		(at 151.13 260.35 180)
 		(fields_autoplaced yes)
@@ -8460,7 +8460,7 @@
 		)
 		(uuid "fc47c128-af66-414e-adf1-90443feb8b8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.692 260.35 0)
+			(at 141.1759 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8472,7 +8472,7 @@
 			)
 		)
 	)
-	(global_label "Kick_{Front}"
+	(global_label "Kick_{Stroke}"
 		(shape input)
 		(at 204.47 177.8 180)
 		(fields_autoplaced yes)
@@ -8484,7 +8484,7 @@
 		)
 		(uuid "ff53b224-e433-45a2-ae3b-4ba499296652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.032 177.8 0)
+			(at 193.2106 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8519,7 +8519,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Solenoid_{Back}"
+		(property "Value" "Conn_Solenoid_{Chip}"
 			(at 28.575 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,7 +8529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 224.79 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -8700,7 +8700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8782,7 +8782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8864,7 +8864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 245.11 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -9672,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 224.79 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +9919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10001,7 +10001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10082,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 285.75 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10249,7 +10249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10398,7 +10398,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Solenoid_{Front}"
+		(property "Value" "Conn_Solenoid_{Stroke}"
 			(at 28.575 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 27.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10478,7 +10478,7 @@
 				)
 			)
 		)
-		(property "Value" "^{1}ONESHOT_{Front}"
+		(property "Value" "^{1}ONESHOT_{Stroke}"
 			(at 156.21 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10488,7 +10488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 156.21 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10648,7 +10648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10808,7 +10808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -11211,7 +11211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11293,7 +11293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +11948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12030,7 +12030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12190,7 +12190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 256.54 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -12359,7 +12359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 186.69 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12448,7 +12448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12849,7 +12849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12931,7 +12931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13001,7 +13001,7 @@
 				)
 			)
 		)
-		(property "Value" "^{1}ONESHOT_{Back}"
+		(property "Value" "^{1}ONESHOT_{Chip}"
 			(at 156.21 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,7 +13011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 156.21 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13169,7 +13169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 48.26 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -13416,7 +13416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13747,7 +13747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14061,7 +14061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 186.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14466,7 +14466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14548,7 +14548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.55 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15020,7 +15020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15101,7 +15101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 27.94 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15328,7 +15328,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 35.56 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15339,7 +15339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15733,7 +15733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 245.11 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15803,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Value" "^{2}ONESHOT_{Front}"
+		(property "Value" "^{2}ONESHOT_{Stroke}"
 			(at 156.21 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +15813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 156.21 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -16207,7 +16207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16523,7 +16523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -16681,7 +16681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 166.37 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17051,7 +17051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 105.41 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -17309,7 +17309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17627,7 +17627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 34.29 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18204,7 +18204,7 @@
 				)
 			)
 		)
-		(property "Value" "^{2}ONESHOT_{Back}"
+		(property "Value" "^{2}ONESHOT_{Chip}"
 			(at 156.21 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +18214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 156.21 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -18378,7 +18378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -18536,7 +18536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.2 135.89 0)
 			(hide yes)
 			(show_name no)
