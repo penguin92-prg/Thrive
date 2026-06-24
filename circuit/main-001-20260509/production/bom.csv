@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,PKM13EPYH4000-A0,1,Buzzer,
+"C1, C2",0805,2,100n,
+D1,0603,1,LED_Small,
+J1,PinHeader_2x09_P2.54mm_Vertical,1,Conn_Relay,
+J2,FPC-05F-18PH20,1,Conn_Sub,
+"Q1, Q2",SOT-23,2,BSS138,
+"R1, R2, R3, R4, R8",0805,5,10k,
+"R5, R6, R7",0805,3,1k,
+R9,0805,1,330,
+SW1,TVBP06-B043C,1,RESET,
+U1,DEV-16771,1,DEV-16771,
+U2,BNO055,1,BNO055,
