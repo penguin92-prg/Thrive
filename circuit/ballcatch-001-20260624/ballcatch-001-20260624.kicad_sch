@@ -1316,7 +1316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -1398,7 +1398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_ballcatch:NJL7502L"
 			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1480,7 +1480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.108 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -1540,7 +1540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f7b47a7-c9bb-4d07-a28a-84103fb6b4f3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "ballcatch-001-20260624"
 				(path "/6c5d531b-b83d-412d-92d2-0b817b08e392"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "702bc227-0b1d-4c4e-9d42-73026adf2067")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 149.86 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1678,7 +1678,7 @@
 		(instances
 			(project "ballcatch-001-20260624"
 				(path "/6c5d531b-b83d-412d-92d2-0b817b08e392"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1716,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1787,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68038ab-1d49-4170-8647-0128eba9c5ae")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 76.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1847,7 +1847,7 @@
 		(instances
 			(project "ballcatch-001-20260624"
 				(path "/6c5d531b-b83d-412d-92d2-0b817b08e392"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1948,7 +1948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f112c90d-9933-469e-929b-34e9e29008b4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2008,7 +2008,7 @@
 		(instances
 			(project "ballcatch-001-20260624"
 				(path "/6c5d531b-b83d-412d-92d2-0b817b08e392"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
