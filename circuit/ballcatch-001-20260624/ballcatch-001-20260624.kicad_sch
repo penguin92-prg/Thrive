@@ -1236,7 +1236,7 @@
 		)
 		(uuid "f2a1ebd0-4ea2-406d-86f3-338b1c6154cb")
 	)
-	(global_label "signal"
+	(global_label "BallCatch_{Back}"
 		(shape input)
 		(at 135.89 59.69 0)
 		(fields_autoplaced yes)
@@ -1248,7 +1248,7 @@
 		)
 		(uuid "3d61df8e-b874-4e61-b97f-120f487648dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.6203 59.69 0)
+			(at 148.7822 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +1260,7 @@
 			)
 		)
 	)
-	(global_label "signal"
+	(global_label "BallCatch_{Back}"
 		(shape output)
 		(at 92.71 74.93 180)
 		(fields_autoplaced yes)
@@ -1272,7 +1272,7 @@
 		)
 		(uuid "d863b33e-2202-4e37-9b5b-3b8c3e440bae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.9797 74.93 0)
+			(at 79.8178 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
