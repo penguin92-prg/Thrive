@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,LED_D3.0mm,1,LED,
+J1,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Pin,
+Q1,NJL7502L,1,Q_Photo_NPN_CE,
+R1,0603,1,75,
+R2,0603,1,10k,
