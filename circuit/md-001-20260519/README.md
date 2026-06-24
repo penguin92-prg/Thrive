@@ -15,8 +15,8 @@ MD基板 ver.001のREADME
   |---|---|
   |QTY|4|
   |Package|HTSSOP-16-EP|
-  |Assembly|JLCPCB PCBA|
-  |Link|[JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-DRV8874PWPR/C1855818)|
+  |Assembly|OWN|
+  |Link|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
   |Note||
 
 - XT30PW-F 01x02
