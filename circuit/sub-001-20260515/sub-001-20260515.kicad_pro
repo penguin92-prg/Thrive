@@ -404,6 +404,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -416,7 +424,7 @@
         "uuid": "f677369b-2799-42cc-a76f-35fff399c42c"
       }
     ],
-    "used_designators": "J1,R1-16,C1-28,D1-2,#PWR1-34,U1-17,SW1-3",
+    "used_designators": "D1-2,#PWR1-43,R1-11,J1-5,C1-18,SW1-3,U1-17",
     "variants": []
   },
   "sheets": [
