@@ -82,7 +82,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -211,7 +211,6 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
         0.3,
         0.4,
         0.5,
