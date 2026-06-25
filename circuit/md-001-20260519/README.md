@@ -10,38 +10,25 @@ MD基板 ver.001のREADME
 
 ## 使用部品
 
-- DRV8874PWPR
-  |Category|Data|
-  |---|---|
-  |QTY|4|
-  |Package|HTSSOP-16-EP|
-  |Assembly|OWN|
-  |Link|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
-  |Note||
-
-- XT30PW-F 01x02
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117948/)|
-  |Note||
-
-- ピンソケット 01x03
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
-  |Note||
-
-- ピンソケット L型 02×08
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g131515/)|
-  |Note|基板カッターで02x08に加工する|
+|No.|Name|QTY|Assembled By|Note|URL|
+|---|---|---|---|---|---|
+|001|DRV8874PWPR|4|OWN||[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
+|002|XT30PW-F 01x02|1|OWN|V_BAT給電用|[秋月電子](https://akizukidenshi.com/catalog/g/g117948/)|
+|003|ピンソケット 01x03|1|OWN|ボール補足基板との接続用|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
+|004|ピンソケット L型 02×08|1|OWN|基板カッターで02x08に加工する必要がある|[秋月電子](https://akizukidenshi.com/catalog/g/g131515/)|
+|005||||||
+|006||||||
+|007||||||
+|008||||||
+|009||||||
+|010||||||
+|011||||||
+|012||||||
+|013||||||
+|014||||||
+|015||||||
+|016||||||
+|017||||||
+|018||||||
+|019||||||
+|020||||||
