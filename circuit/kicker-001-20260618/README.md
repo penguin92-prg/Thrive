@@ -21,108 +21,17 @@
 
 ## 使用部品
 
-### 昇圧・高電圧制御
-
-- XL6009E1
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package|TO-263-5|
-  |Assembly|OWN|
-  |Link|[謎](https://mega-radiodetali.com.ua/uploads/files_predprenimatel/XL6009E1.pdf)|
-  |Note||
-
-- BSS138
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package|SOT-23|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
-  |Note|昇圧素子への給電EN用NMOS|
-
-- TJ15S06M3L
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package|TO-252|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117253/)|
-  |Note|昇圧素子への給電EN用PMOS|
-
-- MTB010N06RJ3
-  |Category|Data|
-  |---|---|
-  |QTY|2|
-  |Package|TO-252|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117074/)|
-  |Note|ソレノイドのスイッチング用NMOS|
-
-- TLP2361
-  |Category|Data|
-  |---|---|
-  |QTY|3|
-  |Package|SO-5-6|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g111004/)|
-  |Note||
-
-- 74AHC1G04W5
-  |Category|Data|
-  |---|---|
-  |QTY|5|
-  |Package|SOT23-5|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117602/)|
-  |Note|NOTゲート（インバータ）|
-
-- 74AHC1G08W5
-  |Category|Data|
-  |---|---|
-  |QTY|2|
-  |Package|SOT23-5|
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g117603/)|
-  |Note|ANDゲート|
-
-### ドリブラー制御
-- DRV8874PWPR
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package|HTSSOP-16-EP|
-  |Assembly|OWN|
-  |Link|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
-  |Note||
-
-### ボール補足
-
-- NJL7502L
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g102325/)|
-  |Note||
-
-### 一般部品
-
-- ピンヘッダ 02x05
-  |Category|Data|
-  |---|---|
-  |QTY|1|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
-  |Note||
-
-- B2B-XH-A
-  |Category|Data|
-  |---|---|
-  |QTY|4|
-  |Package||
-  |Assembly|OWN|
-  |Link|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
-  |Note|前ドリブラー/ソレノイド-Stroke/ソレノイド-Chip/コンデンサ基板|
+|No.|Name|QTY|Assembled By|Note|URL|
+|---|---|---|---|---|---|
+|001|XL6009E1|1|OWN|昇圧素子|[謎](https://mega-radiodetali.com.ua/uploads/files_predprenimatel/XL6009E1.pdf)|
+|002|BSS138|1|OWN|昇圧素子への給電EN用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
+|003|TJ15S06M3L|1|OWN|昇圧素子への給電EN用PMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117253/)|
+|004|MTB010N06RJ3|2|OWN|ソレノイドスイッチング用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117074/)|
+|005|TLP2361|3|OWN|フォトカプラ|[秋月電子](https://akizukidenshi.com/catalog/g/g111004/)|
+|006|74AHC1G04W5|5|OWN|NOTゲート（インバータ）|[秋月電子](https://akizukidenshi.com/catalog/g/g117602/)|
+|007|74AHC1G08W5|2|OWN|ANDゲート|[秋月電子](https://akizukidenshi.com/catalog/g/g117603/)|
+|008|DRV8874PWPR|1|OWN|ドリブラー制御用MD|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
+|009|NJL7502L|1|OWN|ボール補足用フォトトランジスタ|[秋月電子](https://akizukidenshi.com/catalog/g/g102325/)|
+|010|OSR5JA3Z74A|1|OWN|ボール補足用LED|[秋月電子](https://akizukidenshi.com/catalog/g/g111577/)|
+|011|ピンヘッダ 02x05|1|OWN||[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
+|012|B2B-XH-A|4|OWN|前ドリブラー/ソレノイド-Stroke/ソレノイド-Chip/コンデンサ基板|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
