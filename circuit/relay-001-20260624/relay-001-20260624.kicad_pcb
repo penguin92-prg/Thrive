@@ -5896,7 +5896,7 @@
 		(start 64.737408 89.764924)
 		(end 70.157822 89.764832)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5906,7 +5906,7 @@
 		(start 64.737822 83.764924)
 		(end 78.503575 83.764691)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5916,7 +5916,7 @@
 		(center 64.737873 86.764917)
 		(end 63.137873 86.764917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -5927,7 +5927,7 @@
 		(center 64.737873 86.764924)
 		(end 63.137873 86.764924)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -5939,7 +5939,7 @@
 		(mid 61.737866 86.765226)
 		(end 64.737822 83.764924)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5950,7 +5950,7 @@
 		(mid 72.27917 90.643495)
 		(end 73.157873 92.764832)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5960,7 +5960,7 @@
 		(start 73.157873 95.264917)
 		(end 73.157873 92.764832)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5971,7 +5971,7 @@
 		(mid 74.036553 97.386237)
 		(end 73.157873 95.264917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5981,7 +5981,7 @@
 		(start 76.157873 98.264917)
 		(end 79.802114 98.264917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -5992,7 +5992,7 @@
 		(mid 81.683704 98.928367)
 		(end 82.73312 100.625225)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6003,7 +6003,7 @@
 		(mid 80.52911 82.97761)
 		(end 78.503575 83.764691)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6014,7 +6014,7 @@
 		(mid 84.134637 67.578234)
 		(end 89.539689 54.980444)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6024,7 +6024,7 @@
 		(start 85.851691 125.132152)
 		(end 88.972905 122.010937)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6034,7 +6034,7 @@
 		(start 85.95101 48.29899)
 		(end 89.044153 51.392133)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6045,7 +6045,7 @@
 		(mid 85.951009 44.056349)
 		(end 90.19365 44.056349)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6056,7 +6056,7 @@
 		(mid 90.596315 67.143253)
 		(end 100.28887 49.755755)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6066,7 +6066,7 @@
 		(center 87.973012 127.253472)
 		(end 86.323012 127.253472)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6077,7 +6077,7 @@
 		(center 88.07233 46.177669)
 		(end 86.42233 46.177669)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6089,7 +6089,7 @@
 		(mid 89.201179 96.884235)
 		(end 91.538736 95.764589)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6100,7 +6100,7 @@
 		(mid 89.894631 53.103057)
 		(end 89.539689 54.980444)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6111,7 +6111,7 @@
 		(mid 85.447107 109.774747)
 		(end 82.73312 100.625225)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6122,7 +6122,7 @@
 		(mid 89.822938 120.303204)
 		(end 88.972905 122.010937)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6133,7 +6133,7 @@
 		(mid 85.851691 129.374793)
 		(end 85.851691 125.132152)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6143,7 +6143,7 @@
 		(start 90.094332 129.374792)
 		(end 91.612777 127.856348)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6153,7 +6153,7 @@
 		(start 90.19365 44.056349)
 		(end 91.702566 45.565265)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6164,7 +6164,7 @@
 		(mid 88.116534 88.885816)
 		(end 87.237852 86.764452)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6174,7 +6174,7 @@
 		(start 90.237903 89.764492)
 		(end 106.158534 89.764222)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6184,7 +6184,7 @@
 		(start 91.538736 95.764589)
 		(end 106.158482 95.764588)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6195,7 +6195,7 @@
 		(mid 93.879189 126.981182)
 		(end 96.050456 128.071237)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6206,7 +6206,7 @@
 		(mid 93.965875 46.440582)
 		(end 91.702566 45.565265)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6217,7 +6217,7 @@
 		(mid 100.32402 40.755635)
 		(end 104.932243 36.577453)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6228,7 +6228,7 @@
 		(mid 93.034808 112.268491)
 		(end 88.608415 99.40741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6239,7 +6239,7 @@
 		(mid 102.464321 48.641907)
 		(end 104.746584 49.51626)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6250,7 +6250,7 @@
 		(mid 99.407215 131.841332)
 		(end 96.050456 128.071237)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6261,7 +6261,7 @@
 		(mid 103.789772 136.352722)
 		(end 104.052948 137.58146)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6271,7 +6271,7 @@
 		(start 103.529361 142.809821)
 		(end 103.760055 142.579127)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6281,7 +6281,7 @@
 		(start 103.628679 30.62132)
 		(end 105.147132 32.139773)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6292,7 +6292,7 @@
 		(mid 103.628678 26.378678)
 		(end 107.87132 26.378679)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6302,7 +6302,7 @@
 		(start 104.052948 137.58146)
 		(end 104.052948 141.87202)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6313,7 +6313,7 @@
 		(mid 103.976825 142.254701)
 		(end 103.760055 142.579127)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6324,7 +6324,7 @@
 		(mid 102.464173 124.888061)
 		(end 100.28872 123.77419)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6335,7 +6335,7 @@
 		(mid 106.022304 34.406196)
 		(end 104.932243 36.577453)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6345,7 +6345,7 @@
 		(center 105.650681 144.931142)
 		(end 104.000681 144.931142)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6356,7 +6356,7 @@
 		(center 105.75 28.5)
 		(end 104.1 28.5)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6368,7 +6368,7 @@
 		(mid 108.279803 96.643267)
 		(end 109.158483 98.764588)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6379,7 +6379,7 @@
 		(mid 103.529361 147.052462)
 		(end 103.529361 142.809821)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6389,7 +6389,7 @@
 		(start 107.772001 147.052462)
 		(end 109.174268 145.650195)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6399,7 +6399,7 @@
 		(start 107.87132 26.378679)
 		(end 110.992543 29.499902)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6410,7 +6410,7 @@
 		(mid 108.114795 42.991291)
 		(end 109.228649 40.815843)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6421,7 +6421,7 @@
 		(mid 110.037153 66.59301)
 		(end 112.158483 65.714346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6432,7 +6432,7 @@
 		(mid 108.27982 88.885525)
 		(end 106.158534 89.764222)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6442,7 +6442,7 @@
 		(start 109.158483 86.764222)
 		(end 109.158483 68.714346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6452,7 +6452,7 @@
 		(start 109.158483 98.764588)
 		(end 109.158482 103.914346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6463,7 +6463,7 @@
 		(mid 121.314479 33.287591)
 		(end 134.851908 28.873987)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6473,7 +6473,7 @@
 		(start 110.052948 139.248832)
 		(end 110.052948 143.528875)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6484,7 +6484,7 @@
 		(mid 110.319363 137.909435)
 		(end 111.078074 136.773958)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6495,7 +6495,7 @@
 		(mid 109.824599 144.676933)
 		(end 109.174268 145.650195)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6505,7 +6505,7 @@
 		(start 112.158483 65.714346)
 		(end 113.702028 65.714346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6516,7 +6516,7 @@
 		(mid 110.037163 106.035666)
 		(end 109.158482 103.914346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6526,7 +6526,7 @@
 		(start 112.158482 106.914346)
 		(end 114.603164 106.914346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6537,7 +6537,7 @@
 		(mid 112.70028 30.349934)
 		(end 110.992543 29.499902)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6548,7 +6548,7 @@
 		(mid 146.308004 21.765279)
 		(end 178.023028 30.066677)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6559,7 +6559,7 @@
 		(mid 117.374802 108.766296)
 		(end 116.724485 112.035666)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6569,7 +6569,7 @@
 		(start 115.823349 60.593026)
 		(end 104.746584 49.51626)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6580,7 +6580,7 @@
 		(mid 116.473669 63.862397)
 		(end 113.702028 65.714346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6590,7 +6590,7 @@
 		(start 116.724485 112.035666)
 		(end 104.74645 124.013704)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6600,7 +6600,7 @@
 		(start 117.00564 130.846392)
 		(end 111.078074 136.773958)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6611,7 +6611,7 @@
 		(mid 118.141127 130.087712)
 		(end 119.480513 129.821266)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6621,7 +6621,7 @@
 		(start 125.413606 61.698009)
 		(end 108.989154 45.273557)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6632,7 +6632,7 @@
 		(mid 127.261054 62.564163)
 		(end 125.413606 61.698009)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6643,7 +6643,7 @@
 		(mid 133.761564 59.482291)
 		(end 138.66323 57.736917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6654,7 +6654,7 @@
 		(mid 136.508318 29.291734)
 		(end 137.237873 30.836391)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6664,7 +6664,7 @@
 		(start 137.237873 31.087273)
 		(end 137.237873 30.836391)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6675,7 +6675,7 @@
 		(mid 139.289274 57.61558)
 		(end 139.925671 57.574917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6685,7 +6685,7 @@
 		(center 140.237873 31.087273)
 		(end 138.637873 31.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6697,7 +6697,7 @@
 		(mid 138.116552 33.208594)
 		(end 137.237873 31.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6708,7 +6708,7 @@
 		(mid 142.359193 34.965953)
 		(end 143.237873 37.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6718,7 +6718,7 @@
 		(start 140.237873 57.574917)
 		(end 139.925671 57.574917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6729,7 +6729,7 @@
 		(mid 142.359193 56.696237)
 		(end 140.237873 57.574917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6739,7 +6739,7 @@
 		(start 143.237873 54.574917)
 		(end 143.237873 37.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6750,7 +6750,7 @@
 		(mid 150.116553 34.965953)
 		(end 152.237873 34.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6760,7 +6760,7 @@
 		(start 149.237873 54.574917)
 		(end 149.237873 37.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6770,7 +6770,7 @@
 		(center 152.237873 31.087273)
 		(end 150.637873 31.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -6782,7 +6782,7 @@
 		(mid 150.116553 56.696237)
 		(end 149.237873 54.574917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6792,7 +6792,7 @@
 		(start 152.550075 57.574917)
 		(end 152.237873 57.574917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6803,7 +6803,7 @@
 		(mid 153.186471 57.615582)
 		(end 153.812516 57.736917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6814,7 +6814,7 @@
 		(mid 158.714182 59.482291)
 		(end 163.240552 62.048346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6825,7 +6825,7 @@
 		(mid 155.967426 29.291734)
 		(end 157.623838 28.873987)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6836,7 +6836,7 @@
 		(mid 154.359194 33.208594)
 		(end 152.237873 34.087273)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6846,7 +6846,7 @@
 		(start 155.237873 31.087273)
 		(end 155.237873 30.836391)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6857,7 +6857,7 @@
 		(mid 171.161266 33.287592)
 		(end 183.247097 40.815843)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6868,7 +6868,7 @@
 		(mid 165.214691 62.564161)
 		(end 163.240552 62.048346)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6878,7 +6878,7 @@
 		(start 167.06214 61.698009)
 		(end 183.486592 45.273557)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6888,7 +6888,7 @@
 		(start 172.995232 129.821266)
 		(end 119.480513 129.821266)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6899,7 +6899,7 @@
 		(mid 174.334624 130.087688)
 		(end 175.470106 130.846392)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6909,7 +6909,7 @@
 		(start 175.171834 62.073597)
 		(end 187.729233 49.516198)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6920,7 +6920,7 @@
 		(mid 175.984397 90.660634)
 		(end 175.2262 94.492091)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6931,7 +6931,7 @@
 		(mid 177.11701 84.641731)
 		(end 179.23836 83.762971)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6942,7 +6942,7 @@
 		(mid 174.521516 65.342967)
 		(end 175.171834 62.073597)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6953,7 +6953,7 @@
 		(mid 175.746103 97.09262)
 		(end 175.2262 94.492091)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6964,7 +6964,7 @@
 		(mid 177.554726 111.219017)
 		(end 180.326368 109.36706)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6974,7 +6974,7 @@
 		(start 179.23836 83.762971)
 		(end 202.238191 83.762581)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6984,7 +6984,7 @@
 		(start 180.326368 109.36706)
 		(end 182.842873 109.36706)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -6994,7 +6994,7 @@
 		(start 181.397672 136.773958)
 		(end 175.470106 130.846392)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7005,7 +7005,7 @@
 		(mid 182.156376 137.90944)
 		(end 182.422798 139.248832)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7016,7 +7016,7 @@
 		(mid 179.900416 30.421617)
 		(end 178.023028 30.066677)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7026,7 +7026,7 @@
 		(start 182.422798 139.248832)
 		(end 182.422798 143.726774)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7036,7 +7036,7 @@
 		(start 182.842873 98.264795)
 		(end 178.12498 98.264795)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7047,7 +7047,7 @@
 		(mid 184.964194 99.143474)
 		(end 185.842873 101.264795)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7058,7 +7058,7 @@
 		(mid 184.360951 42.991291)
 		(end 183.486592 45.273557)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7069,7 +7069,7 @@
 		(mid 182.651159 144.874825)
 		(end 182.422798 143.726774)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7079,7 +7079,7 @@
 		(start 184.605163 147.15178)
 		(end 183.301478 145.848095)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7089,7 +7089,7 @@
 		(start 184.704482 26.477998)
 		(end 181.611339 29.571141)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7100,7 +7100,7 @@
 		(mid 188.947124 26.477997)
 		(end 188.947123 30.720639)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7111,7 +7111,7 @@
 		(mid 184.964193 108.48838)
 		(end 182.842873 109.36706)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7121,7 +7121,7 @@
 		(start 185.842873 106.36706)
 		(end 185.842873 101.264795)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7131,7 +7131,7 @@
 		(center 186.726484 145.03046)
 		(end 185.076484 145.03046)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7142,7 +7142,7 @@
 		(center 186.825802 28.599318)
 		(end 185.175802 28.599318)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7154,7 +7154,7 @@
 		(mid 186.562889 34.492867)
 		(end 187.438207 32.229554)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7165,7 +7165,7 @@
 		(mid 192.247836 40.851009)
 		(end 196.426019 45.459231)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7176,7 +7176,7 @@
 		(mid 190.011499 48.641839)
 		(end 192.186947 49.755693)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7186,7 +7186,7 @@
 		(start 187.730113 124.01334)
 		(end 178.205059 114.488392)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7196,7 +7196,7 @@
 		(start 188.422798 137.582116)
 		(end 188.422798 142.06992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7207,7 +7207,7 @@
 		(mid 188.685983 136.353358)
 		(end 189.429362 135.340194)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7218,7 +7218,7 @@
 		(mid 188.498918 142.452604)
 		(end 188.422798 142.06992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7229,7 +7229,7 @@
 		(mid 188.847804 147.15178)
 		(end 184.605163 147.15178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7239,7 +7239,7 @@
 		(start 188.847804 142.90914)
 		(end 188.715691 142.777027)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7249,7 +7249,7 @@
 		(start 188.947123 30.720639)
 		(end 187.438207 32.229554)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7260,7 +7260,7 @@
 		(mid 196.646275 56.105611)
 		(end 200.233744 62.98581)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7271,7 +7271,7 @@
 		(mid 190.012397 124.887686)
 		(end 187.730113 124.01334)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7282,7 +7282,7 @@
 		(mid 193.022148 131.890235)
 		(end 189.429362 135.340194)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7293,7 +7293,7 @@
 		(mid 198.510613 127.089886)
 		(end 200.773926 127.965203)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7303,7 +7303,7 @@
 		(start 197.488191 67.194917)
 		(end 177.293154 67.194917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7314,7 +7314,7 @@
 		(mid 200.000891 65.833923)
 		(end 197.488191 67.194917)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7325,7 +7325,7 @@
 		(mid 198.597277 46.549289)
 		(end 196.426019 45.459231)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7336,7 +7336,7 @@
 		(mid 204.359494 84.641193)
 		(end 205.238242 86.762439)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7346,7 +7346,7 @@
 		(start 202.282833 129.474111)
 		(end 200.773926 127.965203)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7356,7 +7356,7 @@
 		(start 202.382151 44.155667)
 		(end 200.863698 45.67412)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7367,7 +7367,7 @@
 		(mid 206.624793 44.155666)
 		(end 206.624792 48.398308)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7378,7 +7378,7 @@
 		(mid 202.653535 53.227265)
 		(end 203.503569 51.519531)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7389,7 +7389,7 @@
 		(mid 208.362077 67.643839)
 		(end 210.984467 81.027214)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7400,7 +7400,7 @@
 		(mid 202.581863 120.427412)
 		(end 202.936803 118.550025)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7410,7 +7410,7 @@
 		(center 204.404153 127.35279)
 		(end 202.754153 127.35279)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7421,7 +7421,7 @@
 		(center 204.503472 46.276988)
 		(end 202.853472 46.276988)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7433,7 +7433,7 @@
 		(mid 201.880535 106.384994)
 		(end 192.187842 123.773799)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7444,7 +7444,7 @@
 		(mid 206.525475 129.474112)
 		(end 202.282833 129.474111)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7454,7 +7454,7 @@
 		(start 206.525474 125.23147)
 		(end 203.432339 122.138335)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7464,7 +7464,7 @@
 		(start 206.624792 48.398308)
 		(end 203.503569 51.519531)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7475,7 +7475,7 @@
 		(mid 208.342333 105.950688)
 		(end 202.936803 118.550025)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7486,7 +7486,7 @@
 		(mid 211.947632 90.549534)
 		(end 213.973217 89.762404)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7497,7 +7497,7 @@
 		(mid 211.947249 82.975372)
 		(end 210.984467 81.027214)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7507,7 +7507,7 @@
 		(start 213.972806 83.762383)
 		(end 227.737822 83.762149)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7517,7 +7517,7 @@
 		(start 213.973217 89.762404)
 		(end 227.737924 89.762166)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7528,7 +7528,7 @@
 		(mid 230.737881 86.762107)
 		(end 227.737924 89.762166)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7538,7 +7538,7 @@
 		(center 227.737873 86.762158)
 		(end 226.137873 86.762158)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7549,7 +7549,7 @@
 		(center 227.737873 86.762163)
 		(end 226.137873 86.762163)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -7733,12 +7733,12 @@
 		(uuid "f171cc2a-c16f-40a1-9b33-1d3b9af51159")
 	)
 	(segment
-		(start 161.047815 70.961035)
-		(end 187.40345 44.6054)
+		(start 187.40345 44.6054)
+		(end 187.40345 42.281241)
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "24ebad87-4c64-4388-8906-3934f21d1f26")
+		(uuid "195bf4eb-e1db-459c-93ce-419841df3f55")
 	)
 	(segment
 		(start 187.40345 42.281241)
@@ -7746,15 +7746,15 @@
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "2a2a6cfe-354a-4dc0-a657-d8ee82da0336")
+		(uuid "548048a2-3ef4-46ac-b5bb-eebb0233a884")
 	)
 	(segment
-		(start 180.844388 35.722179)
-		(end 180.844388 34.673922)
+		(start 162.004425 70.004425)
+		(end 187.40345 44.6054)
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "4a152ca6-72a3-430f-8229-72ecda2339d8")
+		(uuid "c300eaa6-e251-4a38-bd81-75f84585cf2e")
 	)
 	(segment
 		(start 180.844388 34.673922)
@@ -7762,18 +7762,18 @@
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "7d1877d9-d62d-46a1-8bb8-6074d002e5fd")
+		(uuid "c900ad38-bc1f-4ecc-919d-36470bf54483")
 	)
 	(segment
-		(start 187.40345 44.6054)
-		(end 187.40345 42.281241)
+		(start 180.844388 35.722179)
+		(end 180.844388 34.673922)
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "c045cb14-39c4-40ae-af54-fbea330cebfb")
+		(uuid "f59d12ca-78d7-43a3-ba77-16cf12bc378b")
 	)
 	(via
-		(at 161.047815 70.961035)
+		(at 162.004425 70.004425)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -7781,36 +7781,12 @@
 		(uuid "40022128-912c-404a-95e5-0cc0d29f419c")
 	)
 	(segment
-		(start 161.047815 70.961035)
-		(end 142.413605 89.595245)
-		(width 2)
-		(layer "B.Cu")
-		(net "Motor_{OUT4-1}")
-		(uuid "13789572-61c6-4d32-ad91-2804aef12236")
-	)
-	(segment
-		(start 142.413605 120.710918)
-		(end 144.192335 122.489648)
-		(width 2)
-		(layer "B.Cu")
-		(net "Motor_{OUT4-1}")
-		(uuid "27d9e531-8753-4524-9c67-5e47c4f2bb56")
-	)
-	(segment
-		(start 148.205686 122.489648)
-		(end 149.203605 121.491729)
-		(width 2)
-		(layer "B.Cu")
-		(net "Motor_{OUT4-1}")
-		(uuid "3db4d7c9-f978-4804-9fbb-6fbd08f961ae")
-	)
-	(segment
 		(start 142.413605 89.595245)
 		(end 142.413605 120.710918)
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "641a6ef9-4170-49ed-b166-049ef297fa5f")
+		(uuid "0f383753-4fdd-45bb-96bc-7829324b6c8f")
 	)
 	(segment
 		(start 149.203605 121.491729)
@@ -7818,7 +7794,31 @@
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "855b7446-05c7-436e-be2e-432309e5404f")
+		(uuid "5134b1d9-98d3-4fc0-a13b-81bb92702a71")
+	)
+	(segment
+		(start 142.413605 120.710918)
+		(end 144.192335 122.489648)
+		(width 2)
+		(layer "B.Cu")
+		(net "Motor_{OUT4-1}")
+		(uuid "753271bc-e49b-4ce4-b3f6-7f91740ba73b")
+	)
+	(segment
+		(start 148.205686 122.489648)
+		(end 149.203605 121.491729)
+		(width 2)
+		(layer "B.Cu")
+		(net "Motor_{OUT4-1}")
+		(uuid "86c7b627-2476-4535-9de8-29f9569c76a0")
+	)
+	(segment
+		(start 162.004425 70.004425)
+		(end 142.413605 89.595245)
+		(width 2)
+		(layer "B.Cu")
+		(net "Motor_{OUT4-1}")
+		(uuid "a4671dd3-817b-4060-8224-3618f7601243")
 	)
 	(segment
 		(start 144.192335 122.489648)
@@ -7826,23 +7826,15 @@
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-1}")
-		(uuid "f0efb485-4b9c-4eef-a66c-5774a989d869")
+		(uuid "b9f7c613-502a-4517-aee0-227ea93e3063")
 	)
 	(segment
-		(start 189.60345 45.51667)
-		(end 189.60345 41.369971)
-		(width 2)
-		(layer "F.Cu")
-		(net "Motor_{OUT4-2}")
-		(uuid "082ae39d-ba80-4955-a07f-5b626c7a66c8")
-	)
-	(segment
-		(start 162.22845 72.89167)
+		(start 165.18506 69.93506)
 		(end 189.60345 45.51667)
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-2}")
-		(uuid "dc8cb893-a99a-48c6-acd2-5979e5c69a6f")
+		(uuid "2ea07b0e-786f-4854-aa93-3e4f6c228bd8")
 	)
 	(segment
 		(start 189.60345 41.369971)
@@ -7850,10 +7842,18 @@
 		(width 2)
 		(layer "F.Cu")
 		(net "Motor_{OUT4-2}")
-		(uuid "f7147187-83fc-440c-a7c7-2978397a6d11")
+		(uuid "85a7c9bb-e669-4925-b8fc-28a403c9bbd5")
+	)
+	(segment
+		(start 189.60345 45.51667)
+		(end 189.60345 41.369971)
+		(width 2)
+		(layer "F.Cu")
+		(net "Motor_{OUT4-2}")
+		(uuid "9b280078-364a-42e4-85b4-1eb8d59db882")
 	)
 	(via
-		(at 162.22845 72.89167)
+		(at 165.18506 69.93506)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -7861,28 +7861,20 @@
 		(uuid "22d6b606-368b-4fca-acae-cf4275bf956b")
 	)
 	(segment
-		(start 162.22845 72.89167)
-		(end 144.613605 90.506515)
-		(width 2)
-		(layer "B.Cu")
-		(net "Motor_{OUT4-2}")
-		(uuid "2ef22b64-1e4b-471b-8ce3-3563256279b8")
-	)
-	(segment
 		(start 145.103605 120.289648)
 		(end 146.663605 120.289648)
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-2}")
-		(uuid "35324448-e242-47df-8216-f525251c8fec")
+		(uuid "60267395-dd42-475e-a91d-04c612c7f5ce")
 	)
 	(segment
-		(start 144.613605 90.506515)
-		(end 144.613605 119.799648)
+		(start 165.18506 69.93506)
+		(end 144.613605 90.506515)
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-2}")
-		(uuid "544012e4-e979-4d31-9808-ae89b57420d5")
+		(uuid "6f2d7c3b-a96c-43e5-9095-6730bc4141a2")
 	)
 	(segment
 		(start 144.613605 119.799648)
@@ -7890,7 +7882,15 @@
 		(width 2)
 		(layer "B.Cu")
 		(net "Motor_{OUT4-2}")
-		(uuid "c0588941-893d-4423-979b-5ea730a4224d")
+		(uuid "721c3f81-49a9-4990-a813-6414eae1d635")
+	)
+	(segment
+		(start 144.613605 90.506515)
+		(end 144.613605 119.799648)
+		(width 2)
+		(layer "B.Cu")
+		(net "Motor_{OUT4-2}")
+		(uuid "84d73ffd-2d40-46ac-b8ef-e0131fef8595")
 	)
 	(segment
 		(start 209.90345 78.222969)
@@ -8301,60 +8301,44 @@
 		(uuid "faaf960a-7b2b-45bd-8819-2ed06572f621")
 	)
 	(segment
-		(start 173.65345 78.56667)
-		(end 172.15345 80.06667)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "1f7faa07-db81-4403-84c3-775d1956afee")
-	)
-	(segment
-		(start 198.857872 71.884921)
+		(start 176.25 68)
 		(end 194.972951 68)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "3e981a84-a6e5-4a8c-8819-e46a12831b73")
+		(uuid "39c63b3b-1ff3-48ff-a270-f9392799ebfa")
 	)
 	(segment
-		(start 173.65345 70.59655)
-		(end 173.65345 78.56667)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "4eeedd00-c12e-490e-a180-541c0a4b70bc")
-	)
-	(segment
-		(start 172.15345 80.06667)
-		(end 172.15345 103.403237)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "9aee1f0f-79b4-4af6-bcde-6129f970500f")
-	)
-	(segment
-		(start 194.972951 68)
+		(start 172.15345 72.09655)
 		(end 176.25 68)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "da3b1f67-aef8-4a38-8b54-95f2806334cc")
+		(uuid "3ed5a14f-507f-4503-b3a5-fda02f081a73")
+	)
+	(segment
+		(start 194.972951 68)
+		(end 198.857872 71.884921)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "RX_{teensy}-TX_{Arduino}-5V")
+		(uuid "6871c7e1-65c8-43f6-8b90-fce84e98010c")
 	)
 	(segment
 		(start 172.15345 103.403237)
-		(end 173.762872 105.012659)
+		(end 172.15345 72.09655)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "f4d04b81-80d7-4db8-abdd-1afdef2492c9")
+		(uuid "90cf35ab-42ae-4682-8f86-bf29f8c4bd3f")
 	)
 	(segment
-		(start 176.25 68)
-		(end 173.65345 70.59655)
+		(start 173.762872 105.012659)
+		(end 172.15345 103.403237)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "RX_{teensy}-TX_{Arduino}-5V")
-		(uuid "f8e4dbba-b853-4983-b2a5-b5a630a6736c")
+		(uuid "d587d64c-5d4c-40ed-962b-2398e433ceed")
 	)
 	(segment
 		(start 196.28048 121.682687)
@@ -8749,12 +8733,12 @@
 		(uuid "859b028e-8aef-4e8e-bea1-2e80fd84fd63")
 	)
 	(segment
-		(start 188.5 80.75)
-		(end 173.5 80.75)
+		(start 191.237872 80.012128)
+		(end 191.237872 74.424921)
 		(width 1)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "172897a7-cd41-4ac6-8783-fabb0cefe31f")
+		(uuid "16691637-61d6-4849-8ed7-6813f0c309a4")
 	)
 	(segment
 		(start 166.94805 80.75)
@@ -8797,12 +8781,20 @@
 		(uuid "5d8e301e-6171-4050-aec2-f1788a23df83")
 	)
 	(segment
-		(start 191.237872 74.424921)
-		(end 191.237872 78.012128)
+		(start 173.5 80.75)
+		(end 175 82.25)
 		(width 1)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "623ce409-c356-4923-ae0d-a6103cae3ac2")
+		(uuid "730469a6-8d49-4901-8251-86baf94ba6d1")
+	)
+	(segment
+		(start 189 82.25)
+		(end 191.237872 80.012128)
+		(width 1)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "807b77da-235e-4cf7-b835-3b34b01b5aa5")
 	)
 	(segment
 		(start 151.316878 61.006921)
@@ -8813,12 +8805,12 @@
 		(uuid "9314f8c3-179c-48b1-ba44-0c8ac613131b")
 	)
 	(segment
-		(start 191.237872 78.012128)
-		(end 188.5 80.75)
+		(start 175 82.25)
+		(end 189 82.25)
 		(width 1)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "bb8b26cb-f439-40ce-b89d-1e52c16cffe4")
+		(uuid "a4cded1f-9e5c-415e-ba1e-9c077f33aff6")
 	)
 	(segment
 		(start 170.75 80.75)
@@ -8843,6 +8835,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+3.3V")
 		(uuid "503aa743-c069-497a-ac2f-2d4cedbe0cf2")
+	)
+	(via
+		(at 157.05284 70.85479)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3.3V")
+		(uuid "ac10e531-1449-485d-bfc5-3ca9b06601f5")
 	)
 	(via
 		(at 170.75 80.75)
@@ -8885,14 +8885,6 @@
 		(uuid "1b137301-7ef0-4ab0-a73d-142c4b0d2e73")
 	)
 	(segment
-		(start 152.866878 62.556921)
-		(end 151.316878 61.006921)
-		(width 1)
-		(layer "B.Cu")
-		(net "+3.3V")
-		(uuid "328e70f5-24f9-452d-86e7-62d0b8081376")
-	)
-	(segment
 		(start 173.5 80.75)
 		(end 170.75 80.75)
 		(width 1)
@@ -8901,20 +8893,20 @@
 		(uuid "48ec43f7-c780-461f-9aa7-32abc84a6615")
 	)
 	(segment
+		(start 152.866878 75.040752)
+		(end 157.05284 70.85479)
+		(width 1)
+		(layer "B.Cu")
+		(net "+3.3V")
+		(uuid "4b1cbf5c-e746-4337-a285-5f9181691e25")
+	)
+	(segment
 		(start 161.903605 117.749648)
 		(end 167.662872 111.990381)
 		(width 1)
 		(layer "B.Cu")
 		(net "+3.3V")
 		(uuid "61d49c40-f45c-4f53-85d9-82c828809df6")
-	)
-	(segment
-		(start 152.866878 75.040752)
-		(end 152.866878 62.556921)
-		(width 1)
-		(layer "B.Cu")
-		(net "+3.3V")
-		(uuid "6d77c3f0-f2fc-4644-ba60-cf113f1c8f64")
 	)
 	(segment
 		(start 118.914828 81.163865)
@@ -8979,6 +8971,126 @@
 		(layer "B.Cu")
 		(net "+3.3V")
 		(uuid "fcfbd13c-a414-4e5a-a90d-55377a3e3735")
+	)
+	(segment
+		(start 186.95 81.3)
+		(end 188.697872 79.552128)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "0917ce17-9698-415c-a899-3342ce632449")
+	)
+	(segment
+		(start 155.931132 68.318868)
+		(end 158.895776 71.283512)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "0c8babb3-e579-4fd8-9621-99e86443c5d0")
+	)
+	(segment
+		(start 173.5 79.75)
+		(end 173.914214 79.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "2a588938-2949-4153-a0d5-ff719d5c7ad6")
+	)
+	(segment
+		(start 188.697872 79.552128)
+		(end 188.697872 74.424921)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "3a9f49f7-ae02-4bb8-b776-3c28d4c745f3")
+	)
+	(segment
+		(start 173.914214 79.75)
+		(end 175.464214 81.3)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "3c61179f-701f-4f57-a95c-5b36769e053c")
+	)
+	(segment
+		(start 158.895776 71.283512)
+		(end 158.895776 71.354224)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "71f29135-c008-4590-9605-75b69e0ce384")
+	)
+	(segment
+		(start 158.895776 71.354224)
+		(end 167.291552 79.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "78dfde12-b714-4b4b-a9a5-972b3d7cd6f0")
+	)
+	(segment
+		(start 175.464214 81.3)
+		(end 186.95 81.3)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "a999d9aa-5a7a-479e-93ec-ac0638d41ec9")
+	)
+	(segment
+		(start 167.291552 79.75)
+		(end 170.75 79.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "f71f6fa3-1de2-4b4a-95af-bdc9db341949")
+	)
+	(via
+		(at 170.75 79.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "067c3e3d-3b72-4858-8395-750b39b2fd52")
+	)
+	(via
+		(at 155.931132 68.318868)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "3167f13e-fdf2-401a-b5be-fb5b763d7695")
+	)
+	(via
+		(at 173.5 79.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "5673f669-ae47-4647-a48b-580a93e13e37")
+	)
+	(segment
+		(start 155.931132 68.318868)
+		(end 153.548825 68.318868)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "2bf77590-6929-4f89-aa3d-5b4fb4a1653a")
+	)
+	(segment
+		(start 173.5 79.75)
+		(end 170.75 79.75)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "69d73e03-441d-488c-9e00-f540863f9ba5")
+	)
+	(segment
+		(start 153.548825 68.318868)
+		(end 148.776878 63.546921)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "BallCatch_{Front}")
+		(uuid "e5f72371-8900-4d1e-a2e6-ec2cdde4c272")
 	)
 	(segment
 		(start 145.840821 83.763865)
