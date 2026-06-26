@@ -5,7 +5,6 @@
 ## 設計者
 - @penguin92-prg
 - @ryo-robot14
-- @AsaApp0424
 
 ## 使用上の注意
 
