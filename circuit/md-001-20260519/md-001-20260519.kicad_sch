@@ -6445,7 +6445,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 101.6 144.78 0)
+		(at 101.6 147.32 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6453,10 +6454,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a3897e3-4c10-4325-97f1-f2ef346660ad")
 		(property "Reference" "J3"
-			(at 102.87 130.81 0)
+			(at 102.87 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6466,7 +6466,7 @@
 			)
 		)
 		(property "Value" "Conn_relay"
-			(at 102.87 133.35 0)
+			(at 102.87 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6475,8 +6475,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal"
-			(at 101.6 144.78 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
+			(at 101.6 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6487,7 +6487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 144.78 0)
+			(at 101.6 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,7 +6498,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 144.78 0)
+			(at 101.6 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
