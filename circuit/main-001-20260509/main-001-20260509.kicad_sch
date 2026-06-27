@@ -4481,6 +4481,12 @@
 		(uuid "e29a1436-e8c7-4c9f-b494-a59717d68466")
 	)
 	(junction
+		(at 184.15 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d88136-0500-4317-8f31-f83e24c457ce")
+	)
+	(junction
 		(at 62.23 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5414,6 +5420,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 59.69) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97800488-a305-4617-951b-9eebc3fcab3b")
+	)
+	(wire
+		(pts
 			(xy 40.64 26.67) (xy 38.1 26.67)
 		)
 		(stroke
@@ -5494,6 +5510,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 59.69) (xy 184.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5550a2-2a52-4eca-8bf6-cb69b49cca15")
+	)
+	(wire
+		(pts
 			(xy 125.73 33.02) (xy 123.19 33.02)
 		)
 		(stroke
@@ -5501,16 +5527,6 @@
 			(type default)
 		)
 		(uuid "aace8aff-a4c4-4da9-b026-44e17954fe76")
-	)
-	(wire
-		(pts
-			(xy 186.69 59.69) (xy 186.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae201725-d80e-49b8-9c23-6d9cbca459d5")
 	)
 	(wire
 		(pts
@@ -5791,16 +5807,6 @@
 			(type default)
 		)
 		(uuid "df5730c5-c8f1-4abe-960b-d2f0d23c969c")
-	)
-	(wire
-		(pts
-			(xy 181.61 59.69) (xy 186.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1313321-df01-4e0d-9db1-33fd0397d91b")
 	)
 	(wire
 		(pts
@@ -8201,83 +8207,6 @@
 			(project "main-001-20260509"
 				(path "/5c093479-ee40-491f-8d87-7ce1a25afb3d"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 186.69 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11508b57-5397-4173-974b-616c1461040d")
-		(property "Reference" "#PWR019"
-			(at 186.69 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 190.5 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "251cdc83-46f5-4fcd-88c2-5c6d81d97983")
-		)
-		(instances
-			(project "main-001-20260509"
-				(path "/5c093479-ee40-491f-8d87-7ce1a25afb3d"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
