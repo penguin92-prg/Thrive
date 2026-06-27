@@ -1,12 +1,10 @@
-# [基板名] [バージョン番号]
+# Relay 001
 
-[基板名] ver.[バージョン番号]のREADME
+供給基板 ver.001のREADME
 
 ## 設計者
-- @penguin92-prg
 - @ryo-robot14
-
-## ピンアサイン
+- @penguin92-prg
 
 ## 使用上の注意
 
