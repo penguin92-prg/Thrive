@@ -4675,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "Kicker-Board"
 			(at 172.72 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4857,7 +4857,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Linesensor_{UART}"
 			(at 225.425 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4937,7 +4937,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Motor4"
 			(at 37.465 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5175,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Motor2"
 			(at 37.465 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Motor1"
 			(at 37.465 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Motor3"
 			(at 37.465 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x08_Odd_Even"
+		(property "Value" "MD-Board"
 			(at 173.99 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x09_Odd_Even"
+		(property "Value" "Main-Board"
 			(at 227.33 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6371,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Dribbler_{Back}"
 			(at 31.115 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cdc6322-4e45-4f34-a7eb-71f00c4ef9f2")
 		(property "Reference" "J8"
-			(at 247.65 25.4 0)
+			(at 247.65 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6533,8 +6533,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 247.65 27.94 0)
+		(property "Value" "Linesensor_{Power}"
+			(at 247.65 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6917,7 +6917,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8e7b949-37c0-4bff-9d48-247f533e7bac")
 		(property "Reference" "J5"
-			(at 111.76 74.93 0)
+			(at 111.76 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6927,8 +6927,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 111.76 77.47 0)
+		(property "Value" "Linesensor_{Power}"
+			(at 111.76 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
