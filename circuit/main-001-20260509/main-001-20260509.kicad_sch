@@ -6056,7 +6056,7 @@
 			)
 		)
 	)
-	(global_label "EN_{BOOST}"
+	(global_label "EN_{Boost}"
 		(shape output)
 		(at 71.12 67.31 0)
 		(fields_autoplaced yes)
@@ -6068,7 +6068,7 @@
 		)
 		(uuid "096fbc1e-421d-4479-936f-ebf896c558a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0667 67.31 0)
+			(at 80.2465 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,7 +6104,7 @@
 			)
 		)
 	)
-	(global_label "EN_{BOOST}"
+	(global_label "EN_{Boost}"
 		(shape input)
 		(at 142.24 86.36 0)
 		(fields_autoplaced yes)
@@ -6116,7 +6116,7 @@
 		)
 		(uuid "0a4782fa-fe19-4e9e-ba73-abcbd94ab0fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.642 86.36 0)
+			(at 151.3665 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
