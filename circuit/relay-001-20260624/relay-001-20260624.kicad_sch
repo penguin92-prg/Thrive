@@ -2525,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 148.59) (xy 180.34 148.59)
+			(xy 167.64 148.59) (xy 162.56 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 149.86) (xy 148.59 151.13)
+			(xy 199.39 149.86) (xy 199.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 151.13) (xy 167.64 151.13)
+			(xy 180.34 151.13) (xy 199.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 148.59) (xy 167.64 148.59)
+			(xy 180.34 148.59) (xy 195.58 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 148.59) (xy 152.4 152.4)
+			(xy 195.58 148.59) (xy 195.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 151.13) (xy 180.34 151.13)
+			(xy 167.64 151.13) (xy 162.56 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3449,17 +3449,17 @@
 	)
 	(global_label "Motor3_{PWM}"
 		(shape input)
-		(at 162.56 138.43 180)
+		(at 185.42 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "03095af5-66f8-4dd9-8bbe-4d5ab84f9510")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4905 138.43 0)
+			(at 196.4895 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3467,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3545,17 +3545,17 @@
 	)
 	(global_label "Motor_{OUT4-1}"
 		(shape output)
-		(at 185.42 135.89 0)
+		(at 162.56 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "201cec9a-a85d-4257-acd4-91246697c4e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 135.89 0)
+			(at 151.2113 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,37 +3563,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "Motor_{EN}"
 		(shape input)
-		(at 162.56 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21144b4a-ca17-4926-a341-3aa022083c48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6767 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Motor_{OUT2-2}"
-		(shape output)
-		(at 185.42 143.51 0)
+		(at 185.42 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3601,9 +3577,9 @@
 			)
 			(justify left)
 		)
-		(uuid "239fb759-068c-44c4-8161-bc4e75be2607")
+		(uuid "21144b4a-ca17-4926-a341-3aa022083c48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 143.51 0)
+			(at 194.3033 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,9 +3591,9 @@
 			)
 		)
 	)
-	(global_label "Motor2_{PWM}"
-		(shape input)
-		(at 162.56 140.97 180)
+	(global_label "Motor_{OUT2-2}"
+		(shape output)
+		(at 162.56 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3625,9 +3601,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2487b943-439f-44a2-822c-84c3d21b5778")
+		(uuid "239fb759-068c-44c4-8161-bc4e75be2607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4905 140.97 0)
+			(at 151.2113 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,6 +3612,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Motor2_{PWM}"
+		(shape input)
+		(at 185.42 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2487b943-439f-44a2-822c-84c3d21b5778")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4895 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3665,17 +3665,17 @@
 	)
 	(global_label "Motor1_{PWM}"
 		(shape input)
-		(at 162.56 143.51 180)
+		(at 185.42 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d613aac-2251-477c-85e9-26c5fb6030ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4905 143.51 0)
+			(at 196.4895 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +3683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3761,17 +3761,17 @@
 	)
 	(global_label "Motor4_{PWM}"
 		(shape input)
-		(at 162.56 135.89 180)
+		(at 185.42 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "418b5760-de77-4d0f-aec0-546351b4e299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4905 135.89 0)
+			(at 196.4895 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3779,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3809,17 +3809,17 @@
 	)
 	(global_label "Motor_{OUT1-2}"
 		(shape output)
-		(at 185.42 148.59 0)
+		(at 162.56 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "471ccb57-d76b-49e2-b57d-3fad79340d40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 148.59 0)
+			(at 151.2113 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,7 +3827,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4001,17 +4001,17 @@
 	)
 	(global_label "Motor_{OUT2-1}"
 		(shape output)
-		(at 185.42 146.05 0)
+		(at 162.56 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8a7130ca-3e6e-46a8-908a-e7a18defab26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 146.05 0)
+			(at 151.2113 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4169,17 +4169,17 @@
 	)
 	(global_label "Motor_{OUT1-1}"
 		(shape output)
-		(at 185.42 151.13 0)
+		(at 162.56 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9df35300-86f9-4ae2-8e4a-e2088cae734e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 151.13 0)
+			(at 151.2113 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4187,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4313,31 +4313,7 @@
 	)
 	(global_label "BallCatch_{Back}"
 		(shape output)
-		(at 162.56 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8684d7a-88bf-4c08-b52d-0aba50579b25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6678 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Motor_{OUT3-2}"
-		(shape output)
-		(at 185.42 138.43 0)
+		(at 185.42 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4345,9 +4321,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c3a20e90-4414-47c4-8dfe-3f16fba783b4")
+		(uuid "b8684d7a-88bf-4c08-b52d-0aba50579b25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 138.43 0)
+			(at 198.3122 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,6 +4332,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Motor_{OUT3-2}"
+		(shape output)
+		(at 162.56 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3a20e90-4414-47c4-8dfe-3f16fba783b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.2113 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -4409,17 +4409,17 @@
 	)
 	(global_label "Motor_{OUT3-1}"
 		(shape output)
-		(at 185.42 140.97 0)
+		(at 162.56 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ced5c09c-6511-41f8-a025-1a681f4295cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 140.97 0)
+			(at 151.2113 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4427,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4553,17 +4553,17 @@
 	)
 	(global_label "Motor_{OUT4-2}"
 		(shape output)
-		(at 185.42 133.35 0)
+		(at 162.56 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fba5a67c-0e5e-42fc-821c-f96af37f47b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7687 133.35 0)
+			(at 151.2113 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,7 +4571,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6113,7 +6113,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 152.4 0)
+		(at 195.58 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6124,7 +6124,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f8efdfd-d9bf-43cc-9746-2783c32b2c44")
 		(property "Reference" "#PWR08"
-			(at 152.4 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 157.48 0)
+			(at 195.58 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6145,7 +6145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 152.4 0)
+			(at 195.58 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 152.4 0)
+			(at 195.58 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 152.4 0)
+			(at 195.58 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6672,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 149.86 0)
+		(at 199.39 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6683,7 +6683,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dd03c5b-60fc-4e6a-a69e-ab88e265bb34")
 		(property "Reference" "#PWR07"
-			(at 148.59 153.67 0)
+			(at 199.39 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +6694,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 148.59 144.78 0)
+			(at 199.39 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6704,7 +6704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 149.86 0)
+			(at 199.39 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 149.86 0)
+			(at 199.39 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,7 +6726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 149.86 0)
+			(at 199.39 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
