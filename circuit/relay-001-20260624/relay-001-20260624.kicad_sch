@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 147.32 148.59)
+			(xy 148.59 149.86) (xy 148.59 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 148.59) (xy 167.64 148.59)
+			(xy 148.59 151.13) (xy 167.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 151.13) (xy 167.64 151.13)
+			(xy 152.4 148.59) (xy 167.64 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 151.13) (xy 147.32 154.94)
+			(xy 152.4 148.59) (xy 152.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6113,7 +6113,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 154.94 0)
+		(at 152.4 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6124,7 +6124,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f8efdfd-d9bf-43cc-9746-2783c32b2c44")
 		(property "Reference" "#PWR08"
-			(at 147.32 161.29 0)
+			(at 152.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 160.02 0)
+			(at 152.4 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6145,7 +6145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 154.94 0)
+			(at 152.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 154.94 0)
+			(at 152.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 154.94 0)
+			(at 152.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6672,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 147.32 144.78 0)
+		(at 148.59 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6683,7 +6683,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dd03c5b-60fc-4e6a-a69e-ab88e265bb34")
 		(property "Reference" "#PWR07"
-			(at 147.32 148.59 0)
+			(at 148.59 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +6694,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 147.32 139.7 0)
+			(at 148.59 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6704,7 +6704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 144.78 0)
+			(at 148.59 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 144.78 0)
+			(at 148.59 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,7 +6726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 144.78 0)
+			(at 148.59 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
