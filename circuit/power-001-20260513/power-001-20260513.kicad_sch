@@ -1654,208 +1654,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Voltmeter_DC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "MES"
-				(at -3.302 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Voltmeter_DC"
-				(at -3.302 -0.762 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC voltmeter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "voltmeter DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_0_0"
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.175) (xy 3.175 3.175) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "V"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 3.81) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 4.064) (xy 0.508 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Microchip_PIC12:PIC12F683-xSN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4087,7 +3885,7 @@
 		)
 		(uuid "6b124dbb-98fa-4672-acfe-cbb5cd780862")
 	)
-	(text_box "DCDC-Converter | 3.3V"
+	(text_box "DCDC-Converter | 5.0V"
 		(exclude_from_sim no)
 		(at 57.15 58.42 0)
 		(size 64.77 41.91)
@@ -4883,16 +4681,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 92.71 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2afae75b-0297-4e53-bcb0-17c32de59e5c")
-	)
-	(wire
-		(pts
 			(xy 62.23 48.26) (xy 72.39 48.26)
 		)
 		(stroke
@@ -4980,16 +4768,6 @@
 			(type default)
 		)
 		(uuid "3e82e3bc-c892-41f4-80a2-3818447f4b22")
-	)
-	(wire
-		(pts
-			(xy 31.75 68.58) (xy 31.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400e70f6-0d40-41c4-8088-cc9b684a2b4d")
 	)
 	(wire
 		(pts
@@ -5373,6 +5151,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca2048b-acd5-4544-b63f-2eed628ae301")
+	)
+	(wire
+		(pts
 			(xy 26.67 104.14) (xy 26.67 106.68)
 		)
 		(stroke
@@ -5743,6 +5531,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 87.63) (xy 92.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfef85a8-0b04-4400-92d7-30f02367c5e3")
+	)
+	(wire
+		(pts
 			(xy 113.03 71.12) (xy 113.03 73.66)
 		)
 		(stroke
@@ -5980,16 +5778,6 @@
 			(type default)
 		)
 		(uuid "d27a2261-e5f0-40f0-a309-3a8f480d6d0b")
-	)
-	(wire
-		(pts
-			(xy 31.75 55.88) (xy 31.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3afe48f-1f17-4fe9-8433-bfe46686ef23")
 	)
 	(wire
 		(pts
@@ -6370,16 +6158,6 @@
 			(type default)
 		)
 		(uuid "fb1ea1df-0265-4d57-870a-9cce129e92c6")
-	)
-	(wire
-		(pts
-			(xy 100.33 87.63) (xy 107.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5007ec-2c3d-492b-bdf5-cc91d841d51b")
 	)
 	(wire
 		(pts
@@ -6960,88 +6738,6 @@
 			(project "power-001-20260513"
 				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Voltmeter_DC")
-		(at 31.75 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a3ba42b-0037-4e39-bc1d-d75d433a08f7")
-		(property "Reference" "MES1"
-			(at 35.56 61.7854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Voltmeter_DC"
-			(at 35.56 64.3254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC voltmeter"
-			(at 31.75 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5d408e04-440a-4f6e-8bb6-52930b948e88")
-		)
-		(pin "1"
-			(uuid "f9e9d5bb-d27a-4565-8c05-05b0e15f61c0")
-		)
-		(instances
-			(project "power-001-20260513"
-				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
-					(reference "MES1")
 					(unit 1)
 				)
 			)
@@ -7849,84 +7545,6 @@
 			(project "power-001-20260513"
 				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 31.75 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40bfa906-b73a-4429-b59c-19dedb824eb4")
-		(property "Reference" "#PWR018"
-			(at 31.75 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 31.75 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3deb7368-05a1-498c-9737-0ebad2200401")
-		)
-		(instances
-			(project "power-001-20260513"
-				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9779,6 +9397,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 97.79 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f9747a-6a94-4e4e-99cb-c0780b9d8c89")
+		(property "Reference" "R9"
+			(at 97.79 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 97.79 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 97.79 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ceec7f40-d809-43fd-83c2-07c5f0890d47")
+		)
+		(pin "2"
+			(uuid "4d19a627-b0bb-4e3f-bc38-07a964c8eb75")
+		)
+		(instances
+			(project "power-001-20260513"
+				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 228.6 62.23 0)
 		(unit 1)
@@ -10937,86 +10635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 97.79 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b593b4c2-ac0d-42fb-9fbb-f474f03b1a9b")
-		(property "Reference" "R9"
-			(at 97.79 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 97.79 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 97.79 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b38b8466-2d18-4df6-a853-b457a14ab652")
-		)
-		(pin "2"
-			(uuid "e162f714-9581-4136-beb2-7d95d4ecbd9a")
-		)
-		(instances
-			(project "power-001-20260513"
-				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 35.56 0)
 		(unit 1)
@@ -11656,6 +11274,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c335eee5-1e4f-401f-82a4-e9dba0069504")
+		(property "Reference" "R21"
+			(at 102.87 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 102.87 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53077d10-76de-47e2-a54a-06459c63b46b")
+		)
+		(pin "2"
+			(uuid "241622eb-e796-4667-8880-99f1ec124ae8")
+		)
+		(instances
+			(project "power-001-20260513"
+				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 39.37 196.85 0)
 		(unit 1)
@@ -11971,84 +11669,6 @@
 			(project "power-001-20260513"
 				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcaafb0c-9fa2-460e-a5c0-9b02488f1850")
-		(property "Reference" "#PWR05"
-			(at 31.75 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfdf7c7a-3445-4675-86e2-c366e35bfd38")
-		)
-		(instances
-			(project "power-001-20260513"
-				(path "/d54cd6d9-a65b-4f01-a2a7-b95d40372036"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
