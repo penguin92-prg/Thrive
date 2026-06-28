@@ -5076,7 +5076,7 @@
 		)
 		(effects
 			(font
-				(face "KiCad Font")
+				(face "游ゴシック")
 				(size 1.27 1.27)
 				(bold yes)
 			)
