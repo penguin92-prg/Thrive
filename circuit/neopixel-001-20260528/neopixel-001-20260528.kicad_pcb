@@ -90,7 +90,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "030188ca-3b1e-4151-8998-36b64a745a37")
-		(at 107.815 17.325)
+		(at 102.815 22.325)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -248,7 +248,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "0416f42b-0409-43fb-9ca7-be915cef698d")
-		(at 48.029466 25.435289 55)
+		(at 43.029466 30.435289 55)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P3"
@@ -625,7 +625,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "04a1ad8f-2bc0-4cb3-ac3f-e167bf32d312")
-		(at 38.686247 35.535393 40)
+		(at 33.686247 40.535393 40)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P9"
@@ -1002,12 +1002,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "10224e6f-ff11-446d-9c87-c1276b2ed479")
-		(at -6.711452 23.273947 157.5)
+		(at -11.711452 28.273947 157.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D10"
 			(at 0 -3.5 157.5)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "29db4ac4-6ac8-4881-9742-8959d6f54072")
 			(effects
@@ -1019,6 +1020,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 157.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "976e4a0d-c3a4-4318-9df4-de86e5755e58")
 			(effects
@@ -1238,9 +1240,9 @@
 			(uuid "50839191-b034-4819-a2cc-c060d5738c09")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 157.5)
+			(at 0 0 157.5)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1bfa03fe-cd4b-475d-94dd-d9a4789e7a31")
 			(effects
 				(font
@@ -1250,7 +1252,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 157.5)
+			(at -4 -1.599999 157.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b8e9d12e-8b13-4017-a508-c356dcb897d6")
 			(effects
@@ -1316,7 +1319,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "124b97a6-ff84-49e5-8e02-b80eec0ec95c")
-		(at 98.915 17.325)
+		(at 93.915 22.325)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -1474,7 +1477,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1760b673-ba64-4bef-a990-53b18bd9924a")
-		(at 116.695 11.215)
+		(at 111.695 16.215)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -1632,7 +1635,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "19f7244b-a974-4247-b109-e11fe714ef13")
-		(at -43.046921 16.66501 -66)
+		(at -48.046921 21.66501 -66)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P5"
@@ -2009,12 +2012,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "1a81775a-b80d-4a71-8c4f-3d5844ce49d4")
-		(at 16.711452 23.273947 -157.5)
+		(at 11.711452 28.273947 -157.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D8"
-			(at 0 -3.5 202.5)
-			(layer "F.SilkS")
+			(at 0 -3.5 -157.5)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "be95e8ba-fd27-47ba-a4ab-bf9c0259a04a")
 			(effects
 				(font
@@ -2024,7 +2028,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 202.5)
+			(at 0 4.000001 -157.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "096f939a-5b58-446c-bdce-2074f790b92a")
 			(effects
@@ -2244,9 +2249,9 @@
 			(uuid "601cf92b-1f68-4924-a473-09e3845dc807")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 202.5)
+			(at 0 0 -157.5)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "cc2846da-dac5-43e2-829f-c21754895917")
 			(effects
 				(font
@@ -2256,7 +2261,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 202.5)
+			(at -4 -1.599999 -157.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d4fcd949-0962-42e8-899e-35303011b777")
 			(effects
@@ -2322,7 +2328,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1cad76ce-8bb9-4b75-ae03-8caace259ad3")
-		(at 103.365 8.295)
+		(at 98.365 13.295)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -2480,7 +2486,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "256b4aef-c297-4ef3-bc5f-9001fb17f601")
-		(at -35.802445 28.362251 -51)
+		(at -40.802445 33.362251 -51)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P1"
@@ -2857,7 +2863,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "29df1f2f-d892-477d-a29e-f7f3712265fa")
-		(at 98.915 14.315)
+		(at 93.915 19.315)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -3015,7 +3021,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2aa55540-0bf3-4aa5-bd89-3e92c3434d70")
-		(at 116.695 23.015)
+		(at 111.695 28.015)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -3172,13 +3178,330 @@
 	)
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
+		(uuid "2c549e6b-bd76-47c3-9cca-699f410e9794")
+		(at 0 -30.6035)
+		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+		(tags "LED RGB NeoPixel PLCC-4 5050")
+		(property "Reference" "D1"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "63d26c8c-3efc-476e-934e-a74d9a4c9ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "444aa190-43b9-41e4-8613-af27eae7b126")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99835d54-d022-497a-a1f4-7dd4eab06a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50836a68-7791-4a9e-9dab-5fb2c6322a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
+		(path "/22f5c7a2-9b88-4f5f-8163-c2c649cd1aa1")
+		(sheetname "/")
+		(sheetfile "neopixel-001-20260528.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.5 -2.75)
+			(end -3.5 2.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e4a9f45e-98fd-484a-a314-ac2be90078cd")
+		)
+		(fp_line
+			(start -3.5 -2.75)
+			(end 3.5 -2.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87689807-9002-42cd-a323-ae0efa3e5919")
+		)
+		(fp_line
+			(start -3.5 2.75)
+			(end 3.05 2.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2377a3b2-9c5b-4e09-9078-52eb1393517e")
+		)
+		(fp_line
+			(start -2.7 0.9)
+			(end -2.7 -0.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2866d89b-6105-4eb0-8df5-272356a60b0f")
+		)
+		(fp_line
+			(start 2.7 0.9)
+			(end 2.7 -0.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bf6dcbb2-008b-465e-9095-dd83722b14a8")
+		)
+		(fp_line
+			(start 3.05 2.75)
+			(end 3.5 2.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "14cb98b2-d515-4ff9-a71e-2b87cde488e3")
+		)
+		(fp_line
+			(start 3.5 2.3)
+			(end 3.5 -2.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e91ccd57-5e3a-4512-8038-d17204e0d690")
+		)
+		(fp_line
+			(start -3.45 -2.75)
+			(end -3.45 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c2249a4e-ce26-4266-a85b-0a872ea977f1")
+		)
+		(fp_line
+			(start -3.45 2.75)
+			(end 3.45 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb8df490-a7f0-4b41-8246-74e225c7533a")
+		)
+		(fp_line
+			(start 3.45 -2.75)
+			(end -3.45 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "abd2270c-f0bb-4526-82e6-f05dc6347c02")
+		)
+		(fp_line
+			(start 3.45 2.75)
+			(end 3.45 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5a608ecd-44ca-4922-aa0c-911ea0eee0e9")
+		)
+		(fp_line
+			(start -2.5 -2.5)
+			(end -2.5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b6cf1c9-3239-4098-bda6-40e1ff2ac6a2")
+		)
+		(fp_line
+			(start -2.5 2.5)
+			(end 2.5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7df8862a-99df-402d-af8e-5cfcab755efd")
+		)
+		(fp_line
+			(start 2.5 -2.5)
+			(end -2.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "106654a1-5a89-4194-9aeb-e3c7e9163090")
+		)
+		(fp_line
+			(start 2.5 1.5)
+			(end 1.5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b998d847-4f64-405b-81a2-d4eb8cd118db")
+		)
+		(fp_line
+			(start 2.5 2.5)
+			(end 2.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1cb32f97-3d6a-41de-9de9-f0004f747b55")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d45b73e9-0f5f-4bc0-90b7-1978f5cb7b4e")
+		)
+		(fp_text user "1"
+			(at -4 -1.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00de7488-f892-4637-a7e0-16476b277192")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b713d2f4-864e-47d5-bd7e-53c766b2802d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.45 -1.65)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1)
+			(net "+5V")
+			(pinfunction "VDD_1")
+			(pintype "power_in")
+			(uuid "53cf3a2d-caa5-476d-a837-05f6ffe2b612")
+		)
+		(pad "2" smd roundrect
+			(at -2.45 1.65)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1)
+			(net "Net-(D1-DOUT)")
+			(pinfunction "DOUT_2")
+			(pintype "output")
+			(uuid "4fe5ce34-9f6b-4dd7-bb1d-82180569a2ce")
+		)
+		(pad "3" smd roundrect
+			(at 2.45 1.65)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1)
+			(net "GND")
+			(pinfunction "VSS_3")
+			(pintype "power_in")
+			(uuid "a1c0533d-d80f-4673-b4da-1c66736cf8b7")
+		)
+		(pad "4" smd roundrect
+			(at 2.45 -1.65)
+			(size 1.5 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1)
+			(net "SIG_{NeoPixel}")
+			(pinfunction "DIN_4")
+			(pintype "input")
+			(uuid "27618483-9ce4-40b2-a96f-1e821c6ae09a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(layer "F.Cu")
 		(uuid "2e5a6e16-ac86-4108-9fdd-4bcd4d35e314")
-		(at 16.711452 -33.273947 -22.5)
+		(at 11.711452 -28.273947 -22.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D2"
-			(at 0 -3.5 337.5)
-			(layer "F.SilkS")
+			(at 0 -3.5 -22.5)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "5817919d-b7e0-48c7-8623-86811220041d")
 			(effects
 				(font
@@ -3188,7 +3511,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 337.5)
+			(at 0 4.000001 -22.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cc274016-5e02-42eb-bd23-371381fcaf2c")
 			(effects
@@ -3407,11 +3731,11 @@
 			(layer "F.Fab")
 			(uuid "15f53d5d-7ff7-4205-adc8-a3e17d237193")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 337.5)
+		(fp_text user "1"
+			(at -4 -1.599999 -22.5)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4bf15bbd-ca06-4197-92d9-6186af565b70")
+			(layer "F.Fab")
+			(uuid "24f7c5ce-7d93-4c9e-984a-cb8a03d985c1")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3419,10 +3743,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
-			(at 0 0 337.5)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -22.5)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "24f7c5ce-7d93-4c9e-984a-cb8a03d985c1")
+			(uuid "4bf15bbd-ca06-4197-92d9-6186af565b70")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3486,7 +3811,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2f0a6e7b-86dd-40a4-84ae-e8d32eaf33a1")
-		(at 112.265 14.315)
+		(at 107.265 19.315)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -3644,7 +3969,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "32dd2dd5-f793-41ea-a3c5-22eb69f214ad")
-		(at 103.365 11.305)
+		(at 98.365 16.305)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -3802,7 +4127,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "38f37c83-5a6f-4c71-910e-34dfa1952d58")
-		(at 116.695 17.115)
+		(at 111.695 22.115)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -3960,12 +4285,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "3ba697f2-92cf-4382-8737-f07e75fea3db")
-		(at 33.273947 -16.711452 -67.5)
+		(at 28.273947 -11.711452 -67.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D4"
-			(at 0 -3.5 292.5)
-			(layer "F.SilkS")
+			(at 0 -3.5 -67.5)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "e23f554b-3770-46cc-92a8-c8272210ba5b")
 			(effects
 				(font
@@ -3975,7 +4301,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 292.5)
+			(at 0 4.000001 -67.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aa6d2f4c-de7a-4ec8-9dcd-8ceaf06c2c04")
 			(effects
@@ -4194,11 +4521,11 @@
 			(layer "F.Fab")
 			(uuid "0cd7d465-4209-4812-a1f6-6b9f48127076")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 292.5)
+		(fp_text user "1"
+			(at -4 -1.599999 -67.5)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "11984033-b27f-4587-959e-12d86c3d6009")
+			(layer "F.Fab")
+			(uuid "5d6826e4-d940-4a0e-96da-b93bdc58674b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4206,10 +4533,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
-			(at 0 0 292.5)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -67.5)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5d6826e4-d940-4a0e-96da-b93bdc58674b")
+			(uuid "11984033-b27f-4587-959e-12d86c3d6009")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4273,7 +4601,7 @@
 	(footprint "Connector_FFC-FPC:JUSHUO_AFA07-S12FCA-00_1x12-1MP_P1.0mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3e807122-de94-430c-9636-e16159acdef5")
-		(at 107.215 1.285)
+		(at 102.215 6.285)
 		(descr "JUSHUO FPC connector, 12 bottom-side contacts, 1.0mm pitch, 2.5mm height, SMT, https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFA07-S04FCA-00_C262710.pdf")
 		(tags "jushuo fpc")
 		(property "Reference" "J1"
@@ -4798,7 +5126,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "40bb9b8f-802f-43c3-a33b-47c1c38ce94c")
-		(at 103.365 20.335)
+		(at 98.365 25.335)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -4956,7 +5284,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4583d058-24cf-4333-9841-80845734bab5")
-		(at 98.915 20.335)
+		(at 93.915 25.335)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -5114,12 +5442,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "4a40185e-e80a-4031-8313-14476633f433")
-		(at -16.639942 -26.639942 45)
+		(at -21.639942 -21.639942 45)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D15"
 			(at 0 -3.499999 45)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "f1ed2798-0136-4124-a12e-15bd2577dded")
 			(effects
 				(font
@@ -5130,6 +5459,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 45)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "05d9468d-1f2e-4893-be5a-a56004da88af")
 			(effects
@@ -5348,11 +5678,11 @@
 			(layer "F.Fab")
 			(uuid "78088456-d512-4750-aa20-20e5166012dc")
 		)
-		(fp_text user "${REFERENCE}"
+		(fp_text user "1"
 			(at -4 -1.599999 45)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "49a093f5-5279-4f08-828b-45019db7955d")
+			(layer "F.Fab")
+			(uuid "19f1d366-915b-4163-a4fd-e761ef76565d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5360,10 +5690,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
+		(fp_text user "${REFERENCE}"
 			(at 0 0 45)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "19f1d366-915b-4163-a4fd-e761ef76565d")
+			(uuid "49a093f5-5279-4f08-828b-45019db7955d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5427,7 +5758,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "4c91d019-6c7c-4ad4-b877-55c7b881f9ee")
-		(at -25.777349 37.78591 -36)
+		(at -30.777349 42.78591 -36)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P7"
@@ -5804,7 +6135,7 @@
 	(footprint "@Thrive_footprint_neopixel:ST-12-401FC-G"
 		(layer "F.Cu")
 		(uuid "4ccf6640-0d53-441e-8cd3-fcadc7ad1e34")
-		(at 52 -5 90)
+		(at 47 0 90)
 		(property "Reference" "SW4"
 			(at 0 0 90)
 			(unlocked yes)
@@ -5966,7 +6297,7 @@
 	(footprint "@Thrive_footprint_neopixel:ST-12-401FC-G"
 		(layer "F.Cu")
 		(uuid "4dd99caf-d4b1-42a9-9f29-1fea5fa47509")
-		(at 5 39)
+		(at 0 44)
 		(property "Reference" "SW2"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6126,7 +6457,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "501a6fbb-1e66-4156-9552-befd003e3127")
-		(at 112.265 20.335)
+		(at 107.265 25.335)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C20"
@@ -6284,12 +6615,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "55ad0b02-ad50-47f0-bfa3-b764d17b8984")
-		(at -25.6035 -5 90)
+		(at -30.6035 0 90)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D13"
 			(at 0 -3.5 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "ec7b3619-ce32-4fae-9651-2061a1c96797")
 			(effects
 				(font
@@ -6300,6 +6632,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c28587de-5a12-4b0c-9386-979042d494de")
 			(effects
@@ -6518,11 +6851,11 @@
 			(layer "F.Fab")
 			(uuid "e31f3928-a16b-424a-86fb-a686ab65d017")
 		)
-		(fp_text user "${REFERENCE}"
+		(fp_text user "1"
 			(at -4 -1.6 90)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "08b5aaec-beef-491f-893b-76544d1e9d99")
+			(layer "F.Fab")
+			(uuid "a9508f03-3944-4628-9ed7-12ad3509eca8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6530,10 +6863,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
+		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a9508f03-3944-4628-9ed7-12ad3509eca8")
+			(uuid "08b5aaec-beef-491f-893b-76544d1e9d99")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6597,7 +6931,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "63d8814a-71e4-40fe-98d4-76358bb8412f")
-		(at 116.695 14.165)
+		(at 111.695 19.165)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -6755,12 +7089,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "644fc716-1d89-4344-8dd0-3f2d0a6aec14")
-		(at 5 25.6035 180)
+		(at 0 30.6035 180)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D9"
 			(at 0 -3.5 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "c03d7b44-7a51-41da-8b69-e3d4a22808a4")
 			(effects
 				(font
@@ -6771,6 +7106,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "da6ca474-6a1c-4ebd-b1b8-fa65bd4378c1")
 			(effects
@@ -6990,9 +7326,9 @@
 			(uuid "fae10098-44c3-4c80-a88f-93066754d5a1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.6 180)
+			(at 0 0 180)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8d82a677-c8bc-4cab-874a-15e0eb0dea06")
 			(effects
 				(font
@@ -7002,7 +7338,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 180)
+			(at -4 -1.6 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f4382c8a-4891-4d0e-81e7-91519713046e")
 			(effects
@@ -7068,7 +7405,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "77059e4b-9032-4ac1-9a26-7324f1bbef4c")
-		(at 107.815 11.305)
+		(at 102.815 16.305)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -7226,7 +7563,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "82182a62-2719-4afd-bd17-3eec9f4d1fa6")
-		(at 98.915 11.305)
+		(at 93.915 16.305)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -7384,7 +7721,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "848055f3-d420-4efc-89a0-28f905e98985")
-		(at 112.265 11.305)
+		(at 107.265 16.305)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -7542,7 +7879,7 @@
 	(footprint "@Thrive_footprint_neopixel:ST-12-401FC-G"
 		(layer "F.Cu")
 		(uuid "8be57c39-1872-4570-8aae-d2fc034a9bef")
-		(at 20 39)
+		(at 15 44)
 		(property "Reference" "SW3"
 			(at 0 0 0)
 			(unlocked yes)
@@ -7702,7 +8039,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8cdedaec-0f64-4b19-b993-75a97aa9c73a")
-		(at 116.695 20.065)
+		(at 111.695 25.065)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -7860,7 +8197,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "950d191e-ac91-4607-b7f1-74b5f05a87ac")
-		(at 112.265 17.325)
+		(at 107.265 22.325)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C19"
@@ -8018,12 +8355,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "98255203-0a6d-46d8-be0e-8c6bfcc0f3b4")
-		(at 35.6035 -5 -90)
+		(at 30.6035 0 -90)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D5"
-			(at 0 -3.5 270)
-			(layer "F.SilkS")
+			(at 0 -3.5 -90)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "1f60becf-0081-477d-9739-102446d25351")
 			(effects
 				(font
@@ -8033,7 +8371,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4 270)
+			(at 0 4 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c6e1fe0a-e88d-4e0d-8ad2-4d77f859a1ff")
 			(effects
@@ -8253,9 +8592,9 @@
 			(uuid "6e4b98ca-0972-458d-8316-1f546ee1a2e0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.6 270)
+			(at 0 0 -90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4bc6e7a2-c613-45a2-a067-4f07027d05ef")
 			(effects
 				(font
@@ -8265,7 +8604,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 270)
+			(at -4 -1.6 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "59cd2a4e-1a37-4734-8c97-920b5528f9ae")
 			(effects
@@ -8331,7 +8671,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9c071972-6735-4114-893c-9401542c36da")
-		(at 107.815 14.315)
+		(at 102.815 19.315)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -8489,7 +8829,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9cf0767a-3b06-422e-b293-27828fa3b118")
-		(at 107.815 20.335)
+		(at 102.815 25.335)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -8647,12 +8987,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "9e70400b-399f-4114-a800-144ff8f590df")
-		(at 26.639942 -26.639942 -45)
+		(at 21.639942 -21.639942 -45)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D3"
-			(at 0 -3.499999 315)
-			(layer "F.SilkS")
+			(at 0 -3.499999 -45)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "49ed9d4e-c401-4b87-a618-8e1ae9ff542a")
 			(effects
 				(font
@@ -8662,7 +9003,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 315)
+			(at 0 4.000001 -45)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1de27a92-ce07-49cc-854d-7758d4ecce56")
 			(effects
@@ -8881,11 +9223,11 @@
 			(layer "F.Fab")
 			(uuid "51617b29-8a67-49b5-ac06-4b32b4e5ddaa")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 315)
+		(fp_text user "1"
+			(at -4 -1.599999 -45)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "98046f9e-6b4f-45c4-a391-1fda41bea68b")
+			(layer "F.Fab")
+			(uuid "e41a49c1-625a-41df-96b6-ebedaee7b11e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8893,10 +9235,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
-			(at 0 0 315)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -45)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e41a49c1-625a-41df-96b6-ebedaee7b11e")
+			(uuid "98046f9e-6b4f-45c4-a391-1fda41bea68b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8960,12 +9303,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "a086666a-8215-47c8-8b3a-af61d25b9b94")
-		(at -6.711452 -33.273947 22.5)
+		(at -11.711452 -28.273947 22.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D16"
 			(at 0 -3.5 22.5)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "c7080125-9e5a-4842-bfe2-04cf2dfe4424")
 			(effects
 				(font
@@ -8976,6 +9320,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 22.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aa884bc0-e1bf-497e-bfac-f4f115809e3b")
 			(effects
@@ -9194,11 +9539,11 @@
 			(layer "F.Fab")
 			(uuid "bba1ae14-188e-4f91-9ea3-d7e58a16a051")
 		)
-		(fp_text user "${REFERENCE}"
+		(fp_text user "1"
 			(at -4 -1.599999 22.5)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "1fb4d97a-8499-402d-a85d-e936d1420aaf")
+			(layer "F.Fab")
+			(uuid "4814aa5b-549b-427a-80c3-f55b8460aa51")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9206,10 +9551,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
+		(fp_text user "${REFERENCE}"
 			(at 0 0 22.5)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4814aa5b-549b-427a-80c3-f55b8460aa51")
+			(uuid "1fb4d97a-8499-402d-a85d-e936d1420aaf")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9273,12 +9619,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "a2ca3cd0-51d9-4642-a93c-769face30113")
-		(at -16.639942 16.639942 135)
+		(at -21.639942 21.639942 135)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D11"
 			(at 0 -3.499999 135)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "1701a4b2-6c26-4159-bffe-7eb9fbce58e3")
 			(effects
 				(font
@@ -9289,6 +9636,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 135)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "18feb02f-5c58-4a68-b91a-c4447abd4b8b")
 			(effects
@@ -9508,9 +9856,9 @@
 			(uuid "0729a64e-1365-4693-8db1-541b6a80f127")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 135)
+			(at 0 0 135)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "329c658f-aacf-4d79-8cd5-66fcef43d609")
 			(effects
 				(font
@@ -9520,7 +9868,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 135)
+			(at -4 -1.599999 135)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cc6435df-5acb-4961-8b75-608fdf450446")
 			(effects
@@ -9586,12 +9935,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "a9b5258f-9d9d-4b8d-bfbd-0ec7cfbed226")
-		(at 26.639942 16.639942 -135)
+		(at 21.639942 21.639942 -135)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D7"
-			(at 0 -3.499999 225)
-			(layer "F.SilkS")
+			(at 0 -3.499999 -135)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "04b36b6e-0c55-483f-bfa3-e574457d63d6")
 			(effects
 				(font
@@ -9601,7 +9951,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 225)
+			(at 0 4.000001 -135)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dc819db8-b3b6-40f3-8478-bce9ca6abf17")
 			(effects
@@ -9821,9 +10172,9 @@
 			(uuid "0f0002da-aca8-4b77-bcd1-b59920d3f0ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 225)
+			(at 0 0 -135)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "17b87202-d33a-4ee2-bda5-56af85f8f939")
 			(effects
 				(font
@@ -9833,7 +10184,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 225)
+			(at -4 -1.599999 -135)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "40a85753-2071-4914-8a2f-688440c971e8")
 			(effects
@@ -9899,7 +10251,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "a9fdbd7d-c4f5-4dfc-9252-a510b1e29993")
-		(at 54.4405 13.261386 70)
+		(at 49.4405 18.261386 70)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "P11"
@@ -10119,7 +10471,7 @@
 			(uuid "28935fdc-9ff3-4dde-8f8c-44bc380833d7")
 		)
 		(pad "A9" smd roundrect
-			(at 2.399999 -3.68 70)
+			(at 2.399998 -3.68 70)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10149,7 +10501,7 @@
 			(uuid "ad5f1c6f-16f6-46ce-9d98-8174304c0950")
 		)
 		(pad "B4" smd roundrect
-			(at 2.399999 -3.68 70)
+			(at 2.399998 -3.68 70)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10276,7 +10628,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c4723073-b11b-472e-aa9d-14be6e887a7e")
-		(at 103.365 17.325)
+		(at 98.365 22.325)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -10434,12 +10786,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "c5ed2405-7a93-4b44-947d-76ed985723f5")
-		(at -23.273947 -16.711452 67.5)
+		(at -28.273947 -11.711452 67.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D14"
 			(at 0 -3.5 67.5)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "57b7ff33-5365-46d8-8f87-97878edf37c2")
 			(effects
 				(font
@@ -10450,6 +10803,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 67.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "22c786b0-2411-436f-99d0-c5d21168605b")
 			(effects
@@ -10668,11 +11022,11 @@
 			(layer "F.Fab")
 			(uuid "6ebf069a-35bd-451d-85f4-2d6ea98dca0c")
 		)
-		(fp_text user "${REFERENCE}"
+		(fp_text user "1"
 			(at -4 -1.599999 67.5)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "f447179a-4978-4b0c-acba-f443d031b97c")
+			(layer "F.Fab")
+			(uuid "2477d8d8-f787-4710-85c5-5a8e9dc485b7")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10680,10 +11034,11 @@
 				)
 			)
 		)
-		(fp_text user "1"
+		(fp_text user "${REFERENCE}"
 			(at 0 0 67.5)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2477d8d8-f787-4710-85c5-5a8e9dc485b7")
+			(uuid "f447179a-4978-4b0c-acba-f443d031b97c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10747,7 +11102,7 @@
 	(footprint "@Thrive_footprint_neopixel:ST-12-401FC-G"
 		(layer "F.Cu")
 		(uuid "c6bd7e86-e078-4085-9d8a-1bd66a468c85")
-		(at -10 39)
+		(at -15 44)
 		(property "Reference" "SW1"
 			(at 0 0 0)
 			(unlocked yes)
@@ -10909,7 +11264,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d7a89194-0d0c-4e65-8931-6b4b2fc3167e")
-		(at 98.915 8.295)
+		(at 93.915 13.295)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -11067,12 +11422,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d91f29a0-8a8f-422e-8a8b-f517431aa541")
-		(at -23.273947 6.711452 112.5)
+		(at -28.273947 11.711452 112.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D12"
 			(at 0 -3.5 112.5)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "cc0f51f3-fc6a-468d-9864-f7b26d905ccb")
 			(effects
 				(font
@@ -11083,6 +11439,7 @@
 		)
 		(property "Value" "WS2812B"
 			(at 0 4.000001 112.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1c537268-417f-4b55-b872-9dfef76f878a")
 			(effects
@@ -11302,9 +11659,9 @@
 			(uuid "8d4ec7e3-29f3-4b41-97d1-22170ca0fd0e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 112.5)
+			(at 0 0 112.5)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c40ba208-894c-4749-9554-b92db76ce628")
 			(effects
 				(font
@@ -11314,7 +11671,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 112.5)
+			(at -4 -1.599999 112.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "21e1ab90-198d-4ab2-9a89-4923d26d8c13")
 			(effects
@@ -11380,7 +11738,7 @@
 	(footprint "@Thrive_footprint_neopixel:SSD1306_display_module"
 		(layer "F.Cu")
 		(uuid "df0edb47-50be-467f-9793-be8f7b0545d6")
-		(at -30.28 -5 -90)
+		(at -35.28 0 -90)
 		(property "Reference" "U1"
 			(at 0 -3 270)
 			(unlocked yes)
@@ -11559,7 +11917,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e5d99eb2-0bc8-4e08-aa5b-f5b5cfef2fd8")
-		(at 107.815 8.295)
+		(at 102.815 13.295)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -11717,12 +12075,13 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "e70443c8-a4ce-499e-ac78-407a2e916c41")
-		(at 33.273947 6.711452 -112.5)
+		(at 28.273947 11.711452 -112.5)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D6"
-			(at 0 -3.5 247.5)
-			(layer "F.SilkS")
+			(at 0 -3.5 -112.5)
+			(unlocked yes)
+			(layer "F.Fab")
 			(uuid "0e2c61e8-9317-42a2-8875-77da8758864a")
 			(effects
 				(font
@@ -11732,7 +12091,8 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.000001 247.5)
+			(at 0 4.000001 -112.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c9ba7062-e087-4acf-a3cd-09a0cd30811c")
 			(effects
@@ -11952,9 +12312,9 @@
 			(uuid "129348d9-677a-4c07-b71b-bab218fd95ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -1.599999 247.5)
+			(at 0 0 -112.5)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5f73b247-3811-4299-90d6-a2e26bd7f846")
 			(effects
 				(font
@@ -11964,7 +12324,8 @@
 			)
 		)
 		(fp_text user "1"
-			(at 0 0 247.5)
+			(at -4 -1.599999 -112.5)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "77b793ba-5d80-4559-8dcf-d4ec0ae54adc")
 			(effects
@@ -12030,7 +12391,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e8019a53-c36f-4258-90ac-e7ac80aaa18b")
-		(at 103.365 14.315)
+		(at 98.365 19.315)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -12188,7 +12549,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e99a71f8-c1f4-4843-93c8-27470fd8762a")
-		(at 116.695 8.265)
+		(at 111.695 13.265)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -12343,323 +12704,10 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-		(layer "F.Cu")
-		(uuid "f4a51027-3f0c-4b2a-b2f1-d2c939f76f23")
-		(at 5 -35.6035)
-		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
-		(tags "LED RGB NeoPixel PLCC-4 5050")
-		(property "Reference" "D1"
-			(at 0 -3.5 0)
-			(layer "F.SilkS")
-			(uuid "fdded8c8-3e94-426a-93b4-915d6d362f1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 0 4 0)
-			(layer "F.Fab")
-			(uuid "a80059cf-1699-442d-a585-0bab34182dd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d07a69e1-1221-427c-b71e-5f83469975ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0582549c-1dfc-4d8a-9aec-83244c5f7f36")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
-		(path "/22f5c7a2-9b88-4f5f-8163-c2c649cd1aa1")
-		(sheetname "/")
-		(sheetfile "neopixel-001-20260528.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "1" "3" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.5 -2.75)
-			(end -3.5 2.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "7198e0f4-24fc-46b0-b3c3-22a08085b14f")
-		)
-		(fp_line
-			(start -3.5 -2.75)
-			(end 3.5 -2.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "881b3b20-4be5-460f-b117-e0a8be6bcb27")
-		)
-		(fp_line
-			(start -3.5 2.75)
-			(end 3.05 2.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f56f9e8-62b7-43b9-8852-b04152219a87")
-		)
-		(fp_line
-			(start -2.7 0.9)
-			(end -2.7 -0.9)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a20b0417-73f3-4a08-bbab-c5166c2d6711")
-		)
-		(fp_line
-			(start 2.7 0.9)
-			(end 2.7 -0.9)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e7ef2180-9628-407a-873c-7643d98febcb")
-		)
-		(fp_line
-			(start 3.05 2.75)
-			(end 3.5 2.3)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "c5af3415-d95e-48da-a391-bed3916572e8")
-		)
-		(fp_line
-			(start 3.5 2.3)
-			(end 3.5 -2.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a8adb811-7c71-487b-a173-28702bbf2f8f")
-		)
-		(fp_line
-			(start -3.45 -2.75)
-			(end -3.45 2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4c30b648-b91b-4f9c-83de-c8fa22961197")
-		)
-		(fp_line
-			(start -3.45 2.75)
-			(end 3.45 2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "55dac62e-4d30-4879-8bd2-18a6ed76ad64")
-		)
-		(fp_line
-			(start 3.45 -2.75)
-			(end -3.45 -2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6449294e-f642-4016-88f5-c6103de24593")
-		)
-		(fp_line
-			(start 3.45 2.75)
-			(end 3.45 -2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b93f83ed-9da2-4338-80e9-32f63777686d")
-		)
-		(fp_line
-			(start -2.5 -2.5)
-			(end -2.5 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d67cec06-4784-4081-96fd-4e19662c64da")
-		)
-		(fp_line
-			(start -2.5 2.5)
-			(end 2.5 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "41e996e3-4ee6-4618-bc55-f290a3414fea")
-		)
-		(fp_line
-			(start 2.5 -2.5)
-			(end -2.5 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7ee83d68-206c-446f-8554-93b06d633e1c")
-		)
-		(fp_line
-			(start 2.5 1.5)
-			(end 1.5 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7098057c-3690-4249-b572-71f493a29a52")
-		)
-		(fp_line
-			(start 2.5 2.5)
-			(end 2.5 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "10ac04c0-41d2-4667-83a6-3b7d615e088f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "4fcccb4c-4a55-44c4-b80b-5754c178c1fa")
-		)
-		(fp_text user "1"
-			(at -4 -1.6 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "da940a01-3328-43e5-9384-41657d91b702")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "fcb92d93-ba5a-4f97-b539-8c2fbd02d159")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.45 -1.65)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1)
-			(net "+5V")
-			(pinfunction "VDD_1")
-			(pintype "power_in")
-			(uuid "5f41c21a-99e7-477d-a0c4-4ff7a400c7cd")
-		)
-		(pad "2" smd roundrect
-			(at -2.45 1.65)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1)
-			(net "Net-(D1-DOUT)")
-			(pinfunction "DOUT_2")
-			(pintype "output")
-			(uuid "02e587e5-6c05-4cb4-8bc6-ee0d56230a08")
-		)
-		(pad "3" smd roundrect
-			(at 2.45 1.65)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1)
-			(net "GND")
-			(pinfunction "VSS_3")
-			(pintype "power_in")
-			(uuid "fc003077-ba79-4880-8c83-541be46b7c5d")
-		)
-		(pad "4" smd roundrect
-			(at 2.45 -1.65)
-			(size 1.5 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1)
-			(net "SIG_{NeoPixel}")
-			(pinfunction "DIN_4")
-			(pintype "input")
-			(uuid "2fcb9c4d-1b1b-4508-8c65-88499c21568f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f92d22d7-2efa-4447-a167-4efa3a7871b0")
-		(at 112.265 8.295)
+		(at 107.265 13.295)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C16"
@@ -12815,50 +12863,50 @@
 		)
 	)
 	(gr_line
-		(start -47.679948 13.561083)
-		(end -44.043723 21.72818)
+		(start -52.679948 18.561083)
+		(end -49.043723 26.72818)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "f78c3984-6246-43bc-a4d2-1a29a7030030")
 	)
 	(gr_line
-		(start -44.043723 21.72818)
-		(end -37.968645 19.023381)
+		(start -49.043723 26.72818)
+		(end -42.968645 24.023381)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "6dd9c8b9-6aa9-4433-8aa8-682a62dc4b51")
 	)
 	(gr_line
-		(start -41.604871 10.856284)
-		(end -47.679948 13.561083)
+		(start -46.604871 15.856284)
+		(end -52.679948 18.561083)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "02a27da8-5adb-4a01-922a-015f3a9b7e1c")
 	)
 	(gr_line
-		(start -41.080961 26.563203)
-		(end -35.454836 33.510888)
+		(start -46.080961 31.563203)
+		(end -40.454836 38.510888)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "a0c901db-b4c5-416b-81a6-4d504679e55f")
 	)
 	(gr_circle
-		(center -39.786758 14.939833)
-		(end -41.286758 14.939833)
+		(center -44.786758 19.939833)
+		(end -46.286758 19.939833)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -12866,40 +12914,40 @@
 		(uuid "9558bcd9-2992-40ef-bd0e-8dbb9e949146")
 	)
 	(gr_line
-		(start -37.968645 19.023381)
-		(end -41.604871 10.856284)
+		(start -42.968645 24.023381)
+		(end -46.604871 15.856284)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "de0315c3-1e22-4498-b8bb-9c499d5862e3")
 	)
 	(gr_line
-		(start -35.91294 22.378223)
-		(end -41.080961 26.563203)
+		(start -40.91294 27.378223)
+		(end -46.080961 31.563203)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "2eb0ad98-ddf1-4216-aee3-1654a5c33ca2")
 	)
 	(gr_line
-		(start -35.454836 33.510888)
-		(end -30.286816 29.325908)
+		(start -40.454836 38.510888)
+		(end -35.286816 34.325908)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "a7648315-b5ef-4e69-9318-c6a7be934eef")
 	)
 	(gr_circle
-		(center -33.099878 25.852065)
-		(end -34.599878 25.852065)
+		(center -38.099878 30.852065)
+		(end -39.599878 30.852065)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -12907,30 +12955,30 @@
 		(uuid "673aa12b-cc5d-4642-9eb4-c11998e02ae8")
 	)
 	(gr_line
-		(start -31.341632 37.414344)
-		(end -24.10902 42.669144)
+		(start -36.341632 42.414344)
+		(end -29.10902 47.669144)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "5ca4d5bb-c688-41fd-88cb-8c1e8d6c3806")
 	)
 	(gr_line
-		(start -30.286816 29.325908)
-		(end -35.91294 22.378223)
+		(start -35.286816 34.325908)
+		(end -40.91294 27.378223)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "9f689585-7c9f-4905-a2f8-aa0f4f6e3822")
 	)
 	(gr_circle
-		(center -30.28 -8.81)
-		(end -30.78 -8.81)
+		(center -35.28 -3.81)
+		(end -35.78 -3.81)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -12938,10 +12986,10 @@
 		(uuid "e1f7dd06-ff85-47ec-9427-3088e00971c6")
 	)
 	(gr_circle
-		(center -30.28 -1.19)
-		(end -30.78 -1.19)
+		(center -35.28 3.81)
+		(end -35.78 3.81)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -12949,30 +12997,30 @@
 		(uuid "8989540e-b365-42b3-9f8e-75025f454c84")
 	)
 	(gr_line
-		(start -27.43286 32.034381)
-		(end -31.341632 37.414344)
+		(start -32.43286 37.034381)
+		(end -36.341632 42.414344)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "2d1bfbde-bfb2-4389-a50d-2eeaf6849c9a")
 	)
 	(gr_line
-		(start -24.10902 42.669144)
-		(end -20.200248 37.289181)
+		(start -29.10902 47.669144)
+		(end -25.200248 42.289181)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "7c512fa4-3b67-43ef-bc64-3d022e12ceac")
 	)
 	(gr_circle
-		(center -23.816554 34.661781)
-		(end -25.316554 34.661781)
+		(center -28.816554 39.661781)
+		(end -30.316554 39.661781)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -12980,20 +13028,20 @@
 		(uuid "55ba1c78-d3df-4675-854c-461dfb9048ca")
 	)
 	(gr_line
-		(start -20.200248 37.289181)
-		(end -27.43286 32.034381)
+		(start -25.200248 42.289181)
+		(end -32.43286 37.034381)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "04dd175c-743d-4cef-a83a-42baad67de24")
 	)
 	(gr_circle
-		(center -10 39)
-		(end -13.000001 39)
+		(center -15 44)
+		(end -18.000001 44)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13001,10 +13049,10 @@
 		(uuid "f30254d7-a78d-4b5d-95e2-cf2d329121bf")
 	)
 	(gr_circle
-		(center 5 39)
-		(end 1.999999 39)
+		(center 0 44)
+		(end -3.000001 44)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13012,10 +13060,10 @@
 		(uuid "3ece6029-076c-4d45-b57d-2384568ade41")
 	)
 	(gr_circle
-		(center 20 39)
-		(end 16.999999 39)
+		(center 15 44)
+		(end 11.999999 44)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13023,20 +13071,20 @@
 		(uuid "ee597485-43f8-44f3-822d-c17dff921dda")
 	)
 	(gr_line
-		(start 33.088081 35.428913)
-		(end 37.362619 40.523109)
+		(start 28.088081 40.428913)
+		(end 32.362619 45.523109)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "b84eac7b-f852-464f-a577-aa2ac23e5010")
 	)
 	(gr_circle
-		(center 36.5123 32.555653)
-		(end 35.0123 32.555653)
+		(center 31.5123 37.555653)
+		(end 30.0123 37.555653)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13044,50 +13092,50 @@
 		(uuid "514d3348-0338-4a62-9a91-6692cf420ae6")
 	)
 	(gr_line
-		(start 37.362619 40.523109)
-		(end 44.211056 34.776588)
+		(start 32.362619 45.523109)
+		(end 39.211056 39.776588)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "49ade25e-b7b2-41fe-936a-2f7e8544b5c1")
 	)
 	(gr_line
-		(start 39.936519 29.682392)
-		(end 33.088081 35.428913)
+		(start 34.936519 34.682392)
+		(end 28.088081 40.428913)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "7a9cd807-3d50-465b-845e-4d7a7fae3134")
 	)
 	(gr_line
-		(start 42.594495 26.781349)
-		(end 48.041856 30.595632)
+		(start 37.594495 31.781349)
+		(end 43.041856 35.595632)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "2f6c06a2-566d-436d-a33b-029e184a2c47")
 	)
 	(gr_line
-		(start 44.211056 34.776588)
-		(end 39.936519 29.682392)
+		(start 39.211056 39.776588)
+		(end 34.936519 34.682392)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "6f39770d-4872-44cf-9ce7-d5d731ca95d6")
 	)
 	(gr_circle
-		(center 45.158381 23.119739)
-		(end 43.658381 23.119739)
+		(center 40.158381 28.119739)
+		(end 38.658381 28.119739)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13095,40 +13143,40 @@
 		(uuid "b9970204-aa6d-43ec-9060-b7a2f58159c6")
 	)
 	(gr_line
-		(start 47.722268 19.458129)
-		(end 42.594495 26.781349)
+		(start 42.722268 24.458129)
+		(end 37.594495 31.781349)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "f2eec39d-ee9e-420a-9c83-093b33dd208c")
 	)
 	(gr_line
-		(start 48.041856 30.595632)
-		(end 53.169629 23.272413)
+		(start 43.041856 35.595632)
+		(end 48.169629 28.272413)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "34dd2376-3d3f-445f-9992-3255d1c292a3")
 	)
 	(gr_line
-		(start 49.539106 15.968255)
-		(end 55.788062 18.242689)
+		(start 44.539106 20.968255)
+		(end 50.788062 23.242689)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "0d85da6e-9e93-4ed3-b88c-485b23d34cdf")
 	)
 	(gr_circle
-		(center 51.067936 11.767829)
-		(end 49.567936 11.767829)
+		(center 46.067936 16.767829)
+		(end 44.567936 16.767829)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13136,10 +13184,10 @@
 		(uuid "eddb19c7-6b87-4ef8-8e37-f6ca6f8d8564")
 	)
 	(gr_circle
-		(center 52 -5)
-		(end 49 -5)
+		(center 47 0)
+		(end 44 0)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13147,50 +13195,50 @@
 		(uuid "7b55f9f0-8a76-4a5b-8b2c-51910e699837")
 	)
 	(gr_line
-		(start 52.596766 7.567403)
-		(end 49.539106 15.968255)
+		(start 47.596766 12.567403)
+		(end 44.539106 20.968255)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "da004e26-204a-4b5c-ac74-7583e16c9241")
 	)
 	(gr_line
-		(start 53.169629 23.272413)
-		(end 47.722268 19.458129)
+		(start 48.169629 28.272413)
+		(end 42.722268 24.458129)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "eb2cc5e9-46d2-4d2f-941d-f80f6d4ac2d1")
 	)
 	(gr_line
-		(start 55.788062 18.242689)
-		(end 58.845722 9.841837)
+		(start 50.788062 23.242689)
+		(end 53.845722 14.841837)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "5500ee45-3157-476a-b3a7-aac85c3b2001")
 	)
 	(gr_line
-		(start 58.845722 9.841837)
-		(end 52.596766 7.567403)
+		(start 53.845722 14.841837)
+		(end 47.596766 12.567403)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Cmts.User")
 		(uuid "0abb2c74-e4a3-4b94-bf3d-e575f86590b5")
 	)
 	(gr_circle
-		(center -24.201389 -34.201389)
-		(end -25.801389 -34.201389)
+		(center -29.201389 -29.201389)
+		(end -30.801389 -29.201389)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13198,10 +13246,10 @@
 		(uuid "fe7cbbe0-4f95-4dcb-89c0-e8efb24af3e2")
 	)
 	(gr_circle
-		(center -24.201389 24.201389)
-		(end -25.801389 24.201389)
+		(center -29.201389 29.201389)
+		(end -30.801389 29.201389)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13209,9 +13257,9 @@
 		(uuid "fc9296dc-4058-41f3-81b5-76c20e6ce22f")
 	)
 	(gr_arc
-		(start -7.975409 -0.29774)
-		(mid -9.146982 -3.126167)
-		(end -7.975409 -5.954594)
+		(start -12.975409 4.70226)
+		(mid -14.146982 1.873833)
+		(end -12.975409 -0.954594)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13220,8 +13268,8 @@
 		(uuid "9111e9b0-7139-40b4-8a38-e4f678573df6")
 	)
 	(gr_line
-		(start -7.975409 -0.29774)
-		(end 0.29774 7.975409)
+		(start -12.975409 4.70226)
+		(end -4.70226 12.975409)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13230,8 +13278,8 @@
 		(uuid "c9f1590f-0d26-4eb6-9b96-d4987fe4ae87")
 	)
 	(gr_line
-		(start 4.045406 -17.975409)
-		(end -7.975409 -5.954594)
+		(start -0.954594 -12.975409)
+		(end -12.975409 -0.954594)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13240,9 +13288,9 @@
 		(uuid "9b363a74-5a87-436f-92e1-d372b417b266")
 	)
 	(gr_arc
-		(start 4.045406 -17.975409)
-		(mid 6.873833 -19.146982)
-		(end 9.70226 -17.975409)
+		(start -0.954594 -12.975409)
+		(mid 1.873833 -14.146982)
+		(end 4.70226 -12.975409)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13251,10 +13299,10 @@
 		(uuid "aa0c657c-0339-458c-a45b-ef20374462c4")
 	)
 	(gr_circle
-		(center 5 -5)
-		(end -52.125965 -5)
+		(center 0 0)
+		(end -57.125965 0)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13262,8 +13310,8 @@
 		(uuid "30aa8673-9853-45ea-bcc5-54a504e72a38")
 	)
 	(gr_circle
-		(center 5 -5)
-		(end 4.99 -5)
+		(center 0 0)
+		(end -0.01 0)
 		(stroke
 			(width 0.0001)
 			(type default)
@@ -13273,9 +13321,9 @@
 		(uuid "8e5ff239-5624-4f6d-8e8a-48a436ff5123")
 	)
 	(gr_arc
-		(start 5.954594 7.975409)
-		(mid 3.126167 9.146982)
-		(end 0.29774 7.975409)
+		(start 0.954594 12.975409)
+		(mid -1.873833 14.146982)
+		(end -4.70226 12.975409)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13284,8 +13332,8 @@
 		(uuid "3c2bcc9f-0ed9-4060-946e-5427d4663f04")
 	)
 	(gr_line
-		(start 5.954594 7.975409)
-		(end 17.975409 -4.045406)
+		(start 0.954594 12.975409)
+		(end 12.975409 0.954594)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13294,8 +13342,8 @@
 		(uuid "218acdc2-04d9-4dc2-a914-cae6e4e37c94")
 	)
 	(gr_line
-		(start 17.975409 -9.70226)
-		(end 9.70226 -17.975409)
+		(start 12.975409 -4.70226)
+		(end 4.70226 -12.975409)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13304,9 +13352,9 @@
 		(uuid "0d23867c-c8e5-4351-b783-f860aef9ef34")
 	)
 	(gr_arc
-		(start 17.975409 -9.70226)
-		(mid 19.146982 -6.873833)
-		(end 17.975409 -4.045406)
+		(start 12.975409 -4.70226)
+		(mid 14.146982 -1.873833)
+		(end 12.975409 0.954594)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13315,52 +13363,52 @@
 		(uuid "f68ffa88-a9d7-4d54-8f6b-e372d7bc1ba4")
 	)
 	(gr_arc
-		(start 25.682873 27.350135)
-		(mid 24.5113 24.521708)
-		(end 25.682873 21.693281)
+		(start 20.682873 32.350135)
+		(mid 19.5113 29.521708)
+		(end 20.682873 26.693281)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "19cdce34-99e5-4580-adf4-811963487548")
 	)
 	(gr_line
-		(start 25.682873 27.350135)
-		(end 29.324473 30.991735)
+		(start 20.682873 32.350135)
+		(end 24.324473 35.991735)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "0303be41-86a9-40a7-898c-2f38846cd85a")
 	)
 	(gr_line
-		(start 31.693281 15.682873)
-		(end 25.682873 21.693281)
+		(start 26.693281 20.682873)
+		(end 20.682873 26.693281)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d67cfd41-826b-4ae1-a548-6171495f7fc5")
 	)
 	(gr_arc
-		(start 31.693281 15.682873)
-		(mid 34.521708 14.5113)
-		(end 37.350135 15.682873)
+		(start 26.693281 20.682873)
+		(mid 29.521708 19.5113)
+		(end 32.350135 20.682873)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "31199960-6054-4aeb-a5bd-5d13e5f0d18b")
 	)
 	(gr_circle
-		(center 34.201389 -34.201389)
-		(end 32.601389 -34.201389)
+		(center 29.201389 -29.201389)
+		(end 27.601389 -29.201389)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -13368,42 +13416,42 @@
 		(uuid "2fcd16d2-0946-41e3-9386-6f134bc6a5ae")
 	)
 	(gr_arc
-		(start 34.981328 30.991735)
-		(mid 32.152901 32.163308)
-		(end 29.324473 30.991735)
+		(start 29.981328 35.991735)
+		(mid 27.152901 37.163308)
+		(end 24.324473 35.991735)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "6cad396f-fb74-47ca-8b68-5958a35564b6")
 	)
 	(gr_line
-		(start 34.981328 30.991735)
-		(end 40.991735 24.981328)
+		(start 29.981328 35.991735)
+		(end 35.991735 29.981328)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "eebaad57-b72d-4886-b2a3-6468f4f2ac12")
 	)
 	(gr_line
-		(start 40.991735 19.324473)
-		(end 37.350135 15.682873)
+		(start 35.991735 24.324473)
+		(end 32.350135 20.682873)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e385be2c-ef26-4a13-8fae-82b2461cefe1")
 	)
 	(gr_arc
-		(start 40.991735 19.324473)
-		(mid 42.163308 22.152901)
-		(end 40.991735 24.981328)
+		(start 35.991735 24.324473)
+		(mid 37.163308 27.152901)
+		(end 35.991735 29.981328)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
