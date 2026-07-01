@@ -7090,7 +7090,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT4}"
+	(global_label "SW_{START}"
 		(shape output)
 		(at 144.78 90.17 0)
 		(fields_autoplaced yes)
@@ -7102,7 +7102,7 @@
 		)
 		(uuid "62e83832-7d81-480b-8cd4-7323b5dcad34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.776 90.17 0)
+			(at 154.0282 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7186,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT4}"
+	(global_label "SW_{START}"
 		(shape input)
 		(at 187.96 55.88 0)
 		(fields_autoplaced yes)
@@ -7198,7 +7198,7 @@
 		)
 		(uuid "9ff99d8e-cde6-4483-bccb-4f0e9e1d3172")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.7144 55.88 0)
+			(at 197.2082 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

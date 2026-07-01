@@ -6358,7 +6358,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 82.55) (xy 71.12 85.09)
+			(xy 64.77 81.28) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6508,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 87.63) (xy 71.12 90.17)
+			(xy 64.77 86.36) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8468,7 +8468,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 71.12 85.09)
+			(xy 64.77 83.82) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10638,7 +10638,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 71.12 87.63)
+			(xy 64.77 86.36) (xy 67.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13296,7 +13296,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT4}"
+	(global_label "SW_{START}"
 		(shape output)
 		(at 33.02 109.22 0)
 		(fields_autoplaced yes)
@@ -13308,7 +13308,7 @@
 		)
 		(uuid "fd8ccce8-55e0-4b7a-958b-0b9767ddc26c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7744 109.22 0)
+			(at 42.2682 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18346,8 +18346,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 63.5 85.09 0)
-		(mirror y)
+		(at 72.39 86.36 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18358,7 +18358,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cba1858-957a-403b-a31c-0623cba0c61e")
 		(property "Reference" "J4"
-			(at 64.135 80.01 0)
+			(at 71.755 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18368,7 +18368,7 @@
 			)
 		)
 		(property "Value" "Conn_Power"
-			(at 64.135 82.55 0)
+			(at 71.755 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18378,7 +18378,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 63.5 85.09 0)
+			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18389,7 +18389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 85.09 0)
+			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18400,7 +18400,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 63.5 85.09 0)
+			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23904,7 +23904,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 90.17 0)
+		(at 64.77 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23915,7 +23915,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4661aa4-d817-4dc0-acb5-ebc184812fb9")
 		(property "Reference" "#PWR041"
-			(at 71.12 96.52 0)
+			(at 64.77 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23926,7 +23926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 95.25 0)
+			(at 64.77 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23936,7 +23936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 90.17 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23947,7 +23947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 90.17 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,7 +23958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 90.17 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27286,7 +27286,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 82.55 0)
+		(at 64.77 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27297,7 +27297,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5ca68e6-0efd-40c7-8f82-06a30582c26a")
 		(property "Reference" "#PWR040"
-			(at 71.12 86.36 0)
+			(at 64.77 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27308,7 +27308,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 71.12 77.47 0)
+			(at 64.77 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27318,7 +27318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 82.55 0)
+			(at 64.77 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27329,7 +27329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 82.55 0)
+			(at 64.77 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27340,7 +27340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 82.55 0)
+			(at 64.77 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
