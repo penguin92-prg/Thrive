@@ -249,7 +249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_main:DEV-16771"
 			(at 6.35 -50.8 0)
 			(show_name no)
 			(do_not_autoplace no)

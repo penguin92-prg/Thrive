@@ -61,19 +61,6 @@
 				)
 			)
 		)
-		(symbol "LM393DR_0_1"
-			(rectangle
-				(start -5.08 -1.27)
-				(end 5.08 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LM393DR_1_1"
 			(pin passive line
 				(at -7.62 -2.54 0)
