@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BP5293-33"
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,8 +63,8 @@
 		)
 		(symbol "BP5293-33_1_1"
 			(rectangle
-				(start -3.81 0)
-				(end 3.81 -10.16)
+				(start -6.35 0)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
@@ -74,7 +74,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
+				(at -3.81 -11.43 90)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -92,7 +92,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -7.62 0)
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -110,7 +110,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -5.08 180)
+				(at 3.81 -11.43 90)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -137,7 +137,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -146,8 +146,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "OKL-T/6-W12N-C"
+			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -156,7 +156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:OKL-T6-W12N-C"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

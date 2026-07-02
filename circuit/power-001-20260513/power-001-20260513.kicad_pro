@@ -241,7 +241,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -416,7 +416,7 @@
         "uuid": "d54cd6d9-a65b-4f01-a2a7-b95d40372036"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1,#PWR1-31,R1-20,J1-6,BZ1,C1-13,F1,Q1-2,SW1-4,U1-6,TP1-5",
     "variants": []
   },
   "sheets": [
