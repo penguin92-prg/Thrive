@@ -32,5 +32,5 @@
 |008|DRV8874PWPR|1|OWN|ドリブラー制御用MD|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
 |009|NJL7502L|1|OWN|ボール補足用フォトトランジスタ|[秋月電子](https://akizukidenshi.com/catalog/g/g102325/)|
 |010|OSR5JA3Z74A|1|OWN|ボール補足用LED|[秋月電子](https://akizukidenshi.com/catalog/g/g111577/)|
-|011|ピンヘッダ 02x05|1|OWN||[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
+|011|ピンヘッダ 02x05|1|OWN|供給基板との接続|[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
 |012|B2B-XH-A|4|OWN|前ドリブラー/ソレノイド-Stroke/ソレノイド-Chip/コンデンサ基板|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
