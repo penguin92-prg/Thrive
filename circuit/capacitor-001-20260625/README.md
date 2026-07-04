@@ -11,7 +11,7 @@
 
 ## 使用部品
 
-|No.|Name|QTY|Assembled By|Note|URL|
-|---|---|---|---|---|---|
-|001|ルビコンPX 1000μF 50V|4|OWN|昇圧済み電源の蓄電用|[秋月電子](https://akizukidenshi.com/catalog/g/g113081/)|
-|002|B2B-XH-A|1|OWN|キッカー基板との接続用|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
+|No.|Ref.|Name|QTY|Assembled By|Note|URL|
+|---|---|---|---|---|---|---|
+|001|C1/C2/C3/C4|ルビコンPX 1000μF 50V|4|OWN|昇圧済み電源の蓄電用|[秋月電子](https://akizukidenshi.com/catalog/g/g113081/)|
+|002|J1|B2B-XH-A|1|OWN|サブ基板との接続用|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
