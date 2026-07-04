@@ -20,17 +20,21 @@
 
 ## 使用部品
 
-|No.|Name|QTY|Assembled By|Note|URL|
-|---|---|---|---|---|---|
-|001|XL6009E1|1|OWN|昇圧素子|[謎](https://mega-radiodetali.com.ua/uploads/files_predprenimatel/XL6009E1.pdf)|
-|002|BSS138|1|OWN|昇圧素子への給電EN用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
-|003|TJ15S06M3L|1|OWN|昇圧素子への給電EN用PMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117253/)|
-|004|MTB010N06RJ3|2|OWN|ソレノイドスイッチング用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117074/)|
-|005|TLP2361|3|OWN|フォトカプラ|[秋月電子](https://akizukidenshi.com/catalog/g/g111004/)|
-|006|74AHC1G04W5|5|OWN|NOTゲート（インバータ）|[秋月電子](https://akizukidenshi.com/catalog/g/g117602/)|
-|007|74AHC1G08W5|2|OWN|ANDゲート|[秋月電子](https://akizukidenshi.com/catalog/g/g117603/)|
-|008|DRV8874PWPR|1|OWN|ドリブラー制御用MD|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
-|009|NJL7502L|1|OWN|ボール補足用フォトトランジスタ|[秋月電子](https://akizukidenshi.com/catalog/g/g102325/)|
-|010|OSR5JA3Z74A|1|OWN|ボール補足用LED|[秋月電子](https://akizukidenshi.com/catalog/g/g111577/)|
-|011|ピンヘッダ 02x05|1|OWN|供給基板との接続|[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
-|012|B2B-XH-A|4|OWN|前ドリブラー/ソレノイド-Stroke/ソレノイド-Chip/コンデンサ基板|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
+|No.|Ref.|Name|QTY|Assembled By|Note|URL|
+|---|---|---|---|---|---|---|
+|001|U3|XL6009E1|1|OWN|昇圧素子|[謎](https://mega-radiodetali.com.ua/uploads/files_predprenimatel/XL6009E1.pdf)|
+|002|Q1|BSS138|1|OWN|昇圧素子への給電EN用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
+|003|Q2|TJ15S06M3L|1|OWN|昇圧素子への給電EN用PMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117253/)|
+|004|Q4/Q5|MTB010N06RJ3|2|OWN|ソレノイドスイッチング用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117074/)|
+|005|U2/U9/U10|TLP2361|3|OWN|フォトカプラ|[秋月電子](https://akizukidenshi.com/catalog/g/g111004/)|
+|006|U1/U4/U5/U7/U8|74AHC1G04W5|5|OWN|NOTゲート（インバータ）|[秋月電子](https://akizukidenshi.com/catalog/g/g117602/)|
+|007|U11/U12|74AHC1G08W5|2|OWN|ANDゲート|[秋月電子](https://akizukidenshi.com/catalog/g/g117603/)|
+|008|U6|DRV8874PWPR|1|OWN|ドリブラー制御用MD|[DigiKey](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8874PWPR/11502339)|
+|009|Q3|NJL7502L|1|OWN|ボール補足用フォトトランジスタ|[秋月電子](https://akizukidenshi.com/catalog/g/g102325/)|
+|010|D1|OSR5JA3Z74A|1|OWN|ボール補足用LED|[秋月電子](https://akizukidenshi.com/catalog/g/g111577/)|
+|011|J4|ピンヘッダ 02x05|1|OWN|供給基板との接続|[秋月電子](https://akizukidenshi.com/catalog/g/g100168/)|
+|012|J1/J2/J3/J6|B2B-XH-A|4|OWN|前ドリブラー/ソレノイド-Stroke/ソレノイド-Chip/コンデンサ基板|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
+|013|D2|CUHS20F60|1|OWN|昇圧素子用ダイオード|[秋月電子](https://akizukidenshi.com/catalog/g/g116782/)|
+|014|L1|SRC1317|1|OWN|昇圧素子用インダクタ|[秋月電子](https://akizukidenshi.com/catalog/g/g116276/)|
+|015|D3|OSR50603C1E|1|OWN|VCC確認用赤色LED|[秋月電子](https://akizukidenshi.com/catalog/g/g108274/)|
+|016|D4|OSG50603C1E|1|OWN|LGC確認用緑色LED|[秋月電子](https://akizukidenshi.com/catalog/g/g108275/)|
