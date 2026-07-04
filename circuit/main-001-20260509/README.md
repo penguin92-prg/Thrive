@@ -14,7 +14,7 @@
 
 |No.|Ref.|Name|QTY|Assembled By|Note|URL|
 |---|---|---|---|---|---|---|
-|001|U1|Teensy4.1|1|OWN|側面の24ピン×2に加えてSDスロット側の5ピンのうち2ピンもつける必要アリ|[PJRC](https://www.pjrc.com/store/teensy41.html)|
+|001|U1|Teensy4.1|1|OWN|側面の24ピン×2に加えてSDスロット側の5ピンのうち2ピンもつける必要アリ|[PJRC](https://www.pjrc.com/store/teensy41.html)[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
 |002|U2|BNO055 Module|1|OWN||[秋月電子](https://akizukidenshi.com/catalog/g/g116996/)|
 |003|J1|ピンヘッダ 02x09|1|OWN|基板カッターで02x09に加工する必要がある|[秋月電子](https://akizukidenshi.com/catalog/g/g100082/)|
 |004|Q1/Q2|BSS138|2|OWN|UART通信のレベル変換用|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
