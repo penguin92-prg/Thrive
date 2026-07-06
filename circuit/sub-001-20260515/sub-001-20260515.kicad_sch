@@ -4614,7 +4614,7 @@
 		)
 		(uuid "2d2f17af-8ed1-4ae2-a39b-507e693f0656")
 	)
-	(text_box "Regulator_{3.3V}"
+	(text_box "3-terminal regulator | 3.3V"
 		(exclude_from_sim no)
 		(at 85.09 66.04 0)
 		(size 38.1 57.15)
@@ -4634,7 +4634,7 @@
 		)
 		(uuid "54d57917-c4c5-462d-96e9-000f6805b2dc")
 	)
-	(text_box "Linear-Regulator"
+	(text_box "3-terminal regulator | 3.3V | UnitV"
 		(exclude_from_sim no)
 		(at 12.7 241.3 0)
 		(size 213.36 43.18)
@@ -4768,7 +4768,7 @@
 		)
 		(effects
 			(font
-				(face "游ゴシック")
+				(face "ヒラギノ丸ゴ Pro W4")
 				(size 1.27 1.27)
 				(bold yes)
 			)
@@ -17356,7 +17356,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LM1117GS-3.3"
 			(at 35.56 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18039,7 +18039,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LM1117GS-3.3"
 			(at 157.48 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19003,7 +19003,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LM1117GS-3.3"
 			(at 198.12 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21667,7 +21667,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LM1117GS-3.3"
 			(at 76.2 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21997,7 +21997,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LM1117GS-3.3"
 			(at 116.84 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
