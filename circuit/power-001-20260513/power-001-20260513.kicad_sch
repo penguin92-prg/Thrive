@@ -4799,6 +4799,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 121.92) (xy 182.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281a2a96-2cb7-49fd-aa38-24e76bd61183")
+	)
+	(wire
+		(pts
 			(xy 226.06 76.2) (xy 223.52 76.2)
 		)
 		(stroke
@@ -5006,16 +5016,6 @@
 			(type default)
 		)
 		(uuid "4a417b67-d2cf-48c3-b461-147b477c92be")
-	)
-	(wire
-		(pts
-			(xy 182.88 121.92) (xy 172.72 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aeaed14-52c0-4014-92a9-853984f20656")
 	)
 	(wire
 		(pts
@@ -13077,8 +13077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 187.96 119.38 0)
-		(mirror y)
+		(at 187.96 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13088,7 +13087,7 @@
 		(dnp no)
 		(uuid "d11f4346-ee77-48f2-a8ca-2101c0a72d45")
 		(property "Reference" "J4"
-			(at 187.325 114.3 0)
+			(at 187.325 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13098,7 +13097,7 @@
 			)
 		)
 		(property "Value" "Logic"
-			(at 187.325 116.84 0)
+			(at 187.325 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13108,7 +13107,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 187.96 119.38 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13119,7 +13118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 119.38 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,7 +13129,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 187.96 119.38 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
