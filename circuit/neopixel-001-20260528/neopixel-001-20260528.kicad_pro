@@ -648,7 +648,7 @@
         "uuid": "163e31e7-3488-4c4d-a829-8b8c51ff0d49"
       }
     ],
-    "used_designators": "C18-20,R5-10,SW1-4",
+    "used_designators": "MES1,C18-20,#PWR28-33,J2-3,R5-10,SW1-4",
     "variants": []
   },
   "sheets": [

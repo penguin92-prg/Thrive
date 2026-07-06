@@ -1,6 +1,6 @@
-# [基板名] [バージョン番号]
+# ネオピクセル基板 001
 
-[基板名] ver.[バージョン番号]のREADME
+ネオピクセル基板 ver.001のREADME
 
 ## 設計者
 - @penguin92-prg
@@ -14,23 +14,16 @@
 
 |No.|Ref.|Name|QTY|Assembled By|Note|URL|
 |---|---|---|---|---|---|---|
-|001|||||||
-|002|||||||
-|003|||||||
-|004|||||||
-|005|||||||
-|006|||||||
-|007|||||||
-|008|||||||
-|009|||||||
-|010|||||||
-|011|||||||
-|012|||||||
-|013|||||||
-|014|||||||
-|015|||||||
-|016|||||||
-|017|||||||
-|018|||||||
-|019|||||||
-|020|||||||
+|001||WS2812B|32|OWN|NeoPixel|[秋月電子](https://akizukidenshi.com/catalog/g/g107915/)|
+|002||Capacitor 100nF|32|JLCPCB|WS2812B用バイパスコンデンサ||
+|003|SW|ST12-401FCG|4|OWN|タクトスイッチ・赤色LED内蔵|[秋月電子](https://akizukidenshi.com/catalog/g/g102010/)|
+|004||Capacitor 100nF|4|JLCPCB|スイッチ用||
+|005||Resister 10kΩ|4|JLCPCB|スイッチ用||
+|006||Resister 330Ω|4|JLCPCB|スイッチ用||
+|007||ピンヘッダ 01x12|1|OWN|サブ基板との接続|[秋月電子](https://akizukidenshi.com/catalog/g/g100167/)|
+|008||SSD1306|1|OWN|ディスプレイ・端を切る必要あり|[秋月電子](https://akizukidenshi.com/catalog/g/g112031/)|
+|009||Resister 1kΩ|2|JLCPCB|SSD1306用プルアップ抵抗||
+|010||USB Type-C Horizontal|6|OWN||[秋月電子](https://akizukidenshi.com/catalog/g/g114356)|
+|011||USB Type-C Vertical|6|JLCPCB|||
+|012||電圧計(~50V)|1|OWN||[Amazon]()|
+|013||B2B-XH-A|2|OWN|電圧計用|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
