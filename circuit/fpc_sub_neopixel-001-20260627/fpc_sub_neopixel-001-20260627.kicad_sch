@@ -5,7 +5,7 @@
 	(uuid "86b77088-d03c-4808-8390-6a823c447fd1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x10_Pin"
+		(symbol "Connector:Conn_01x12_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x10_Pin"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x12_Pin"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x10, script generated"
+			(property "Description" "Generic connector, single row, 01x12, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,7 +100,18 @@
 					)
 				)
 			)
-			(symbol "Conn_01x10_Pin_1_1"
+			(symbol "Conn_01x12_Pin_1_1"
+				(rectangle
+					(start 0.8636 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 10.287)
 					(end 0 10.033)
@@ -209,6 +220,29 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy 0.8636 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -331,8 +365,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 0.8636 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -350,7 +396,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 10.16 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -368,7 +414,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -386,7 +432,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -404,7 +450,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -422,7 +468,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -440,7 +486,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -458,7 +504,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -476,7 +522,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 180)
+					(at 5.08 -7.62 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -494,7 +540,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 -10.16 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -504,6 +550,42 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,6 +616,16 @@
 			(type default)
 		)
 		(uuid "15f8674f-9ce6-49cc-9bab-234740edcbb2")
+	)
+	(wire
+		(pts
+			(xy 38.1 55.88) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0806b1-d065-4e7c-bdf0-ac7d080afb08")
 	)
 	(wire
 		(pts
@@ -577,6 +669,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 53.34) (xy 43.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a78128-e4d3-42cb-9baf-ce810812e78b")
+	)
+	(wire
+		(pts
 			(xy 43.18 40.64) (xy 38.1 40.64)
 		)
 		(stroke
@@ -616,8 +718,8 @@
 		(uuid "ff5b1d37-dac0-4230-997c-4a745c754a14")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x10_Pin")
-		(at 33.02 38.1 0)
+		(lib_id "Connector:Conn_01x12_Pin")
+		(at 33.02 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -626,7 +728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14564315-69a0-4a6f-a4b8-1e6c4675f47c")
+		(uuid "32df33a2-fa1c-482a-81d7-230ade2c0ef4")
 		(property "Reference" "J1"
 			(at 33.655 22.86 0)
 			(show_name no)
@@ -647,8 +749,8 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_fpc_sub_neopixel:AFC01-S10FCA-00"
-			(at 33.02 38.1 0)
+		(property "Footprint" "@Thrive_footprint_fpc_sub_neopixel:AFC01-S12FCA-00"
+			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -659,7 +761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -669,8 +771,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 33.02 38.1 0)
+		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -679,36 +781,42 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "aa15516c-434b-4c24-8bc9-b1ed2b676a56")
-		)
-		(pin "3"
-			(uuid "f9ade1d3-85e7-41c0-88c3-7cf460dd248a")
-		)
-		(pin "6"
-			(uuid "c0828782-e35b-4146-9861-2f45d4942052")
-		)
-		(pin "5"
-			(uuid "af4bc3fb-c358-454a-bbb2-8a83990c6005")
-		)
-		(pin "9"
-			(uuid "520a3157-27f9-4985-b855-44034af2cfa4")
 		)
 		(pin "1"
-			(uuid "2ddc29ab-64a7-4d48-9d2e-91e02c1eee44")
+			(uuid "2e2a3fe2-6af5-4e15-9a23-0390a8909cec")
 		)
-		(pin "2"
-			(uuid "d5c4f771-f2f5-4fd3-9a4d-a4ffbe533558")
+		(pin "12"
+			(uuid "04d22d66-e18c-47a5-8cc0-ba944e39b32e")
 		)
-		(pin "7"
-			(uuid "e5f64d37-2c6c-4f9a-b6fc-4066c75d83a6")
+		(pin "3"
+			(uuid "f85993f8-bf7f-4d1d-b04a-88c87d450fdc")
+		)
+		(pin "6"
+			(uuid "df499895-3342-4666-b70a-61caeee26ee4")
+		)
+		(pin "4"
+			(uuid "b039be38-b5a6-422f-9c6c-7920e99ab904")
+		)
+		(pin "5"
+			(uuid "0ca5e78f-ef9d-4861-bb48-bd26c9007d5e")
 		)
 		(pin "8"
-			(uuid "8305f062-916e-4ce1-ae76-6f7dfbd8b93a")
+			(uuid "73e5ca7a-f175-4846-800a-a01a91718063")
 		)
 		(pin "10"
-			(uuid "ec8a546e-e748-47e7-9251-20aab6e720e7")
+			(uuid "68bdef81-f22d-4243-9b22-e1157bbe655b")
+		)
+		(pin "7"
+			(uuid "bf7c545c-2569-43c2-bc2f-72fd43971ba7")
+		)
+		(pin "9"
+			(uuid "f8919c62-1302-403e-907c-d8d6b330f8e6")
+		)
+		(pin "2"
+			(uuid "90d42cb9-e08b-415a-8808-29b0de370c1c")
+		)
+		(pin "11"
+			(uuid "f6ee858b-6d32-48fd-ab8e-b7243326ef17")
 		)
 		(instances
 			(project "fpc_sub_neopixel-001-20260627"
@@ -720,8 +828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x10_Pin")
-		(at 48.26 40.64 180)
+		(lib_id "Connector:Conn_01x12_Pin")
+		(at 48.26 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -729,9 +837,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "72e18300-c8cb-4893-a43b-0a9064e7b67d")
+		(uuid "d3d8a29c-7017-4f85-b284-31d07f7874b3")
 		(property "Reference" "J2"
-			(at 47.625 55.88 0)
+			(at 47.625 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -741,7 +849,7 @@
 			)
 		)
 		(property "Value" "Conn_NeoPixel"
-			(at 47.625 53.34 0)
+			(at 47.625 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -750,8 +858,8 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_fpc_sub_neopixel:AFC01-S10FCA-00"
-			(at 48.26 40.64 0)
+		(property "Footprint" "@Thrive_footprint_fpc_sub_neopixel:AFC01-S12FCA-00"
+			(at 48.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -762,7 +870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 40.64 0)
+			(at 48.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -772,8 +880,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 48.26 40.64 0)
+		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 48.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,36 +890,42 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "2ac3b82c-6a2d-4a19-bdc2-f6c154050797")
-		)
-		(pin "3"
-			(uuid "7b09e7d0-e56d-4d22-be16-38e9f8db9f1f")
-		)
-		(pin "6"
-			(uuid "e6954972-da3a-48ab-a1a3-d8f6183bad0e")
-		)
-		(pin "5"
-			(uuid "46a37450-348d-463e-bb1d-ba13519ecc4e")
-		)
-		(pin "9"
-			(uuid "e0526480-3910-4424-804e-7ecd6f633f82")
 		)
 		(pin "1"
-			(uuid "31ce2a41-f7a2-40f5-811d-07b53c3e7973")
+			(uuid "12b7b108-ebf6-46ae-95c5-e8f80f311d19")
 		)
-		(pin "2"
-			(uuid "8e977a24-b91f-49eb-b4a3-f7d862d80b96")
+		(pin "12"
+			(uuid "10f96b0f-6602-4c27-b61a-6b27b0c48c9e")
 		)
-		(pin "7"
-			(uuid "9f4b8152-4079-4673-8198-ffb3dae1da2c")
+		(pin "3"
+			(uuid "3dd3cb80-28a7-4353-88fb-f9b4cf986d45")
+		)
+		(pin "6"
+			(uuid "5ec58c20-c173-4cbc-9c75-05f737bf4c32")
+		)
+		(pin "4"
+			(uuid "f6dc252f-e80e-44fa-b22a-9e29e90fc74c")
+		)
+		(pin "5"
+			(uuid "6dc6e411-fbc2-4e0f-aa27-efa2ec8fdd5c")
 		)
 		(pin "8"
-			(uuid "ed9d8a94-7634-4b97-92cd-9cbcafc3273f")
+			(uuid "4be49dd5-415a-4fed-b07b-e1efa5c35d91")
 		)
 		(pin "10"
-			(uuid "29ea7c68-ea1b-44a5-9c31-59ab5e42934f")
+			(uuid "1c95a224-e33d-41f8-9075-cb63473710ef")
+		)
+		(pin "7"
+			(uuid "60573430-60b8-4e86-a7f4-bf7eeab30811")
+		)
+		(pin "9"
+			(uuid "3e6bfc66-df2c-4d33-8dfa-ec9b055f6c30")
+		)
+		(pin "2"
+			(uuid "1664d72d-6a6c-49b5-ad07-237c943eb1c0")
+		)
+		(pin "11"
+			(uuid "3ff20698-ed54-4571-be8a-20d8de5f12c2")
 		)
 		(instances
 			(project "fpc_sub_neopixel-001-20260627"
