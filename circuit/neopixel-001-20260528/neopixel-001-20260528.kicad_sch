@@ -11021,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:JUSHUO_AFA07-S12FCA-00_1x12-1MP_P1.0mm_Horizontal"
+		(property "Footprint" ""
 			(at 177.8 138.43 0)
 			(hide yes)
 			(show_name no)
