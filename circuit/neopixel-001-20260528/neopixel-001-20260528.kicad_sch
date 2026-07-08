@@ -5,6 +5,144 @@
 	(uuid "163e31e7-3488-4c4d-a829-8b8c51ff0d49")
 	(paper "A3")
 	(lib_symbols
+		(symbol "@Thrive_symbol_neopixel:Aexit_0-50_Voltmeter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Aexit_0-50_Voltmeter"
+				(at 0 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Aexit_0-50_Voltmeter_1_1"
+				(rectangle
+					(start 0 0)
+					(end 5.334 -9.652)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "V_{Power}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "V_{logic}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "@Thrive_symbol_neopixel:SSD1306_display_module"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2105,208 +2243,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Voltmeter_DC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "MES"
-				(at -3.302 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Voltmeter_DC"
-				(at -3.302 -0.762 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC voltmeter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "voltmeter DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_0_0"
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.175) (xy 3.175 3.175) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "V"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 3.81) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 4.064) (xy 0.508 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4643,6 +4579,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 252.73) (xy 176.53 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab48585-cfb5-42db-8d83-9cfdf46fbc6c")
+	)
+	(wire
+		(pts
 			(xy 97.79 130.81) (xy 100.33 130.81)
 		)
 		(stroke
@@ -4760,6 +4706,16 @@
 			(type default)
 		)
 		(uuid "21fdfb51-0c6b-49a8-9572-80f1dc87cd8b")
+	)
+	(wire
+		(pts
+			(xy 176.53 245.11) (xy 176.53 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224ab29c-f93a-4a6c-bfb5-2e52595958de")
 	)
 	(wire
 		(pts
@@ -5093,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 246.38) (xy 190.5 242.57)
+			(xy 181.61 245.11) (xy 181.61 250.19)
 		)
 		(stroke
 			(width 0)
@@ -5370,6 +5326,16 @@
 			(type default)
 		)
 		(uuid "46be469e-eb51-4d68-9a89-6d82f2f22728")
+	)
+	(wire
+		(pts
+			(xy 181.61 255.27) (xy 184.15 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473f3c43-ba52-46a1-8956-e791dff66f8e")
 	)
 	(wire
 		(pts
@@ -5950,16 +5916,6 @@
 			(type default)
 		)
 		(uuid "71a2eb3a-b793-4df1-b62b-4b3759a6f933")
-	)
-	(wire
-		(pts
-			(xy 190.5 260.35) (xy 190.5 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a6a69c-b4fc-4c75-b5af-9f95e021608f")
 	)
 	(wire
 		(pts
@@ -6633,6 +6589,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 255.27) (xy 181.61 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a709a8a8-8ecf-426d-9dad-91ca9b238db5")
+	)
+	(wire
+		(pts
 			(xy 177.8 34.29) (xy 173.99 34.29)
 		)
 		(stroke
@@ -6790,6 +6756,16 @@
 			(type default)
 		)
 		(uuid "b01152cb-1aa5-47ca-8392-cb04fa8f07c1")
+	)
+	(wire
+		(pts
+			(xy 184.15 250.19) (xy 181.61 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15f85ef-eb7d-4d95-ae1c-44f3b98b77a3")
 	)
 	(wire
 		(pts
@@ -8089,7 +8065,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT1}"
+	(global_label "SW_{START}"
 		(shape output)
 		(at 144.78 200.66 0)
 		(fields_autoplaced yes)
@@ -8101,7 +8077,7 @@
 		)
 		(uuid "1427a3a6-9582-4b21-bb1f-42e15242745d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.776 200.66 0)
+			(at 154.0282 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +8209,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT1}"
+	(global_label "SW_{TCT2}"
 		(shape output)
 		(at 144.78 149.86 0)
 		(fields_autoplaced yes)
@@ -8245,7 +8221,7 @@
 		)
 		(uuid "53743daf-479e-4c6c-b7d8-75baebe8ed70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.776 149.86 0)
+			(at 153.249 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8281,7 @@
 			)
 		)
 	)
-	(global_label "SW_{TCT1}"
+	(global_label "SW_{TCT3}"
 		(shape output)
 		(at 144.78 175.26 0)
 		(fields_autoplaced yes)
@@ -8317,7 +8293,7 @@
 		)
 		(uuid "895afadd-a794-4093-9aa6-872d92763e3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.776 175.26 0)
+			(at 153.249 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8487,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 255.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8896,6 +8872,169 @@
 			(project "neopixel-001-20260528"
 				(path "/163e31e7-3488-4c4d-a829-8b8c51ff0d49"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "044f3f93-6014-4498-92eb-09c72226eea9")
+		(property "Reference" "#PWR034"
+			(at 176.53 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5b3b592-096a-4138-91ab-bbf0b403d472")
+		)
+		(instances
+			(project "neopixel-001-20260528"
+				(path "/163e31e7-3488-4c4d-a829-8b8c51ff0d49"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "@Thrive_symbol_neopixel:Aexit_0-50_Voltmeter")
+		(at 186.69 247.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b834a6-3c28-4ecb-9241-ddda09119c5a")
+		(property "Reference" "U2"
+			(at 193.04 251.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Aexit_0-50_Voltmeter"
+			(at 193.04 253.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "@Thrive_footprint_neopixel:Aexit_0-50_Voltmeter"
+			(at 186.69 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1498441-0362-4555-a556-266d2ffe0f2c")
+		)
+		(pin "3"
+			(uuid "7c149415-7a38-4234-ace3-107a5618c9ff")
+		)
+		(pin "1"
+			(uuid "6f93f120-1bab-40a8-8a37-bf3ecd89dd56")
+		)
+		(instances
+			(project "neopixel-001-20260528"
+				(path "/163e31e7-3488-4c4d-a829-8b8c51ff0d49"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10075,7 +10214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 180.34 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -10962,7 +11101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 260.35 0)
+		(at 181.61 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10973,7 +11112,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a1ab905-c2d5-4f37-8f4a-5746efcb80ea")
 		(property "Reference" "#PWR033"
-			(at 190.5 266.7 0)
+			(at 181.61 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10984,7 +11123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 265.43 0)
+			(at 181.61 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10994,7 +11133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 260.35 0)
+			(at 181.61 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +11144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 260.35 0)
+			(at 181.61 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +11155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 260.35 0)
+			(at 181.61 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:ST-12-401FC-G"
 			(at 132.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12881,7 +13020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:ST-12-401FC-G"
 			(at 132.08 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13815,7 +13954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 189.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14192,7 +14331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 387.35 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14334,7 +14473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:ST-12-401FC-G"
 			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14500,7 +14639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15420,7 +15559,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 190.5 242.57 0)
+		(at 181.61 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15431,7 +15570,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7130abf-4045-40a8-a16b-f54d974c969c")
 		(property "Reference" "#PWR032"
-			(at 190.5 246.38 0)
+			(at 181.61 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15442,7 +15581,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 190.5 237.49 0)
+			(at 181.61 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15452,7 +15591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 242.57 0)
+			(at 181.61 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15463,7 +15602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 242.57 0)
+			(at 181.61 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15474,7 +15613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 190.5 242.57 0)
+			(at 181.61 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15606,7 +15745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15908,7 +16047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:ST-12-401FC-G"
 			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16412,7 +16551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
 			(at 123.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16633,7 +16772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 180.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -17167,88 +17306,6 @@
 			(project "neopixel-001-20260528"
 				(path "/163e31e7-3488-4c4d-a829-8b8c51ff0d49"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Voltmeter_DC")
-		(at 190.5 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff92592c-900b-42dc-88a9-cc1761e9d0fa")
-		(property "Reference" "MES1"
-			(at 194.31 249.7455 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Voltmeter_DC"
-			(at 194.31 252.2855 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC voltmeter"
-			(at 190.5 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04121558-ce4c-4714-a6b3-04e3cbd9f3d4")
-		)
-		(pin "2"
-			(uuid "4bcd5745-7b50-4c9a-aa72-c5c7c9110562")
-		)
-		(instances
-			(project "neopixel-001-20260528"
-				(path "/163e31e7-3488-4c4d-a829-8b8c51ff0d49"
-					(reference "MES1")
 					(unit 1)
 				)
 			)
