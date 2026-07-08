@@ -35685,7 +35685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470μ"
 			(at 331.47 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
