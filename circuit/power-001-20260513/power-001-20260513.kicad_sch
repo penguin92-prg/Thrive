@@ -8680,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:Conn_01x02_Wire_Only"
 			(at 22.86 30.48 0)
 			(hide yes)
 			(show_name no)

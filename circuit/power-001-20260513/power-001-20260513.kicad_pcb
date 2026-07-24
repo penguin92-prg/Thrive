@@ -126,7 +126,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -432,7 +432,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -895,7 +895,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1053,7 +1053,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1211,7 +1211,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1527,7 +1527,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1685,7 +1685,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1843,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2001,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2306,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2317,7 +2317,7 @@
 				)
 			)
 		)
-		(property "Description" "5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2638,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3106,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3264,7 +3264,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3580,7 +3580,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3727,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3738,7 +3738,7 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3754,45 +3754,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b1b52b5f-e477-425e-8b56-ce9563d49032")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8c119ba-96ee-4443-bdd2-bfe1aac99782")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd52ec55-857e-4e36-abc5-4d4b66285ba6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d87e348-b253-44d4-9bfe-112b98c56df9")
 			(effects
 				(font
 					(size 1 1)
@@ -4097,7 +4058,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4255,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4415,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4878,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5037,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5191,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5349,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5507,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5665,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5823,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5981,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6139,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6297,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6455,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6613,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6771,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6787,19 +6748,6 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "82d39a5d-d14b-4ae4-88e8-bdf43f96ce83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00f703d4-44bb-424d-abe7-2213ebb1c904")
 			(effects
 				(font
 					(size 1 1)
@@ -6933,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/41211D_.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6944,7 +6892,7 @@
 				)
 			)
 		)
-		(property "Description" "PIC12F683, 2048W Flash, 128B SRAM, 256B EEPROM, SOIC-8"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7315,7 +7263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7328,7 +7276,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7337,45 +7285,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26982ac6-0d3a-4f45-9349-8b945ae3a409")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7165cb04-a3a8-4c87-9cc8-036c0fd5affe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a8e3987-a967-4c34-9b8a-2353b109d66f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7626,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7784,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8257,7 +8166,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8597,7 +8506,7 @@
 			(layer "B.Fab")
 			(uuid "970c4d3f-aa8c-4d37-b4dc-0ceab0783a1d")
 		)
-		(fp_text user "ー"
+		(fp_text user "+"
 			(at -3.572582 0.298496 0)
 			(layer "B.SilkS")
 			(uuid "934041a6-10aa-42c5-b86a-93f1e92640d7")
@@ -8609,7 +8518,7 @@
 				(justify mirror)
 			)
 		)
-		(fp_text user "＋"
+		(fp_text user "-"
 			(at 8.427418 0.298496 0)
 			(layer "B.SilkS")
 			(uuid "97be1259-1ce0-4f9d-9613-77a76fd0e859")
@@ -8656,7 +8565,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.22)
-			(net "+3.3V")
+			(net "+5V")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "399b48ea-46f5-4571-bd1a-4957a8b2240d")
@@ -8667,7 +8576,7 @@
 			(drill 1.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+5V")
+			(net "+3.3V")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "0cea7d5d-5786-4537-94ff-0431b2137d2a")
@@ -8727,7 +8636,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10825,7 +10734,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11390,7 +11299,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11860,7 +11769,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13920,7 +13829,7 @@
 		(center 74.17144 72.098497)
 		(end 73.521439 72.098497)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -13931,7 +13840,7 @@
 		(center 83.071439 92.701505)
 		(end 82.421439 92.701504)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -13942,7 +13851,7 @@
 		(start 83.664632 68.499999)
 		(end 83.664631 83.5)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Cmts.User")
@@ -13952,7 +13861,7 @@
 		(start 83.664631 83.5)
 		(end 104.664631 83.5)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Cmts.User")
@@ -13962,7 +13871,7 @@
 		(center 91.072582 92.701504)
 		(end 90.422581 92.701504)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -13973,7 +13882,7 @@
 		(center 99.468049 84.815637)
 		(end 99.168049 84.815637)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -13984,7 +13893,7 @@
 		(start 104.664631 68.5)
 		(end 83.664632 68.499999)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Cmts.User")
@@ -13994,7 +13903,7 @@
 		(start 104.664631 83.5)
 		(end 104.664631 68.5)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Cmts.User")
@@ -14004,7 +13913,7 @@
 		(center 109.07144 92.701505)
 		(end 108.421439 92.701505)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14015,7 +13924,7 @@
 		(center 110.468051 84.815637)
 		(end 110.16805 84.815636)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14026,7 +13935,7 @@
 		(center 117.15201 64.169533)
 		(end 116.65201 64.169532)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14037,7 +13946,7 @@
 		(start 53.02144 57.139534)
 		(end 53.021441 82.107416)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14048,7 +13957,7 @@
 		(mid 53.90011 55.018203)
 		(end 56.02144 54.139532)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14059,7 +13968,7 @@
 		(mid 53.900096 84.228747)
 		(end 53.021441 82.107416)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14069,7 +13978,7 @@
 		(start 56.02144 85.107415)
 		(end 70.92144 85.107415)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14080,7 +13989,7 @@
 		(mid 73.042762 85.986094)
 		(end 73.921439 88.107415)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14090,7 +13999,7 @@
 		(start 73.921439 88.107415)
 		(end 73.921439 97.501504)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14101,7 +14010,7 @@
 		(mid 74.800119 99.622825)
 		(end 73.921439 97.501504)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14111,7 +14020,7 @@
 		(start 76.921441 100.501505)
 		(end 110.22144 100.501505)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14121,7 +14030,7 @@
 		(center 85.07201 62.500001)
 		(end 82.072011 62.500001)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14132,7 +14041,7 @@
 		(center 94.07201 62.500001)
 		(end 91.072011 62.500001)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14143,7 +14052,7 @@
 		(center 94.332314 75.999999)
 		(end 92.832314 75.999999)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14154,7 +14063,7 @@
 		(center 103.07201 62.500001)
 		(end 100.072011 62.500001)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill no)
@@ -14166,7 +14075,7 @@
 		(mid 114.10012 85.227176)
 		(end 116.221441 84.348497)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14177,7 +14086,7 @@
 		(mid 112.342759 99.622825)
 		(end 110.22144 100.501505)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14187,7 +14096,7 @@
 		(start 113.221439 97.501505)
 		(end 113.221439 87.348497)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14197,7 +14106,7 @@
 		(start 116.221441 84.348497)
 		(end 118.42201 84.348497)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14207,7 +14116,7 @@
 		(start 118.42201 54.139532)
 		(end 56.02144 54.139532)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14218,7 +14127,7 @@
 		(mid 120.543331 55.018212)
 		(end 121.42201 57.139533)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14229,7 +14138,7 @@
 		(mid 120.54333 83.469817)
 		(end 118.42201 84.348497)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14239,7 +14148,7 @@
 		(start 121.42201 81.348497)
 		(end 121.42201 57.139533)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(layer "Edge.Cuts")
