@@ -8344,7 +8344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 91.44 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10351,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 101.6 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10863,7 +10863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 121.92 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12369,7 +12369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 111.76 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13024,7 +13024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:2MS1-T1-B4-M2-Q-E"
 			(at 27.94 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13503,7 +13503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:2MS1-T1-B4-M2-Q-E"
 			(at 27.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13746,7 +13746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:2MS1-T1-B4-M2-Q-E"
 			(at 27.94 140.97 0)
 			(hide yes)
 			(show_name no)
