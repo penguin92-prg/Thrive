@@ -9108,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:MF61NR_FUC-04"
 			(at 34.29 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -10782,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_power:DS-850K-S-ON-K"
 			(at 45.72 30.48 0)
 			(hide yes)
 			(show_name no)
