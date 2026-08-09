@@ -11021,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_neopixel:AFC01-S12FCA-00"
 			(at 177.8 138.43 0)
 			(hide yes)
 			(show_name no)
