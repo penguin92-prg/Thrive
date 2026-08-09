@@ -16353,7 +16353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_main:AFC01-S18FCA-00"
+		(property "Footprint" "@Thrive_footprint_sub:AFC01-S18FCA-00"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
