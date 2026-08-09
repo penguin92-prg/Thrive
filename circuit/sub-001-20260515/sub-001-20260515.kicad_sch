@@ -255,10 +255,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -3.81 -16.51 90)
+				(pin output line
+					(at 3.81 -16.51 90)
 					(length 2.54)
-					(name "GND"
+					(name "TX/G34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -266,24 +266,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -16.51 90)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,6 +283,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -16.51 90)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -309,10 +309,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 3.81 -16.51 90)
+				(pin passive line
+					(at -3.81 -16.51 90)
 					(length 2.54)
-					(name "TX/G34"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14370,7 +14370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 29.21 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -21841,7 +21841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 90.17 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -23238,7 +23238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 110.49 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -27092,7 +27092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:JUSHUO_AFA07-S12FCA-00_1x12-1MP_P1.0mm_Horizontal"
+		(property "Footprint" "@Thrive_footprint_sub:AFC01-S12FCA-00"
 			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -27363,7 +27363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 49.53 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -28990,7 +28990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
 			(at 69.85 25.4 0)
 			(hide yes)
 			(show_name no)

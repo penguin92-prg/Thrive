@@ -252,10 +252,10 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -3.81 -16.51 90)
+			(pin output line
+				(at 3.81 -16.51 90)
 				(length 2.54)
-				(name "GND"
+				(name "TX/G34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -263,24 +263,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 -16.51 90)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,6 +280,24 @@
 						)
 					)
 				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 -16.51 90)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "3"
 					(effects
 						(font
@@ -306,10 +306,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 3.81 -16.51 90)
+			(pin passive line
+				(at -3.81 -16.51 90)
 				(length 2.54)
-				(name "TX/G34"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
