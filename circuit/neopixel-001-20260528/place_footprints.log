@@ -1,122 +1,135 @@
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'darwin'
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 10.0.3
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 5.0.0
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'darwin'
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 10.0.3
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 5.0.0
 
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x12deb8430>
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C14 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P3 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P9 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D10 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C4 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P5 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C3 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R6 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C18 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R4 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D4 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C10 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D15 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P7 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW4 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW2 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C20 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D13 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D9 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C12 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C2 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C17 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW3 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R5 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C19 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C13 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C15 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D16 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D11 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D7 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P11 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C9 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D14 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D12 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C11 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D6 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C8 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C16 on root level
-08-13 13:32:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='C1'
-08-13 13:32:20 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 858:Reference designator is: C
-08-13 13:32:20 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 859:Reference number is: 1
-08-13 13:32:20 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x12b827d30>
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R6 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C11 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P9 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C20 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C10 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D10 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P4 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R10 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P5 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C4 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C15 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D4 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C17 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D15 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P7 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW4 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D13 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R8 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D9 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R4 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C9 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C14 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R5 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D16 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C13 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D11 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C16 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D7 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P11 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R9 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C8 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P6 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C12 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D14 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R7 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P2 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D12 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P8 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D6 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P12 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C19 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C18 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P10 on root level
+08-15 12:15:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='C1'
+08-15 12:15:25 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 858:Reference designator is: C
+08-15 12:15:25 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 859:Reference number is: 1
+08-15 12:15:25 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
 ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20']
-08-13 13:32:20 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(231, 231, 231, 255)
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'30.6035'
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 559:Preparing config for reference circular
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
+08-15 12:15:25 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(231, 231, 231, 255)
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'30.6035'
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 559:Preparing config for reference circular
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
 ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16']
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 359:Starting placing with circular layout
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 369:reference footprint position at: VECTOR2I(5970447, -30015462)
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 374:rotation center at: (5970447, 588038.0)
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
-08-13 13:32:49 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 944:Placing complete
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 359:Starting placing with circular layout
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 369:reference footprint position at: VECTOR2I(0, -30603500)
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 374:rotation center at: (0, 0.0)
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: C1 has property "Keep upright" rotation might not look as intended
+08-15 12:15:38 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 944:Placing complete
