@@ -16541,7 +16541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 376.682 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -17087,7 +17087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_sub:XIAO-ESP32-C3-DIP"
 			(at 210.82 54.102 0)
 			(hide yes)
 			(show_name no)
@@ -19065,7 +19065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "@Thrive_footprint_sub:XIAO-ESP32-C3-DIP"
 			(at 210.82 18.542 0)
 			(hide yes)
 			(show_name no)
@@ -21682,7 +21682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 367.792 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -30983,7 +30983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 385.572 179.07 90)
 			(hide yes)
 			(show_name no)
