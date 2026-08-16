@@ -1,0 +1,302 @@
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 10.0.1
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 5.0.0
+
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x0000020827626DD0>
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R36 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D36 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U10 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Y1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R45 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R14 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C33 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R38 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R12 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D21 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C15 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D13 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C11 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q13 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q23 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C25 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q34 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U18 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D14 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q7 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R22 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C23 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint P1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D9 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C19 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D30 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R42 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R43 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R44 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R39 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R18 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Y2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D32 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q19 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R69 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R32 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U6 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D26 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R7 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C4 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R51 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U12 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R80 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C31 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R13 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R41 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R21 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q33 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q18 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D10 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q32 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R79 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C20 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R57 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R31 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D38 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q31 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D28 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C10 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D27 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D18 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R66 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D25 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U16 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R19 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D34 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q21 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R81 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U11 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R29 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C24 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q29 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R61 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D16 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q8 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R26 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D12 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R75 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R35 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R25 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q11 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q10 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R52 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R9 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R28 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R40 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C17 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R84 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q9 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R50 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R49 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C27 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R47 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D24 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D31 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q30 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U15 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C13 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D11 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D37 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U7 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D29 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q36 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C26 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U8 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R63 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R37 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R73 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D22 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R27 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U5 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D6 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R23 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R46 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q17 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R71 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U9 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R6 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q4 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C18 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R33 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R68 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D19 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D15 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R48 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q14 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D17 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C14 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q35 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R72 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R24 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D33 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q22 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R59 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R78 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R8 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R67 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R74 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D20 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q16 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C12 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C21 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U4 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R64 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q26 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q5 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q25 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U13 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R83 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R70 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U17 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q24 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R17 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R58 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D23 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C16 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C22 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R15 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R5 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R4 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q28 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R56 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R53 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D7 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R60 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C30 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R20 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R54 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q6 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R34 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q12 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R10 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R85 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U14 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R55 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q20 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C8 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R76 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R62 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R82 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R30 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C28 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D4 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D35 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q27 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R65 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R11 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C29 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R16 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C9 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C32 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Q15 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R77 on root level
+08-16 02:23:18 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='Q1'
+08-16 02:23:19 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 858:Reference designator is: Q
+08-16 02:23:19 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 859:Reference number is: 1
+08-16 02:23:19 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
+['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14', 'Q15', 'Q16', 'Q17', 'Q18', 'Q19', 'Q20', 'Q21', 'Q22', 'Q23', 'Q24', 'Q25', 'Q26', 'Q27', 'Q28', 'Q29', 'Q30', 'Q31', 'Q32', 'Q33', 'Q34', 'Q35', 'Q36']
+08-16 02:23:20 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(240, 240, 240, 255)
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'57.5'
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 559:Preparing config for reference circular
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
+['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14', 'Q15', 'Q16', 'Q17', 'Q18', 'Q19', 'Q20', 'Q21', 'Q22', 'Q23', 'Q24', 'Q25', 'Q26', 'Q27', 'Q28', 'Q29', 'Q30', 'Q31', 'Q32']
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 359:Starting placing with circular layout
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 369:reference footprint position at: VECTOR2I(0, -57500000)
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 374:rotation center at: (0, 0.0)
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: Q1 has property "Keep upright" rotation might not look as intended
+08-16 02:23:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 944:Placing complete
