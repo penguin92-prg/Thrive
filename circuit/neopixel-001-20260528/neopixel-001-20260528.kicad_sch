@@ -13683,7 +13683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 191.77 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19174,7 +19174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19551,7 +19551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 191.77 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19859,7 +19859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 92.71 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -20965,7 +20965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 92.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -21771,7 +21771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "@Thrive_footprint_neopixel:USB_Type-C_Vertical_ C6332304"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 191.77 52.07 0)
 			(hide yes)
 			(show_name no)
