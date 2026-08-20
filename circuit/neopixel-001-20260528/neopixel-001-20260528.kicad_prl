@@ -25,8 +25,8 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": false,
-      "vias": false,
+      "tracks": true,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -101,7 +101,7 @@
       136,
       73,
       136,
-      0
+      42
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
