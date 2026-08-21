@@ -208,7 +208,7 @@
 				)
 			)
 		)
-		(property "Value" "LM339DR"
+		(property "Value" "LM393DR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
