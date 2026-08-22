@@ -9319,7 +9319,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 113.03 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
