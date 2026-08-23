@@ -1583,6 +1583,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Crystal_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y2"
+				(at 1.2701 -3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "12MHz"
+				(at -1.2699 -3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1907,8 +2098,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
+			(property "Reference" "Y1"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1917,8 +2108,8 @@
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "16MHz"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1927,7 +2118,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2065,14 +2256,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
-					(name "2"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9687,7 +9878,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 220.98) (xy 322.58 223.52)
+			(xy 321.31 219.71) (xy 321.31 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11357,7 +11548,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 231.14) (xy 322.58 233.68)
+			(xy 321.31 229.87) (xy 321.31 232.41)
 		)
 		(stroke
 			(width 0)
@@ -21855,7 +22046,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22105,7 +22296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 287.02 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22186,7 +22377,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 105.4163 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22267,7 +22458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22606,7 +22797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 285.75 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22687,7 +22878,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 45.7263 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22846,7 +23037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23169,7 +23360,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 45.7263 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24088,7 +24279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 450.85 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24170,7 +24361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24421,7 +24612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 502.92 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25256,7 +25447,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25336,7 +25527,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25595,7 +25786,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 257.81 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26092,7 +26283,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26173,7 +26364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26345,7 +26536,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 407.67 326.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26516,7 +26707,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 257.81 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26765,7 +26956,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 223.5263 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27080,7 +27271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27162,7 +27353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27321,7 +27512,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 273.812 308.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27332,7 +27523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 277.8252 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -27843,7 +28034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 535.94 303.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28004,7 +28195,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 105.4163 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28253,7 +28444,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28732,7 +28923,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 223.5263 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28812,7 +29003,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28893,7 +29084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28975,7 +29166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29056,7 +29247,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED1"
 			(at 415.2265 312.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29238,7 +29429,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29633,7 +29824,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29902,7 +30093,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30316,7 +30507,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30396,7 +30587,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 502.92 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30723,7 +30914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 233.68 0)
+		(at 321.31 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30734,7 +30925,7 @@
 		(fields_autoplaced yes)
 		(uuid "56e83fc7-601e-4177-96b7-f3282f2868bc")
 		(property "Reference" "#PWR048"
-			(at 322.58 240.03 0)
+			(at 321.31 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30745,7 +30936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 322.58 238.76 0)
+			(at 321.31 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30755,7 +30946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 233.68 0)
+			(at 321.31 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30766,7 +30957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 233.68 0)
+			(at 321.31 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30777,7 +30968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 233.68 0)
+			(at 321.31 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31230,7 +31421,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 165.1063 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31402,7 +31593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31541,7 +31732,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 322.58 220.98 0)
+		(at 321.31 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31552,7 +31743,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d128963-0bb1-4b38-a1c1-0819c01551ff")
 		(property "Reference" "#PWR047"
-			(at 322.58 224.79 0)
+			(at 321.31 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31563,7 +31754,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 322.58 215.9 0)
+			(at 321.31 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31573,7 +31764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 220.98 0)
+			(at 321.31 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31584,7 +31775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 220.98 0)
+			(at 321.31 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31595,7 +31786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 322.58 220.98 0)
+			(at 321.31 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31717,7 +31908,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31798,7 +31989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 172.72 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32119,7 +32310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32200,7 +32391,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32378,7 +32569,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32950,7 +33141,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 480.06 300.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32960,7 +33151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 483.87 305.1048 0)
 			(hide yes)
 			(show_name no)
@@ -33187,7 +33378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33268,7 +33459,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 45.7263 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33348,7 +33539,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED2"
 			(at 415.2265 325.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33615,7 +33806,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 105.4163 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33786,7 +33977,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33866,7 +34057,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 165.1063 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33946,7 +34137,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 223.5263 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34371,7 +34562,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 105.4163 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34534,7 +34725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34615,7 +34806,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35026,7 +35217,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 480.06 288.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35036,7 +35227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 483.87 292.4048 0)
 			(hide yes)
 			(show_name no)
@@ -35107,7 +35298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35436,7 +35627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36041,7 +36232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36201,7 +36392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36363,7 +36554,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36851,7 +37042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37011,7 +37202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37254,7 +37445,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37392,7 +37583,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 322.58 227.33 0)
+		(at 321.31 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37402,7 +37593,7 @@
 		(dnp no)
 		(uuid "970f2756-3ccd-4712-b731-65e335d42d7a")
 		(property "Reference" "C20"
-			(at 325.12 226.06 0)
+			(at 323.85 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37412,8 +37603,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 325.12 228.6 0)
+		(property "Value" "100μ"
+			(at 323.85 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37423,8 +37614,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 323.5452 231.14 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 322.2752 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37435,7 +37626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 227.33 0)
+			(at 321.31 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37446,7 +37637,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 322.58 227.33 0)
+			(at 321.31 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37494,7 +37685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37983,7 +38174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38156,7 +38347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 529.59 248.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38237,7 +38428,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38473,7 +38664,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38652,7 +38843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38734,7 +38925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38816,7 +39007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38897,7 +39088,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39058,7 +39249,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 257.81 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39139,7 +39330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39299,7 +39490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 127 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39380,7 +39571,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39461,7 +39652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39621,7 +39812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39702,7 +39893,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40026,7 +40217,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40106,7 +40297,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 502.92 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40363,7 +40554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40606,7 +40797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40785,7 +40976,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 223.5263 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41034,7 +41225,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 165.1063 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41291,7 +41482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "USB"
 			(at 529.59 256.4764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41474,7 +41665,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41646,7 +41837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 38.1 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41825,7 +42016,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16MHz"
 			(at 283.21 295.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41835,7 +42026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
 			(at 283.21 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -41871,7 +42062,7 @@
 		(pin "1"
 			(uuid "b49d108b-6c6b-426b-a517-0c765dac4087")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "016db3d4-9e26-4a4c-b725-b2e8df3e0dd3")
 		)
 		(instances
@@ -41905,7 +42096,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 165.1063 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42076,7 +42267,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42156,7 +42347,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42632,7 +42823,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 257.81 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42803,7 +42994,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43305,7 +43496,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 286.512 308.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43316,7 +43507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 290.5252 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -43537,6 +43728,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Crystal_1")
 		(lib_id "Device:Crystal")
 		(at 488.95 299.72 90)
 		(unit 1)
@@ -43559,7 +43751,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "12MHz"
 			(at 492.76 300.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43570,7 +43762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm"
 			(at 488.95 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -43603,7 +43795,7 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "933ef035-e40a-483b-9029-821fe3ea6de3")
 		)
 		(pin "1"
@@ -43799,7 +43991,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43978,7 +44170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 172.72 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44059,7 +44251,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 45.7263 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44139,7 +44331,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44219,7 +44411,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 236.22 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44300,7 +44492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44381,7 +44573,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44707,7 +44899,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 551.18 276.8535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44788,7 +44980,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 283.21 285.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44868,7 +45060,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 407.67 313.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45027,7 +45219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 82.55 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45109,7 +45301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 543.56 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45599,7 +45791,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "75"
 			(at 214.63 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
