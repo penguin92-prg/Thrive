@@ -170,7 +170,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -671,7 +671,7 @@
         "uuid": "538b88c4-ce6d-4257-a3f5-53b647072884"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-38,D1-40,#PWR1-73,R1-83,J1-4,Q1-36,SW1-2,U1-18,Y1-2",
     "variants": []
   },
   "sheets": [
