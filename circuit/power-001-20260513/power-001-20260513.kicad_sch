@@ -8137,7 +8137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PIC12F683-xSN"
+		(property "Value" "PIC12F683"
 			(at 209.5356 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "TJ60S04M3L"
 			(at 251.46 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
