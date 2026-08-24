@@ -1,6 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 BZ1,PKM13EPYH4000-A0,1,Buzzer,
-C1,CP_Radial_D10.0mm_P5.00mm,1,1000μ,
+C1,CP_Radial_D8.0mm_P3.50mm,1,470μ,
 "C10, C11, C13, C5, C8",0805,5,10μ,
 "C12, C2, C3",0805,3,100n,
 "C6, C7, C9",0805,3,22μ,
