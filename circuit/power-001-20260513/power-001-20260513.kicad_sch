@@ -10866,7 +10866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000μ"
+		(property "Value" "470μ"
 			(at 41.91 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10877,7 +10877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 39.0652 78.74 0)
 			(hide yes)
 			(show_name no)
