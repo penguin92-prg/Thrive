@@ -23131,7 +23131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 430.53 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,7 +23291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 430.53 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27964,7 +27964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 358.14 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32163,7 +32163,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 345.44 278.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32661,7 +32661,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 417.83 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34655,7 +34655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 358.14 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35798,7 +35798,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 417.83 278.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40647,7 +40647,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 345.44 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
