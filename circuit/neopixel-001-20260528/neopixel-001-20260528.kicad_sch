@@ -17011,7 +17011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "BSS138"
 			(at 335.28 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19221,7 +19221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "BSS138"
 			(at 335.28 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21032,7 +21032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "BSS138"
 			(at 335.28 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
