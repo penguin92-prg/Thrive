@@ -22,7 +22,7 @@
 
 |No.|Ref.|Name|QTY|Assembled By|Note|URL|
 |---|---|---|---|---|---|---|
-|001|U3|XL6009E1|1|OWN|昇圧素子|[謎](https://mega-radiodetali.com.ua/uploads/files_predprenimatel/XL6009E1.pdf)|
+|001|U3|XL6009E1|1|OWN|昇圧素子|[Aitendo](https://www.aitendo.com/product/10307)|
 |002|Q1|BSS138|1|OWN|昇圧素子への給電EN用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
 |003|Q2|TJ15S06M3L|1|OWN|昇圧素子への給電EN用PMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117253/)|
 |004|Q4/Q5|MTB010N06RJ3|2|OWN|ソレノイドスイッチング用NMOS|[秋月電子](https://akizukidenshi.com/catalog/g/g117074/)|
