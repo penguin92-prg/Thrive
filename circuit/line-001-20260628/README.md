@@ -45,8 +45,8 @@
 |029|R89|Resister 1MΩ|1|JLCPCB|クリスタル用抵抗器|[JLCPCB](https://jlcpcb.com/partdetail/18202-0805W8F1004T5E/C17514)|
 |030|P1|USB Type-C|1|OWN|1|[秋月電子](https://akizukidenshi.com/catalog/g/g114356/)|
 |031|R90,91|Resister 5.1kΩ|2|JLCPCB|USB用抵抗器|[JLCPCB](https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834)|
-|032|D43|Diode|1|OWN|USB用理想ダイオード|[秋月電子](https://akizukidenshi.com/catalog/g/g129462/)|
+|032|D43|CH213K|1|OWN|USB用理想ダイオード|[秋月電子](https://akizukidenshi.com/catalog/g/g129462/)|
 |033|D44|OSR50603C1E|1|OWN|VBUS確認用LED|[秋月電子](https://akizukidenshi.com/catalog/g/g108274/)|
 |034|R92|Resister 330Ω|1|JLCPCB|VBUS確認用抵抗器|[JLCPCB](https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630)|
 |035|J1|XT30U-M|1|OWN|供給基板との接続|[秋月電子](https://akizukidenshi.com/catalog/g/g117951/)|
-|036|J2|B2B-XH-A|1|OWN|配線を介すること|[秋月電子](https://akizukidenshi.com/catalog/g/g112247/)|
+|036|J2|---|-|---|2pin配線を直接実装すること|---|
