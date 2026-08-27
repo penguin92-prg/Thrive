@@ -38,6 +38,6 @@
 |022|U26~29|HC-SR04|4|OWN|USS|[秋月電子](https://akizukidenshi.com/catalog/g/g111009/)|
 |023|R47,48|Resister 10kΩ|2|JLCPCB|トグルスイッチプルアップ用抵抗器|[JLCPCB](https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414)|
 |024|J1|AFC01_S12FCA00|1|JLCPCB|ネオピクセル基板へのFPCコネクタ|[JLCPCB](https://jlcpcb.com/partdetail/JUSHUO-AFC01_S12FCA00/C262661)|
-|025|J2|ピンソケット 01x03|1|OWN|電源基板へのピンソケット|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
+|025|J2|ピンソケット 01x02|1|OWN|電源基板へのピンソケット|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
 |026|J3|XT30U-M|1|OWN|電源基板へのXT30コネクタ|[秋月電子](https://akizukidenshi.com/catalog/g/g117951/)|
 |027|J4|AFC01_S18FCA00|1|JLCPCB|メイン基板へのFPCコネクタ|[JLCPCB](https://jlcpcb.com/partdetail/JUSHUO-AFC01_S18FCA00/C262666)|
