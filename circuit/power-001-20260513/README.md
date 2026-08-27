@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 |001|J1|Vin|1|OWN|not connected|--|
 |002|J2,3,4,5|+5V_Line / Power / Logic / Sub_Power|4|OWN|XT30PW-M|[秋月電子](https://akizukidenshi.com/catalog/g/g117949/)|
-|001|J6|Sub_Signal|1|OWN|ピンソケット 01x02|[秋月電子](https://akizukidenshi.com/catalog/g/g105779/)|
+|001|J6|Sub_Signal|1|OWN|ピンヘッダ 01x02|[秋月電子](https://akizukidenshi.com/catalog/g/g112986/)|
 |001|J8|ESC|1|OWN|not connected|--|
 |002|F1|Fuse 10A|1|OWN|ヒューズホルダー・ヒューズ|[秋月電子](https://akizukidenshi.com/catalog/g/g110521/)<br>[秋月電子](https://akizukidenshi.com/catalog/g/g107132/)|
 |003|SW4|DS-850K-S-ON-K|1|OWN|ロッカースイッチ|[秋月電子](https://akizukidenshi.com/catalog/g/g115740/)|
