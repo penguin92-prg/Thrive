@@ -20,5 +20,5 @@
 |004|Q1/Q2|BSS138|2|OWN|UART通信のレベル変換用|[秋月電子](https://akizukidenshi.com/catalog/g/g104232)|
 |005|J2|AFC01-S18FCA-00|1|JLCPCB|サブ基板へのFPCコネクタ|[JLCPCB](https://jlcpcb.com/partdetail/JUSHUO-AFC01_S18FCA00/C262666)|
 |006|BZ1|PKM13EPYH4000-A0|1|OWN|ブザー|[秋月電子](https://akizukidenshi.com/catalog/g/g104118/)|
-|007|SW1|TVBP06-B043C|1|OWN|白タクトスイッチ|[秋月電子](https://akizukidenshi.com/catalog/g/g108074/)|
+|007|SW1|TVBP06-B043CW-B|1|OWN|白タクトスイッチ|[秋月電子](https://akizukidenshi.com/catalog/g/g108074/)|
 |008|D1|OSWT1608C1A|1|OWN|青色LED(SMD)|[秋月電子](https://akizukidenshi.com/catalog/g/g103986/)|
