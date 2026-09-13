@@ -1,20 +1,21 @@
-constexpr KICKER_STROKE_PIN = 30;
-constexpr KICKER_CHIP_PIN = 31;
+#include "teensy.hpp"
+
+robot::Teensy teensyBoard;
 
 void setup() {
-  pinMode(KICKER_STROKE_PIN, OUTPUT);
-  pinMode(KICKER_CHIP_PIN, OUTPUT);
 
+  teensyBoard.init();
+  
   Serial.begin(115200);
 }
 
 void loop() {
-  digitalWrite(KICKER_STROKE_PIN, HIGH);
-  digitalWrite(KICKER_CHIP_PIN, HIGH);
+  digitalWrite(robot::pin::teensy::KICKER_STROKE, HIGH);    
+  digitalWrite(robot::pin::teensy::KICKER_CHIP, HIGH);
   Serial.println("Kick Start!");
   delay(50);
-  digitalWrite(KICKER_STROKE_PIN, LOW);
-  digitalWrite(KICKER_CHIP_PIN, LOW);
+  digitalWrite(robot::pin::teensy::KICKER_STROKE, LOW);
+  digitalWrite(robot::pin::teensy::KICKER_CHIP, LOW);
   Serial.println("Kick Stop!");
   delay(5000);
 }
