@@ -10,5 +10,9 @@ namespace robot{
     // Serial (With Teensy)
     Serial1.setPins(robot::pin::esp32_1::UART_RX, robot::pin::esp32_1::UART_TX);
     Serial1.begin(115200);
+
+    // Serial (With PC)
+    Serial.begin(115200);
+    Serial.println("ESP32_1 Initialization Completed!");
   }
 }
