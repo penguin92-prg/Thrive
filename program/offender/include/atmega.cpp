@@ -18,7 +18,7 @@ namespace robot{
     }
 
     // Serial (With Teensy)
-    Serial1.begin(115200);
+    Serial2.begin(115200);
 
     // Serial (With PC)
     Serial.begin(115200);
