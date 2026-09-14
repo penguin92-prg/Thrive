@@ -47,5 +47,9 @@ namespace robot{
     
     // Serial (With UnitV5)
     Serial8.begin(115200);
+
+    // Serial (With PC)
+    Serial.begin(115200);
+    Serial.println("Teensy Initialization Completed!");
   }
 }
