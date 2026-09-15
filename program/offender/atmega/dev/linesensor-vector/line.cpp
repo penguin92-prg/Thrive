@@ -164,7 +164,7 @@ void Line::read(){
 // Calculate Vector
 void Line::calc(){
 
-  // Initialization
+  // 初期化
   vec.clear();
   num = 0;
   area = 0;
@@ -177,64 +177,84 @@ void Line::calc(){
     count[i] = 0;
   }
   
-  // ON or OFF
+  // エンジェルリングの反応素子数を算出
   for(uint8_t i=0; i<NUM_ANGEL; i++){
-    if(signal[i]){
-      num++;
-    }
+    if(signal[i]) num++;
   }
+
+  // サイドの白線検知の有無を調べる
+  right = signal[NUM_ANGEL+0];
+  left = signal[NUM_ANGEL+1];
+
+  // エンジェルリングとサイドの白線検知の有無を調べる
+  onAngel = num > 0;
+  onSide = right || left;
   
-  on = num > 0;
+  // 論理和で白線検知の有無を調べる
+  on = onAngel | onSide;
 
-  // Proceed Signals in Row All Together
-  for(uint8_t i=0; i<NUM_ANGEL; i++){
-    if(signal[i]){
-      float sensor_dir = radians(i*360/NUM_ANGEL);
-      v[index].x += cos(sensor_dir);
-      v[index].y += sin(sensor_dir);
-      count[index]++;
+  // 白線を検知していない場合は処理をスキップ
+  if(!on) return;
+
+  // 反応検知部分
+  if(!onAngel){
+    // サイドだけが白線を検知している場合
+    if(right) vec.y = -1;
+    if(left) vec.y = 1;
+  }
+  else{
+    // エンジェルリングも白線を検知している場合
+    for(uint8_t i=0; i<NUM_ANGEL; i++){
+      // もしi番目のセンサが反応していたら
+      if(signal[i]){
+        // i番目のセンサの取り付け角を算出
+        float sensor_dir = radians(i*360/NUM_ANGEL);
+        v[index].x += cos(sensor_dir);
+        v[index].y += sin(sensor_dir);
+        // あとで平均をとるためにカタマリに含む個数のカウントを増やす
+        count[index]++;
+      }
+  
+      // 1つ前のセンサが反応 ⋀ 今のセンサが反応していない → カタマリが切れたとみなす → indexを加算
+      // %が出てくるのはmod(NUM_ANGEL)の世界にすることですべての数字を0-31に落とし込むことができるから
+      if(signal[(i+NUM_ANGEL-1)%NUM_ANGEL] && !signal[i]) index++;
+    }
+  
+    // 切れ目（1個目と32個目）の処理
+    if(signal[NUM_ANGEL-1] && signal[0]){
+      v[0] += v[index];
+      count[0] += count[index];
+      index -= 1;
+    }
+  
+    // カタマリの数
+    area = index;
+  
+    // カタマリのベクトルの平均を算出
+    // → 白線の方向ベクトルに加算
+    for(int i=0;i<index;i++){
+      v[i] /= (float)count[i];
+      vec += v[i];
     }
   }
 
-  // Handle the Break of the Loop
-  if(signal[NUM_ANGEL-1] && signal[0]){
-    v[0] += v[index];
-    count[0] += count[index];
-    index -= 1;
-  }
-
-  area = index;
-
-  // Sum
-  for(int i=0; i<NUM_ANGEL; i++){
-    // count[i]--;
-    // if(count[i] < 1) count[i] = 1;
-    if(count[i] != 0){
-      v[i].x /= (float)count[i];
-      v[i].y /= (float)count[i];
-      vec.x += v[i].x;
-      vec.y += v[i].y;
-    }
-  }
-
-  // Calculate Angle & Distance
-  // dir_prev = dir;
+  // 角度と距離を算出
+  dirPrev = dir;
   dir = -degrees(atan2(vec.y, vec.x));
-  if(index == 0){
-    index = 1;
-  }
+  if(index == 0) index = 1;
   distance = vec.len() / (float)index;
 
-  // 踏み始め
-  // if(prev_on == false && on == true){
-  //   dir_prev = dir;
-  // }
+  // 踏み始めならdirPrevをdirに一致させる
+  if(onPrev == false && on == true){
+    dirPrev = dir;
+  }
 
-  // Limit Rapid Change of Direction
-  // float diff = abs(dir - dir_prev);
-  // if(diff > 30){
-  //   dir = dir_prev;
-  // }
+  // 1ループ前から30度以上検出角が変化した場合はdirPrevをdirに一致させる
+  // （白線を超過したときのため）
+  float diff = abs(dir - dirPrev);
+  if(diff > 30){
+    dir = dirPrev;
+  }
 }
 
 // ========================================

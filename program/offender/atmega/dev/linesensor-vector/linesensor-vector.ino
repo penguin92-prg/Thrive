@@ -18,13 +18,5 @@ void loop() {
     Serial.print("-");
     Serial.print("\t");
   }
-  Serial.print(line.num);
-  Serial.print("\t");
-
-  // for(uint8_t i=0; i<32; i++){
-  //   Serial.print(line.signal[i]);
-  //   Serial.print("\t");
-  // }
-
-  Serial.println(line.on);
+  Serial.println();
 }
