@@ -208,16 +208,17 @@ void Line::calc(){
       // もしi番目のセンサが反応していたら
       if(signal[i]){
         // i番目のセンサの取り付け角を算出
-        float sensor_dir = radians(i*360/NUM_ANGEL);
+        // 360.0fを360としてしまうとradiansの引数が整数になってしまうので要注意
+        float sensor_dir = radians(i*360.0f/NUM_ANGEL);
         v[index].x += cos(sensor_dir);
         v[index].y += sin(sensor_dir);
         // あとで平均をとるためにカタマリに含む個数のカウントを増やす
         count[index]++;
       }
   
-      // 1つ前のセンサが反応 ⋀ 今のセンサが反応していない → カタマリが切れたとみなす → indexを加算
+      // 今のセンサが反応 ⋀ 次のセンサが反応していない → カタマリが切れたとみなす → indexを加算
       // %が出てくるのはmod(NUM_ANGEL)の世界にすることですべての数字を0-31に落とし込むことができるから
-      if(signal[(i+NUM_ANGEL-1)%NUM_ANGEL] && !signal[i]) index++;
+      if(signal[i] && !signal[(i+1)%NUM_ANGEL]) index++;
     }
   
     // 切れ目（1個目と32個目）の処理
