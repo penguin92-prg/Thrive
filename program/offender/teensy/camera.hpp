@@ -1,4 +1,3 @@
-#include "HardwareSerial.h"
 #pragma once
 
 #include <Arduino.h>
