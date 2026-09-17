@@ -41,10 +41,8 @@ while True:
         send_list[0] = x_center >> 8
         send_list[1] = x_center & 0xFF
         send_list[2] = y_center
-        send = bytearray([send_list[0], send_list[1], send_list[2]])
-        uart.write(send)
+        uart.write(bytearray(send_list))
     else:
-        #uart.write(bytearray([0,0,255]))
-        uart.write(bytearray([255]))
+        uart.write(bytearray([0,0,255]))
     time.sleep_ms(10);
 
