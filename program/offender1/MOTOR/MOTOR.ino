@@ -21,7 +21,7 @@ int M4;
 
 void MOTOR(){ 
   M1 = static_cast<int>(sin((315 - Move_deg) * PI / 180) * (MOTOR_POWER * 1.27)) + 128;
-  M2 = static_cast<int>(sin((225 - Move_deg) * PI / 180) * (MOTOR_POWER * 1.27)) + 128;
+  M2 = static_cast<int>((sin((225 - Move_deg) * PI / 180) * (MOTOR_POWER * 1.27)) * (-1)) + 128;
   M3 = static_cast<int>(sin((135 - Move_deg) * PI / 180) * (MOTOR_POWER * 1.27)) + 128;
   M4 = static_cast<int>(sin((45 - Move_deg) * PI / 180) * (MOTOR_POWER * 1.27)) + 128;
   analogWrite(9,M1);
@@ -33,11 +33,6 @@ void MOTOR(){
 
 void loop() {
   digitalWrite(6,HIGH);
-  for(Move_deg=0; Move_deg<360; Move_deg++){
-    MOTOR();
-    delay(10);
-  }
-  Move_deg = 0;
-  //MOTOR();
+  MOTOR();
   //Serial.println(M1);
 }
