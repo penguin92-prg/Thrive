@@ -3,9 +3,7 @@
 void setup() {
   Serial.begin(115200);
   Serial.println("Serial Initialized");
-  pinMode(16, INPUT_PULLUP);
   camera1.init(Serial4, 115200);
-  camera1.ball.y = -999;
 }
 
 void loop() {
