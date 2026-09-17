@@ -1,34 +1,49 @@
 #include "camera.hpp"
 
-Camera camera;
+Camera camera1;
+Camera camera2;
+Camera camera3;
+Camera camera4;
+Camera camera5;
 
-void Camera::init(int baudrate){
-  Serial4.begin(baudrate);
-  Serial5.begin(baudrate);
-  Serial6.begin(baudrate);
-  Serial7.begin(baudrate);
-  Serial8.begin(baudrate);
+void Camera::init(HardwareSerialIMXRT& camSerial, int baudrate){
+  camSerial.begin(baudrate);
+  Serial.println("Camera Initialized");
 }
 
 void Camera::receive(HardwareSerialIMXRT& camSerial){
-  if(camSerial.available() < STR_SIZE) return;
 
-  while(camSerial.available() > STR_SIZE){
+  // while(camSerial.available() > STR_SIZE){
+  //   Serial.println("Larger Data Received");
+  //   camSerial.read();
+  // }
+
+  while(camSerial.available() < STR_SIZE){
+    Serial.println("Not Enough Data");
+    continue;
+  }
+
+  // if(camSerial.available() == 0){
+  //   Serial.println("No Data Received...");
+  //   return;
+  // }
+
+  uint8_t x[2];
+  uint8_t y;
+  x[0] = camSerial.read();
+  x[1] = camSerial.read();
+  y = camSerial.read();
+
+  ball.x = (x[0] << 8) | x[1];
+
+  ball.y = y == 255 ? -1 : y;
+
+  while(camSerial.available() > 0){
     camSerial.read();
   }
-
-  while(camSerial.available()){
-    if(camSerial.read() == 0b00000000) break;
-  }
-
-  while(camSerial.available() < STR_SIZE) continue;
-
-  for(uint8_t i=0; i<STR_SIZE; i++){
-    Serial.print((char)camSerial.read());
-  }
-  Serial.println();
+  return;
 }
 
 void Camera::send(HardwareSerialIMXRT& serial){
-  serial.println("serial");
+  
 }
