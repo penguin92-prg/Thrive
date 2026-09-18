@@ -60,7 +60,7 @@ void Motor::setRaw(int8_t m0, int8_t m1, int8_t m2, int8_t m3){
   return;
 }
 
-void Motor::setDeg(float deg, int8_t power){
+void Motor::setDir(float deg, int8_t power){
   power = power > 100 ? 100 : power < -100 ? -100 : power;
 
   for(uint8_t i=0; i<NUM; i++){

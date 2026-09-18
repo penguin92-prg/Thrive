@@ -33,7 +33,7 @@ class Motor{
     void set(int8_t m0, int8_t m1, int8_t m2, int8_t m3);
     void setRaw(int8_t m0, int8_t m1, int8_t m2, int8_t m3);
 
-    void setDeg(float deg, int8_t power);
+    void setDir(float deg, int8_t power);
 };
 
 extern Motor motor;
