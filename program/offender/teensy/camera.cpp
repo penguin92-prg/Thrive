@@ -1,10 +1,7 @@
 #include "camera.hpp"
 
-Camera camera0(0);
-Camera camera1(1);
-Camera camera2(2);
-Camera camera3(3);
-Camera camera4(4);
+Camera cameras[4] = {Camera(0), Camera(1), Camera(2), Camera(3)};
+// Camera camera4(4);
 
 void Camera::init(int baudrate){
   // 配列の範囲外アクセス防止ガード
@@ -55,8 +52,8 @@ void Camera::receive(){
   y = camSerial->read();
 
   // エラー値処理
-  ball.x = ((x[0] << 8) | x[1]) == 512 ? -1 : ((x[0] << 8) | x[1]);
-  ball.y = y == 255 ? -1 : y;
+  data.x = ((x[0] << 8) | x[1]) == 512 ? -1 : ((x[0] << 8) | x[1]);
+  data.y = y == 255 ? -1 : y;
   return;
 }
 
@@ -64,10 +61,15 @@ void Camera::send(){
   // カメラへのデータ送信
 }
 
-float Camera::calcDeg(){
-  if(ball.x == -1 || ball.y == -1){
-    return -1.0f;
+Ball Camera::calc(){
+  Ball ball;
+
+  if(data.x == -1 || data.y == -1){
+    ball.isExist = false;
+    return ball;
   }
+
+  ball.isExist = true;
   
   // カメラ設置角度を算出
   cameraDeg.y = 90*cameraNum;
@@ -79,8 +81,8 @@ float Camera::calcDeg(){
   cameraPos.z = 0.05*cos(cameraRadY);
   
   // ボール位置をカメラからの相対座標に変換
-  ball3.x = ball.x - cameraCenter.x;
-  ball3.y = ball.y - cameraCenter.y;
+  ball3.x = data.x - cameraCenter.x;
+  ball3.y = data.y - cameraCenter.y;
   ball3.z = cameraFocus.x;
 
   // ベクトルの大きさを1にして単位ベクトルに変換
@@ -103,5 +105,11 @@ float Camera::calcDeg(){
   court.y = cameraPos.z + d.z * t;
 
   // ボールの角度を算出
-  return atan2(court.y, court.x) * 180.0f / 3.14159265;
+  float deg = atan2(court.y, court.x) * 180.0f / 3.14159265;
+  deg = deg > 180 ? deg-360 : deg < -180 ? deg+360 : deg;
+
+  ball.dir = deg;
+  ball.distance = court.len();
+
+  return ball;
 }

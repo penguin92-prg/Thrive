@@ -4,6 +4,7 @@
 
 #include "matrix33.hpp"
 #include "vec2.hpp"
+#include "ball.hpp"
 
 class Camera{
   private:
@@ -45,17 +46,13 @@ class Camera{
     explicit Camera(uint8_t num = 0) : cameraNum(num){}
     ~Camera() = default;
 
-    Vec2 ball;
+    Vec2 data;
 
     void init(int baudrate);
     void receive();
     void send();
 
-    float calcDeg();
+    Ball calc();
 };
 
-extern Camera camera0;
-extern Camera camera1;
-extern Camera camera2;
-extern Camera camera3;
-extern Camera camera4;
+extern Camera cameras[4];
