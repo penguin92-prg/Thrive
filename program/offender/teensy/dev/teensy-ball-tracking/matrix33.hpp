@@ -1,18 +1,19 @@
 #pragma once
 
 #include <Arduino.h>
+#include <math.h>
 
 class Vec3{
   public:
-    float x1, x2, x3;
-    Vec3() : x1(0.0f), x2(0.0f), x3(0.0f){}
-    Vec3(float vec_x1, float vec_x2, float vec_x3) : x1(vec_x1), x2(vec_x2), x3(vec_x3){}
+    float x, y, z;
+    Vec3() : x(0.0f), y(0.0f), z(0.0f){}
+    Vec3(float vec_x, float vec_y, float vec_z) : x(vec_x), y(vec_y), z(vec_z){}
 
     float& operator[](int i){
-      return (i==0) ? x1 : (i==1) ? x2 : x3;
+      return (i==0) ? x : (i==1) ? y : z;
     }
     const float& operator[](int i) const{
-      return (i==0) ? x1 : (i==1) ? x2 : x3;
+      return (i==0) ? x : (i==1) ? y : z;
     }
 
     Vec3& operator+=(const Vec3& v);
@@ -21,8 +22,9 @@ class Vec3{
     Vec3& operator/=(const float f);
     Vec3& operator=(const Vec3& v);
 
-    void set(float vec_x1, float vec_x2, float vec_x3);
+    void set(float vec_x, float vec_y, float vec_z);
     void clear();
+    float len() const;
 };
 
 Vec3 operator+(const Vec3& v1, const Vec3& v2);
@@ -62,9 +64,40 @@ class Matrix33{
         0.0f, 1.0f, 0.0f,
         0.0f, 0.0f, 1.0f);
     }
+
+    static Matrix33 rotX(float deg){
+      double c = cos(deg / 180.0f * 3.14159265);
+      double s = sin(deg / 180.0f * 3.14159265);
+
+      return Matrix33(
+        1, 0, 0,
+        0, c, -s,
+        0, s, c);
+    }
+
+    static Matrix33 rotY(float deg){
+      double c = cos(deg / 180.0f * 3.14159265);
+      double s = sin(deg / 180.0f * 3.14159265);
+
+      return Matrix33(
+        c, 0, s,
+        0, 1, 0,
+        -s, 0, c);
+    }
+
+    static Matrix33 rotZ(float deg){
+      double c = cos(deg / 180.0f * 3.14159265);
+      double s = sin(deg / 180.0f * 3.14159265);
+
+      return Matrix33(
+        c, -s, 0,
+        s, c, 0,
+        0, 0, 1);
+    }
 };
 
 Matrix33 operator+(const Matrix33& m1, const Matrix33& m2);
 Matrix33 operator-(const Matrix33& m1, const Matrix33& m2);
 Matrix33 operator*(const Matrix33& m1, const Matrix33& m2);
+Matrix33 operator*(const Matrix33& m, const float f);
 Vec3 operator*(const Matrix33& m, const Vec3& v);
