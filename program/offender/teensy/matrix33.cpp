@@ -84,8 +84,8 @@ void Vec3::clear(){
   return;
 }
 
-void Vec3::len(){
-  return math.sqrt(x**2 + y**2 + z**2);
+float Vec3::len() const{
+  return sqrt(x*x + y*y + z*z);
 }
 
 Matrix33 operator+(const Matrix33& m1, const Matrix33& m2){
@@ -96,7 +96,7 @@ Matrix33 operator-(const Matrix33& m1, const Matrix33& m2) {
   return Matrix33(m1.v1-m2.v1, m1.v2-m2.v2, m1.v3-m2.v3);
 }
 
-Vec3 operator*(const Matrix33& m, const float f){
+Matrix33 operator*(const Matrix33& m, const float f){
   return Matrix33(m.v1*f, m.v2*f, m.v3*f);
 }
 

@@ -24,6 +24,7 @@ class Vec3{
 
     void set(float vec_x, float vec_y, float vec_z);
     void clear();
+    float len() const;
 };
 
 Vec3 operator+(const Vec3& v1, const Vec3& v2);

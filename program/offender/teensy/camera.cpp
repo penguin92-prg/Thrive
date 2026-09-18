@@ -1,50 +1,66 @@
 #include "camera.hpp"
 
-Camera camera1;
-Camera camera2;
-Camera camera3;
-Camera camera4;
-Camera camera5;
+Camera camera0(0);
+Camera camera1(1);
+Camera camera2(2);
+Camera camera3(3);
+Camera camera4(4);
 
-void Camera::init(HardwareSerialIMXRT& camSerial, int baudrate){
-  camSerial.begin(baudrate);
-  Serial.println("Camera Initialized");
+void Camera::init(int baudrate){
+  // 配列の範囲外アクセス防止ガード
+  if (cameraNum >= 5) {
+    Serial.print("Camera No. is Invalid: ");
+    Serial.println(cameraNum);
+    camSerial = nullptr;
+    return;
+  }
+
+  camSerial = CAMERA_SERIAL[cameraNum];
+  camSerial->begin(baudrate);
+
+  Serial.print("Camera");
+  Serial.print(cameraNum);
+  Serial.println(" Initialized");
 }
 
-void Camera::receive(HardwareSerialIMXRT& camSerial){
+void Camera::receive(){
+  // 未初期化・無効なカメラをブロック
+  if (camSerial == nullptr) return;
 
-  // while(camSerial.available() > STR_SIZE){
-  //   Serial.println("Larger Data Received");
-  //   camSerial.read();
-  // }
+  // 受信バッファにたまっているデータ長（byte）
+  uint8_t avail = camSerial->available();
 
-  while(camSerial.available() < STR_SIZE){
-    Serial.println("Not Enough Data");
-    continue;
+  // 受信バッファのデータ長が想定データ長より短い場合は処理を中断
+  if(avail < STR_SIZE){
+    if(avail == 0){
+      Serial.print("No Data Received: camera");
+      Serial.println(cameraNum);
+      return;
+    }
+    Serial.print("Not Enough Data Received: camera");
+    Serial.println(cameraNum);
+    return;
   }
 
-  // if(camSerial.available() == 0){
-  //   Serial.println("No Data Received...");
-  //   return;
-  // }
+  // 最新のデータ以外を破棄
+  while(camSerial->available() > STR_SIZE){
+    camSerial->read();
+  }
 
+  // 最新データを1byteずつ格納
   uint8_t x[2];
   uint8_t y;
-  x[0] = camSerial.read();
-  x[1] = camSerial.read();
-  y = camSerial.read();
+  x[0] = camSerial->read();
+  x[1] = camSerial->read();
+  y = camSerial->read();
 
+  // エラー値処理
   ball.x = ((x[0] << 8) | x[1]) == 512 ? -1 : ((x[0] << 8) | x[1]);
-
   ball.y = y == 255 ? -1 : y;
-
-  while(camSerial.available() > 0){
-    camSerial.read();
-  }
   return;
 }
 
-void Camera::send(HardwareSerialIMXRT& serial){
+void Camera::send(){
   // カメラへのデータ送信
 }
 
@@ -82,10 +98,10 @@ float Camera::calcDeg(){
   // コート床との交点算出
   float t = cameraPos.y / d.y;
 
-  コート上での2次元座標の算出
+  // コート上での2次元座標の算出
   court.x = cameraPos.x + d.x * t;
   court.y = cameraPos.z + d.z * t;
 
   // ボールの角度を算出
-  return atan2(ball.y, ball.x) * 180.0f / 3.14159265;
+  return atan2(court.y, court.x) * 180.0f / 3.14159265;
 }
