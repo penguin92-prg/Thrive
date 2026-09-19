@@ -1,14 +1,10 @@
-#include "atmega.hpp"
-
-robot::Atmega atmegaBoard;
+#include "line_atmega.hpp"
 
 void setup() {
-  atmegaBoard.init();
+  line.init(115200);
 }
 
 void loop() {
-  Serial2.print("a");
-
-  atmegaBoard.update();
-  delay(10);
+  line.read();
+  line.sendAll();
 }
