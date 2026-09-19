@@ -31,8 +31,10 @@ class Line{
     uint8_t m_signalSideRaw = 0;
 
     // send()で送信するデータ長（byte）
-    inline static constexpr uint8_t STR_SIZE_SENDALL = 6;
-    inline static constexpr uint8_t STR_SIZE_SEND = 9;
+    inline static constexpr uint8_t STR_SIZE[] = {6, 9};
+
+    // UART通信のデータヘッダ
+    static constexpr uint8_t STR_HEADER = 0xAA;
     
   public:
     // コンストラクタとデコンストラクタ
@@ -79,8 +81,9 @@ class Line{
     void setThreshold(uint8_t, uint8_t);
 
     // teensyとの通信
-    void sendAll();
-    void send();
+    static constexpr uint8_t ALL = 0;
+    static constexpr uint8_t VECTOR = 1;
+    void send(uint8_t sendtype);
 };
 
 extern Line line;

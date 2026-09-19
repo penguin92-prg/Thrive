@@ -6,5 +6,5 @@ void setup() {
 
 void loop() {
   line.read();
-  line.sendAll();
+  line.send(Line::ALL);
 }

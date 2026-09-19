@@ -147,6 +147,7 @@ void Line::read(){
   m_signalAngelRaw |= ((h >> PH7) & 1UL) << 31;
 
   // ========================================
+  
   m_signalSideRaw |= ((f >> PF2) & 1UL) << 0;
   m_signalSideRaw |= ((d >> PD7) & 1UL) << 1;
 
@@ -269,53 +270,56 @@ void Line::setThreshold(uint8_t position, uint8_t value){
 
 // ========================================
 
-void Line::sendAll(){
-  uint8_t sendList[STR_SIZE_SENDALL];
+void Line::send(uint8_t sendtype){
+  switch(sendtype){
+    case ALL:{
+      uint8_t sendList[STR_SIZE[ALL]];
 
-  // ヘッダ
-  // sendList[0] = 0b10101010
-  sendList[0] = 0xAA;
+      // ヘッダ
+      sendList[0] = STR_HEADER;
 
-  // エンジェルリングのデータをLittleEndian形式で送信
-  // sendList[1] = 0bxxxxxxxx → 前xxx右前xxx
-  // sendList[2] = 0bxxxxxxxx → 右xxx右後xxx
-  // sendList[3] = 0bxxxxxxxx → 後xxx左後xxx
-  // sendList[4] = 0bxxxxxxxx → 左xxx左前xxx
-  sendList[1] = (uint8_t)(m_signalAngelRaw & 0xFF);
-  sendList[2] = (uint8_t)((m_signalAngelRaw >> 8) & 0xFF);
-  sendList[3] = (uint8_t)((m_signalAngelRaw >> 16) & 0xFF);
-  sendList[4] = (uint8_t)((m_signalAngelRaw >> 24) & 0xFF);
+      // エンジェルリングのデータをLittleEndian形式で送信
+      // sendList[1] = 0bxxxxxxxx → 前xxx右前xxx
+      // sendList[2] = 0bxxxxxxxx → 右xxx右後xxx
+      // sendList[3] = 0bxxxxxxxx → 後xxx左後xxx
+      // sendList[4] = 0bxxxxxxxx → 左xxx左前xxx
+      sendList[1] = (uint8_t)(m_signalAngelRaw & 0xFF);
+      sendList[2] = (uint8_t)((m_signalAngelRaw >> 8) & 0xFF);
+      sendList[3] = (uint8_t)((m_signalAngelRaw >> 16) & 0xFF);
+      sendList[4] = (uint8_t)((m_signalAngelRaw >> 24) & 0xFF);
 
-  // サイド
-  // sendList[5] = 0b000000xx → 000000左右
-  sendList[5] = (uint8_t)(m_signalSideRaw & 0xFF);
+      // サイド
+      // sendList[5] = 0b000000xx → 000000左右
+      sendList[5] = (uint8_t)(m_signalSideRaw & 0xFF);
 
-  Serial2.write(sendList, STR_SIZE_SENDALL);
-  return;
-}
+      Serial2.write(sendList, STR_SIZE[ALL]);
+      return;
+    }
 
-void Line::send(){
-  uint8_t sendList[STR_SIZE_SEND];
-
-  // ヘッダ
-  sendList[0] = 0xAA;
-  
-  // 角度
-  FloatByte sendDir;
-  sendDir.f = dir;
-  sendList[1] = sendDir.bytes[0];
-  sendList[2] = sendDir.bytes[1];
-  sendList[3] = sendDir.bytes[2];
-  sendList[4] = sendDir.bytes[3];
-
-  // 距離
-  FloatByte sendDistance;
-  sendDistance.f = distance;
-  sendList[5] = sendDistance.bytes[0];
-  sendList[6] = sendDistance.bytes[1];
-  sendList[7] = sendDistance.bytes[2];
-  sendList[8] = sendDistance.bytes[3];
-
-  Serial2.write(sendList, STR_SIZE_SEND);
-  return;
+    case VECTOR:{
+      uint8_t sendList[STR_SIZE[VECTOR]];
+    
+      // ヘッダ
+      sendList[0] = STR_HEADER;
+      
+      // 角度
+      FloatByte sendDir;
+      sendDir.f = dir;
+      sendList[1] = sendDir.bytes[0];
+      sendList[2] = sendDir.bytes[1];
+      sendList[3] = sendDir.bytes[2];
+      sendList[4] = sendDir.bytes[3];
+    
+      // 距離
+      FloatByte sendDistance;
+      sendDistance.f = distance;
+      sendList[5] = sendDistance.bytes[0];
+      sendList[6] = sendDistance.bytes[1];
+      sendList[7] = sendDistance.bytes[2];
+      sendList[8] = sendDistance.bytes[3];
+    
+      Serial2.write(sendList, STR_SIZE[VECTOR]);
+      return;
+    }
+  }
 }
