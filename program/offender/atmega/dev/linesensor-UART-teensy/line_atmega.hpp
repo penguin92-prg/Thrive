@@ -35,6 +35,25 @@ class Line{
 
     // UART通信のデータヘッダ
     static constexpr uint8_t STR_HEADER = 0xAA;
+
+    // 反応しているセンサの個数
+    int num = 0;
+
+    // 反応しているカタマリの個数
+    int area = 0;
+
+    // 機体中心から白線への方向ベクトル（以下「方向ベクトル」と呼称）
+    Vec2 vec;
+
+    // 方向ベクトルの前回角度
+    float dirPrev;
+
+    // エンジェルリングの白線検知の有無
+    // サイドの白線検知の有無
+    // 前回白線検知の有無
+    bool onAngel = false;
+    bool onSide = false;
+    bool onPrev = false;
     
   public:
     // コンストラクタとデコンストラクタ
@@ -48,28 +67,13 @@ class Line{
     bool right = false;
     bool left = false;
 
-    // 反応しているセンサの個数
-    int num = 0;
-
-    // 反応しているカタマリの個数
-    int area = 0;
-
-    // 機体中心から白線への方向ベクトル（以下「方向ベクトル」と呼称）
-    Vec2 vec;
-
     // 方向ベクトルの角度
     // 方向ベクトルの大きさ（白線までの距離）
     float dir;
-    float dirPrev;
     float distance;
 
-    // エンジェルリングの白線検知の有無
-    // サイドの白線検知の有無
     // 白線検知の有無
-    bool onAngel = false;
-    bool onSide = false;
     bool on = false;
-    bool onPrev = false;
 
     void init(int baudrate);
     void read();

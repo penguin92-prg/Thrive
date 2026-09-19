@@ -164,7 +164,6 @@ void Line::read(){
 
 // Calculate Vector
 void Line::calc(){
-
   // 初期化
   vec.clear();
   num = 0;
@@ -224,8 +223,8 @@ void Line::calc(){
   
     // 切れ目（1個目と32個目）の処理
     if(signal[NUM_ANGEL-1] && signal[0]){
-      v[0] += v[index];
-      count[0] += count[index];
+      v[0] += v[index-1];
+      count[0] += count[index-1];
       index -= 1;
     }
   
@@ -247,16 +246,12 @@ void Line::calc(){
   distance = vec.len() / (float)index;
 
   // 踏み始めならdirPrevをdirに一致させる
-  if(onPrev == false && on == true){
-    dirPrev = dir;
-  }
+  if(onPrev == false && on == true) dirPrev = dir;
 
-  // 1ループ前から30度以上検出角が変化した場合はdirPrevをdirに一致させる
+  // 1ループ前から30度以上検出角が変化した場合はdirをdirPrevに一致させる
   // （白線を超過したときのため）
   float diff = abs(dir - dirPrev);
-  if(diff > 30){
-    dir = dirPrev;
-  }
+  if(diff > 30) dir = dirPrev;
 }
 
 // ========================================
