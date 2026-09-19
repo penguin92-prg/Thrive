@@ -1,4 +1,4 @@
-#include "line.hpp"
+#include "line_atmega.hpp"
 
 Line line;
 
@@ -94,8 +94,8 @@ void Line::init(int baudrate){
 // Read all sensors
 void Line::read(){
   // Read Registers
-  m_signals_angel_raw = 0;
-  m_signals_side_raw = 0;
+  m_signalAngelRaw = 0;
+  m_signalSideRaw = 0;
 
   const uint8_t a = PINA;
   const uint8_t b = PINB;
@@ -107,55 +107,56 @@ void Line::read(){
   const uint8_t j = PINJ;
   const uint8_t l = PINL;
 
-  m_signals_angel_raw |= ((b >> PB7) & 1UL) << 0;
-  m_signals_angel_raw |= ((b >> PB6) & 1UL) << 1;
-  m_signals_angel_raw |= ((b >> PB5) & 1UL) << 2;
-  m_signals_angel_raw |= ((b >> PB4) & 1UL) << 3;
-  m_signals_angel_raw |= ((b >> PB0) & 1UL) << 4;
+  m_signalAngelRaw |= ((b >> PB7) & 1UL) << 0;
+  m_signalAngelRaw |= ((b >> PB6) & 1UL) << 1;
+  m_signalAngelRaw |= ((b >> PB5) & 1UL) << 2;
+  m_signalAngelRaw |= ((b >> PB4) & 1UL) << 3;
+  m_signalAngelRaw |= ((b >> PB0) & 1UL) << 4;
 
-  m_signals_angel_raw |= ((h >> PH6) & 1UL) << 5;
-  m_signals_angel_raw |= ((h >> PH5) & 1UL) << 6;
-  m_signals_angel_raw |= ((h >> PH4) & 1UL) << 7;
-  m_signals_angel_raw |= ((h >> PH3) & 1UL) << 8;
-  m_signals_angel_raw |= ((h >> PH2) & 1UL) << 9;
+  m_signalAngelRaw |= ((h >> PH6) & 1UL) << 5;
+  m_signalAngelRaw |= ((h >> PH5) & 1UL) << 6;
+  m_signalAngelRaw |= ((h >> PH4) & 1UL) << 7;
+  m_signalAngelRaw |= ((h >> PH3) & 1UL) << 8;
+  m_signalAngelRaw |= ((h >> PH2) & 1UL) << 9;
 
-  m_signals_angel_raw |= ((f >> PF6) & 1UL) << 10;
-  m_signals_angel_raw |= ((f >> PF7) & 1UL) << 11;
-  m_signals_angel_raw |= ((a >> PA1) & 1UL) << 12;
-  m_signals_angel_raw |= ((a >> PA2) & 1UL) << 13;
-  m_signals_angel_raw |= ((j >> PJ6) & 1UL) << 14;
+  m_signalAngelRaw |= ((f >> PF6) & 1UL) << 10;
+  m_signalAngelRaw |= ((f >> PF7) & 1UL) << 11;
+  m_signalAngelRaw |= ((a >> PA1) & 1UL) << 12;
+  m_signalAngelRaw |= ((a >> PA2) & 1UL) << 13;
+  m_signalAngelRaw |= ((j >> PJ6) & 1UL) << 14;
 
-  m_signals_angel_raw |= ((j >> PJ5) & 1UL) << 15;
-  m_signals_angel_raw |= ((j >> PJ4) & 1UL) << 16;
-  m_signals_angel_raw |= ((j >> PJ3) & 1UL) << 17;
-  m_signals_angel_raw |= ((c >> PC5) & 1UL) << 18;
-  m_signals_angel_raw |= ((c >> PC4) & 1UL) << 19;
+  m_signalAngelRaw |= ((j >> PJ5) & 1UL) << 15;
+  m_signalAngelRaw |= ((j >> PJ4) & 1UL) << 16;
+  m_signalAngelRaw |= ((j >> PJ3) & 1UL) << 17;
+  m_signalAngelRaw |= ((c >> PC5) & 1UL) << 18;
+  m_signalAngelRaw |= ((c >> PC4) & 1UL) << 19;
 
-  m_signals_angel_raw |= ((c >> PC3) & 1UL) << 20;
-  m_signals_angel_raw |= ((c >> PC2) & 1UL) << 21;
-  m_signals_angel_raw |= ((c >> PC1) & 1UL) << 22;
-  m_signals_angel_raw |= ((c >> PC0) & 1UL) << 23;
-  m_signals_angel_raw |= ((g >> PG1) & 1UL) << 24;
+  m_signalAngelRaw |= ((c >> PC3) & 1UL) << 20;
+  m_signalAngelRaw |= ((c >> PC2) & 1UL) << 21;
+  m_signalAngelRaw |= ((c >> PC1) & 1UL) << 22;
+  m_signalAngelRaw |= ((c >> PC0) & 1UL) << 23;
+  m_signalAngelRaw |= ((g >> PG1) & 1UL) << 24;
 
-  m_signals_angel_raw |= ((g >> PG0) & 1UL) << 25;
-  m_signals_angel_raw |= ((l >> PL3) & 1UL) << 26;
-  m_signals_angel_raw |= ((l >> PL2) & 1UL) << 27;
-  m_signals_angel_raw |= ((l >> PL1) & 1UL) << 28;
-  m_signals_angel_raw |= ((l >> PL0) & 1UL) << 29;
+  m_signalAngelRaw |= ((g >> PG0) & 1UL) << 25;
+  m_signalAngelRaw |= ((l >> PL3) & 1UL) << 26;
+  m_signalAngelRaw |= ((l >> PL2) & 1UL) << 27;
+  m_signalAngelRaw |= ((l >> PL1) & 1UL) << 28;
+  m_signalAngelRaw |= ((l >> PL0) & 1UL) << 29;
   
-  m_signals_angel_raw |= ((g >> PG3) & 1UL) << 30;
-  m_signals_angel_raw |= ((h >> PH7) & 1UL) << 31;
+  m_signalAngelRaw |= ((g >> PG3) & 1UL) << 30;
+  m_signalAngelRaw |= ((h >> PH7) & 1UL) << 31;
 
   // ========================================
-  m_signals_side_raw |= ((f >> PF2) & 1UL) << 0;
-  m_signals_side_raw |= ((d >> PD7) & 1UL) << 1;
+  
+  m_signalSideRaw |= ((f >> PF2) & 1UL) << 0;
+  m_signalSideRaw |= ((d >> PD7) & 1UL) << 1;
 
   for(uint8_t i=0; i<NUM_ANGEL; i++){
-    signal[i] = (m_signals_angel_raw & (1UL << i)) != 0;
+    signal[i] = (m_signalAngelRaw & (1UL << i)) != 0;
   }
 
   for(uint8_t i=0; i<NUM_SIDE; i++){
-    signal[i+NUM_ANGEL] = (m_signals_side_raw & 1UL << i) != 0;
+    signal[i+NUM_ANGEL] = (m_signalSideRaw & 1UL << i) != 0;
   }
 }
 
@@ -163,7 +164,6 @@ void Line::read(){
 
 // Calculate Vector
 void Line::calc(){
-
   // 初期化
   vec.clear();
   num = 0;
@@ -223,8 +223,8 @@ void Line::calc(){
   
     // 切れ目（1個目と32個目）の処理
     if(signal[NUM_ANGEL-1] && signal[0]){
-      v[0] += v[index];
-      count[0] += count[index];
+      v[0] += v[index-1];
+      count[0] += count[index-1];
       index -= 1;
     }
   
@@ -246,16 +246,12 @@ void Line::calc(){
   distance = vec.len() / (float)index;
 
   // 踏み始めならdirPrevをdirに一致させる
-  if(onPrev == false && on == true){
-    dirPrev = dir;
-  }
+  if(onPrev == false && on == true) dirPrev = dir;
 
-  // 1ループ前から30度以上検出角が変化した場合はdirPrevをdirに一致させる
+  // 1ループ前から30度以上検出角が変化した場合はdirをdirPrevに一致させる
   // （白線を超過したときのため）
   float diff = abs(dir - dirPrev);
-  if(diff > 30){
-    dir = dirPrev;
-  }
+  if(diff > 30) dir = dirPrev;
 }
 
 // ========================================
@@ -265,4 +261,60 @@ void Line::setThreshold(uint8_t position, uint8_t value){
   threshold[position] = value;
   analogWrite(PIN_THRESHOLD[position], threshold[position]);
   return;
+}
+
+// ========================================
+
+void Line::send(uint8_t sendtype){
+  switch(sendtype){
+    case ALL:{
+      uint8_t sendList[STR_SIZE[ALL]];
+
+      // ヘッダ
+      sendList[0] = STR_HEADER;
+
+      // エンジェルリングのデータをLittleEndian形式で送信
+      // sendList[1] = 0bxxxxxxxx → 前xxx右前xxx
+      // sendList[2] = 0bxxxxxxxx → 右xxx右後xxx
+      // sendList[3] = 0bxxxxxxxx → 後xxx左後xxx
+      // sendList[4] = 0bxxxxxxxx → 左xxx左前xxx
+      sendList[1] = (uint8_t)(m_signalAngelRaw & 0xFF);
+      sendList[2] = (uint8_t)((m_signalAngelRaw >> 8) & 0xFF);
+      sendList[3] = (uint8_t)((m_signalAngelRaw >> 16) & 0xFF);
+      sendList[4] = (uint8_t)((m_signalAngelRaw >> 24) & 0xFF);
+
+      // サイド
+      // sendList[5] = 0b000000xx → 000000左右
+      sendList[5] = (uint8_t)(m_signalSideRaw & 0xFF);
+
+      Serial2.write(sendList, STR_SIZE[ALL]);
+      return;
+    }
+
+    case VECTOR:{
+      uint8_t sendList[STR_SIZE[VECTOR]];
+    
+      // ヘッダ
+      sendList[0] = STR_HEADER;
+      
+      // 角度
+      FloatByte sendDir;
+      sendDir.f = dir;
+      sendList[1] = sendDir.bytes[0];
+      sendList[2] = sendDir.bytes[1];
+      sendList[3] = sendDir.bytes[2];
+      sendList[4] = sendDir.bytes[3];
+    
+      // 距離
+      FloatByte sendDistance;
+      sendDistance.f = distance;
+      sendList[5] = sendDistance.bytes[0];
+      sendList[6] = sendDistance.bytes[1];
+      sendList[7] = sendDistance.bytes[2];
+      sendList[8] = sendDistance.bytes[3];
+    
+      Serial2.write(sendList, STR_SIZE[VECTOR]);
+      return;
+    }
+  }
 }

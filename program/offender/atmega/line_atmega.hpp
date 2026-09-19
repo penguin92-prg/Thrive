@@ -5,6 +5,13 @@
 
 #include "vec2.hpp"
 
+// メモリ領域を共有できるunion構造体を使用して
+// 自動的に4byteのfloatを1byteずつに分解
+typedef union{
+  float f;
+  uint8_t bytes[4];
+} FloatByte;
+
 class Line{
   private:
     // エンジェルリングのセンサ個数
@@ -20,9 +27,33 @@ class Line{
 
     // エンジェルリングの生センサ値
     // サイドの生センサ値
-    uint32_t m_signals_angel_raw = 0;
-    uint8_t m_signals_side_raw = 0;
+    uint32_t m_signalAngelRaw = 0;
+    uint8_t m_signalSideRaw = 0;
 
+    // send()で送信するデータ長（byte）
+    inline static constexpr uint8_t STR_SIZE[] = {6, 9};
+
+    // UART通信のデータヘッダ
+    static constexpr uint8_t STR_HEADER = 0xAA;
+
+    // 反応しているセンサの個数
+    int num = 0;
+
+    // 反応しているカタマリの個数
+    int area = 0;
+
+    // 機体中心から白線への方向ベクトル（以下「方向ベクトル」と呼称）
+    Vec2 vec;
+
+    // 方向ベクトルの前回角度
+    float dirPrev;
+
+    // エンジェルリングの白線検知の有無
+    // サイドの白線検知の有無
+    // 前回白線検知の有無
+    bool onAngel = false;
+    bool onSide = false;
+    bool onPrev = false;
     
   public:
     // コンストラクタとデコンストラクタ
@@ -36,30 +67,15 @@ class Line{
     bool right = false;
     bool left = false;
 
-    // 反応しているセンサの個数
-    int num = 0;
-
-    // 反応しているカタマリの個数
-    int area = 0;
-
-    // 機体中心から白線への方向ベクトル（以下「方向ベクトル」と呼称）
-    Vec2 vec;
-
     // 方向ベクトルの角度
     // 方向ベクトルの大きさ（白線までの距離）
     float dir;
-    float dirPrev;
     float distance;
 
-    // エンジェルリングの白線検知の有無
-    // サイドの白線検知の有無
     // 白線検知の有無
-    bool onAngel = false;
-    bool onSide = false;
     bool on = false;
-    bool onPrev = false;
 
-    void init(int);
+    void init(int baudrate);
     void read();
     void calc();
     
@@ -67,6 +83,11 @@ class Line{
     uint8_t threshold[4] = {100, 100, 100, 100};
 
     void setThreshold(uint8_t, uint8_t);
+
+    // teensyとの通信
+    static constexpr uint8_t ALL = 0;
+    static constexpr uint8_t VECTOR = 1;
+    void send(uint8_t sendtype);
 };
 
 extern Line line;
